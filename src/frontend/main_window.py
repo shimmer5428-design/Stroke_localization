@@ -67,14 +67,18 @@ class MainWindow(QMainWindow):
 
         result = self._analyzer.analyze(checked)
         self._result_panel.show_results(
-            result["pathway_results"],
-            result["intersection"],
+            result["active_pathways"],
+            result["intersection_details"],
+            result["near_miss"],
+            result["unmapped_pathways"],
             result["warnings"],
         )
 
-        # Show detail for first pathway if any
-        if result["active_pathways"]:
-            self._detail_panel.show_pathway_detail(result["active_pathways"][0])
+        # Show detail for first mapped pathway
+        for pw in result["active_pathways"]:
+            if pw["is_mapped"]:
+                self._detail_panel.show_pathway_detail(pw["base_name"])
+                break
 
     def _on_pathway_clicked(self, pathway_name: str):
         """Show detail panel for clicked pathway."""
