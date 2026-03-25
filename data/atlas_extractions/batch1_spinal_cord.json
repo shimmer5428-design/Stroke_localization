@@ -1,0 +1,757 @@
+{
+  "_metadata": {
+    "batch": 1,
+    "region": "Spinal Cord",
+    "source": "Haines Neuroanatomy Atlas 8th Edition, Chapter 6",
+    "pages": ["p-01.jpg", "p-02.jpg", "p-03.jpg", "p-04.jpg", "p-05.jpg"],
+    "extraction_date": "2026-03-25",
+    "notes": "Each figure shows a cross-section at a specific spinal cord level. Zone positions are described relative to standard spinal cord anatomy: dorsal (posterior), ventral (anterior), lateral, medial. The spinal cord white matter is divided into posterior funiculus (dorsal columns), lateral funiculus, and anterior funiculus. Gray matter is divided into dorsal horn, intermediate zone, and ventral horn."
+  },
+
+  "anatomical_levels": [
+    {
+      "level_id": "SC-01",
+      "figure": "6-1A",
+      "page": "p-01.jpg",
+      "level_name": "Spinal Cord - C7 (cervical enlargement)",
+      "description": "Cross-section at C7 level showing the cervical enlargement with prominent ventral horns for upper limb motor neurons.",
+      "tracts": [
+        {
+          "tract_name": "Fasciculus gracilis",
+          "system": "sensory-ascending",
+          "zone": "posterior funiculus, medial",
+          "quadrant": "dorsal-medial",
+          "somatotopy": "lower extremity (sacral/lumbar segments)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+          "notes": "Carries proprioception and vibration from lower limbs. Medial position in dorsal columns."
+        },
+        {
+          "tract_name": "Fasciculus cuneatus",
+          "system": "sensory-ascending",
+          "zone": "posterior funiculus, lateral",
+          "quadrant": "dorsal-lateral",
+          "somatotopy": "upper extremity (cervical/upper thoracic segments)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Hand>leg",
+          "notes": "Carries proprioception and vibration from upper limbs. Lateral position in dorsal columns. Only present above T6."
+        },
+        {
+          "tract_name": "Lateral corticospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, posterior part",
+          "quadrant": "lateral",
+          "somatotopy": "arm fibers medial, leg fibers lateral (at cervical levels)",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Main voluntary motor pathway. Occupies posterior half of lateral funiculus. At C7, supplies upper and lower limb muscles."
+        },
+        {
+          "tract_name": "Anterior corticospinal tract",
+          "system": "motor-descending",
+          "zone": "anterior funiculus, adjacent to anterior median fissure",
+          "quadrant": "ventral-medial",
+          "somatotopy": "axial/proximal muscles",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Uncrossed fibers. Small tract along the anterior median fissure."
+        },
+        {
+          "tract_name": "Lateral spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral funiculus, anterior part",
+          "quadrant": "lateral-ventral",
+          "somatotopy": "pain and temperature; sacral fibers lateral, cervical fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Carries pain and temperature sensation. Located anterior to lateral corticospinal tract."
+        },
+        {
+          "tract_name": "Anterior spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "anterior funiculus, lateral portion",
+          "quadrant": "ventral-lateral",
+          "somatotopy": "crude touch and pressure",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Carries crude touch. Located in anterolateral portion of anterior funiculus."
+        },
+        {
+          "tract_name": "Posterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial posterior",
+          "quadrant": "lateral-dorsal (surface)",
+          "somatotopy": "ipsilateral proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "On the surface of the lateral funiculus, posterior to lateral corticospinal tract. Labeled as PSCT."
+        },
+        {
+          "tract_name": "Anterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial anterior",
+          "quadrant": "lateral-ventral (surface)",
+          "somatotopy": "contralateral (then re-crosses) proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "On the surface of the lateral funiculus, anterior to posterior spinocerebellar tract."
+        },
+        {
+          "tract_name": "Rubrospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, anterior to lateral corticospinal tract",
+          "quadrant": "lateral",
+          "somatotopy": "distal limb muscles (fine movements)",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-Rubrospinal",
+          "notes": "Small tract just anterior to the lateral corticospinal tract."
+        },
+        {
+          "tract_name": "Reticulospinal tract",
+          "system": "motor-descending",
+          "zone": "anterior funiculus and anterior lateral funiculus",
+          "quadrant": "ventral",
+          "somatotopy": "posture, locomotion, autonomic",
+          "color_in_atlas": "green",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Medial (pontine) reticulospinal in anterior funiculus; lateral (medullary) reticulospinal in lateral funiculus."
+        },
+        {
+          "tract_name": "Substantia gelatinosa (lamina II)",
+          "system": "gray matter nucleus",
+          "zone": "dorsal horn, apex",
+          "quadrant": "dorsal",
+          "somatotopy": "pain modulation",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Cap of dorsal horn. Modulates pain input."
+        },
+        {
+          "tract_name": "Nucleus proprius (laminae III, IV)",
+          "system": "gray matter nucleus",
+          "zone": "dorsal horn, deep",
+          "quadrant": "dorsal",
+          "somatotopy": "sensory relay",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Relay neurons for various sensory modalities."
+        },
+        {
+          "tract_name": "Lateral motor nuclei (lamina IX)",
+          "system": "gray matter nucleus - LMN",
+          "zone": "ventral horn, lateral group",
+          "quadrant": "ventral-lateral",
+          "somatotopy": "distal limb muscles",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "motor-corticospinal tract (target)",
+          "notes": "At C7, prominent lateral motor neuron groups for hand and forearm muscles."
+        },
+        {
+          "tract_name": "Medial motor nuclei (lamina IX)",
+          "system": "gray matter nucleus - LMN",
+          "zone": "ventral horn, medial group",
+          "quadrant": "ventral-medial",
+          "somatotopy": "axial/proximal muscles",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "motor-corticospinal tract (target)",
+          "notes": "Motor neurons for axial and proximal muscles."
+        },
+        {
+          "tract_name": "Intermediolateral cell column",
+          "system": "autonomic",
+          "zone": "intermediate zone, lateral horn",
+          "quadrant": "lateral (between dorsal and ventral horns)",
+          "somatotopy": "sympathetic preganglionic neurons (T1-L2)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "At C7 there may be limited sympathetic neurons; more prominent at T1 and below. The ciliospinal center (C8-T2) for pupil dilation is nearby."
+        },
+        {
+          "tract_name": "Posteromarginal nucleus (lamina I)",
+          "system": "gray matter nucleus",
+          "zone": "dorsal horn, most superficial layer",
+          "quadrant": "dorsal",
+          "somatotopy": "nociception relay",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Most dorsal layer of the dorsal horn. Receives A-delta and C fibers."
+        },
+        {
+          "tract_name": "Dorsolateral tract (of Lissauer)",
+          "system": "sensory-ascending (short)",
+          "zone": "between dorsal horn apex and surface of cord",
+          "quadrant": "dorsal-lateral (surface)",
+          "somatotopy": "pain/temperature fibers ascending/descending 1-2 segments",
+          "color_in_atlas": "not shaded",
+          "clinical_pathway": null,
+          "notes": "Small fiber tract at the dorsolateral tip of dorsal horn."
+        }
+      ]
+    },
+    {
+      "level_id": "SC-02",
+      "figure": "6-2A",
+      "page": "p-02.jpg",
+      "level_name": "Spinal Cord - Upper cervical (C3-C4)",
+      "description": "Cross-section at upper cervical level. Larger white matter to gray matter ratio compared to C7. Shows well-developed posterior funiculus and lateral funiculus.",
+      "tracts": [
+        {
+          "tract_name": "Fasciculus gracilis",
+          "system": "sensory-ascending",
+          "zone": "posterior funiculus, medial",
+          "quadrant": "dorsal-medial",
+          "somatotopy": "lower extremity",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+          "notes": "Same position as C7 but carries fibers from all levels below."
+        },
+        {
+          "tract_name": "Fasciculus cuneatus",
+          "system": "sensory-ascending",
+          "zone": "posterior funiculus, lateral",
+          "quadrant": "dorsal-lateral",
+          "somatotopy": "upper extremity",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Hand>leg",
+          "notes": "Well developed at upper cervical levels."
+        },
+        {
+          "tract_name": "Lateral corticospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, posterior part",
+          "quadrant": "lateral",
+          "somatotopy": "upper limb medial, lower limb lateral",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Larger cross-section at upper cervical as it still contains fibers for all below levels."
+        },
+        {
+          "tract_name": "Anterior corticospinal tract",
+          "system": "motor-descending",
+          "zone": "anterior funiculus, paramedian",
+          "quadrant": "ventral-medial",
+          "somatotopy": "axial muscles",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Uncrossed fibers, small bundle."
+        },
+        {
+          "tract_name": "Lateral spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral funiculus, anterior portion",
+          "quadrant": "lateral-ventral",
+          "somatotopy": "pain/temperature; sacral lateral, cervical medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Anterolateral system. At upper cervical, sacral fibers are most superficial/lateral."
+        },
+        {
+          "tract_name": "Anterior spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "anterior funiculus, lateral portion",
+          "quadrant": "ventral-lateral",
+          "somatotopy": "crude touch",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Part of anterolateral system."
+        },
+        {
+          "tract_name": "Posterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial posterior",
+          "quadrant": "lateral-dorsal (surface)",
+          "somatotopy": "ipsilateral proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Surface of lateral funiculus, dorsal part."
+        },
+        {
+          "tract_name": "Anterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial anterior",
+          "quadrant": "lateral-ventral (surface)",
+          "somatotopy": "proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Surface of lateral funiculus, ventral part."
+        },
+        {
+          "tract_name": "Rubrospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, anterior to lateral CST",
+          "quadrant": "lateral",
+          "somatotopy": "fine distal movements",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-Rubrospinal",
+          "notes": "Immediately anterior to lateral CST."
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF) descending component",
+          "system": "motor-descending",
+          "zone": "anterior funiculus, near midline",
+          "quadrant": "ventral-medial",
+          "somatotopy": "head/neck coordination",
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF+PPRF",
+          "notes": "The descending component of MLF (medial vestibulospinal fibers) is present at upper cervical levels."
+        },
+        {
+          "tract_name": "Spinal accessory nucleus",
+          "system": "gray matter nucleus - LMN",
+          "zone": "ventral horn, lateral",
+          "quadrant": "ventral-lateral",
+          "somatotopy": "CN XI - trapezius, SCM",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "motor-Corticobulbar tract-11",
+          "notes": "The spinal accessory nucleus extends from C1 to C5-C6 in the lateral ventral horn."
+        },
+        {
+          "tract_name": "Phrenic nucleus",
+          "system": "gray matter nucleus - LMN",
+          "zone": "ventral horn, medial group",
+          "quadrant": "ventral-medial",
+          "somatotopy": "diaphragm (C3-C5)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Motor neurons for diaphragm, C3-C5."
+        },
+        {
+          "tract_name": "Anterior median fissure region",
+          "system": "vascular territory",
+          "zone": "ventral midline",
+          "quadrant": "ventral-medial",
+          "somatotopy": null,
+          "color_in_atlas": null,
+          "clinical_pathway": null,
+          "notes": "Anterior spinal artery territory. Important for vascular localization - ASA syndrome affects anterior 2/3 of cord."
+        }
+      ]
+    },
+    {
+      "level_id": "SC-03",
+      "figure": "6-3A",
+      "page": "p-03.jpg",
+      "level_name": "Spinal Cord - Thoracic (T5)",
+      "description": "Cross-section at T5 level. Smaller gray matter (no limb enlargement), prominent Clarke's nucleus (dorsal nucleus), and intermediolateral cell column for sympathetic outflow.",
+      "tracts": [
+        {
+          "tract_name": "Fasciculus gracilis",
+          "system": "sensory-ascending",
+          "zone": "posterior funiculus (entire)",
+          "quadrant": "dorsal",
+          "somatotopy": "lower extremity and lower trunk",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+          "notes": "At thoracic levels, fasciculus cuneatus is absent or minimal. Gracilis occupies most of posterior funiculus."
+        },
+        {
+          "tract_name": "Dorsal nucleus of Clarke",
+          "system": "gray matter nucleus (relay)",
+          "zone": "intermediate zone, medial to base of dorsal horn",
+          "quadrant": "dorsal-medial (gray matter)",
+          "somatotopy": "proprioception relay to cerebellum (T1-L2)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Large round nucleus at the base of the dorsal horn, medial side. Origin of posterior spinocerebellar tract. Present T1-L2."
+        },
+        {
+          "tract_name": "Lateral corticospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, posterior part",
+          "quadrant": "lateral",
+          "somatotopy": "trunk and lower limb fibers remain",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Smaller cross-section than cervical levels as upper limb fibers have already exited."
+        },
+        {
+          "tract_name": "Lateral spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral funiculus, anterior portion",
+          "quadrant": "lateral-ventral",
+          "somatotopy": "pain/temperature from below T5",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Same relative position as cervical levels."
+        },
+        {
+          "tract_name": "Posterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial posterior",
+          "quadrant": "lateral-dorsal (surface)",
+          "somatotopy": "ipsilateral proprioception",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Surface of lateral funiculus."
+        },
+        {
+          "tract_name": "Anterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial anterior",
+          "quadrant": "lateral-ventral (surface)",
+          "somatotopy": "proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Surface of lateral funiculus."
+        },
+        {
+          "tract_name": "Intermediolateral cell column (IML)",
+          "system": "autonomic - sympathetic",
+          "zone": "lateral horn (intermediate zone, lateral tip)",
+          "quadrant": "lateral (gray matter)",
+          "somatotopy": "sympathetic preganglionic outflow T1-L2",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "At T5, fully developed sympathetic preganglionic neurons. Critical for sympathetic outflow to viscera and vascular smooth muscle."
+        },
+        {
+          "tract_name": "Rubrospinal tract",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, anterior to lateral CST",
+          "quadrant": "lateral",
+          "somatotopy": "diminished at thoracic levels",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-Rubrospinal",
+          "notes": "Very small at thoracic levels in humans."
+        },
+        {
+          "tract_name": "Anterior corticospinal tract",
+          "system": "motor-descending",
+          "zone": "anterior funiculus, paramedian",
+          "quadrant": "ventral-medial",
+          "somatotopy": "axial muscles",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Most fibers have crossed by thoracic levels; this tract is small."
+        },
+        {
+          "tract_name": "Reticulospinal fibers",
+          "system": "motor-descending",
+          "zone": "anterior funiculus and anterolateral funiculus",
+          "quadrant": "ventral",
+          "somatotopy": "posture/autonomic",
+          "color_in_atlas": "green",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Scattered in anterior funiculus."
+        }
+      ]
+    },
+    {
+      "level_id": "SC-04",
+      "figure": "6-4A",
+      "page": "p-04.jpg",
+      "level_name": "Spinal Cord - Lower medulla / Spinomedullary junction (C1-C2)",
+      "description": "Cross-section at the cervicomedullary junction. Transitional anatomy between spinal cord and medulla. Shows the beginning of pyramidal decussation and nucleus cuneatus/gracilis. The section is larger and shows features of both spinal cord and lower medulla.",
+      "tracts": [
+        {
+          "tract_name": "Nucleus gracilis",
+          "system": "sensory relay nucleus",
+          "zone": "dorsal, medial (replacing fasciculus gracilis)",
+          "quadrant": "dorsal-medial",
+          "somatotopy": "lower limb proprioception/vibration relay",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+          "notes": "The fasciculus gracilis fibers terminate here. Second-order neurons will form the medial lemniscus after decussation."
+        },
+        {
+          "tract_name": "Nucleus cuneatus",
+          "system": "sensory relay nucleus",
+          "zone": "dorsal, lateral (replacing fasciculus cuneatus)",
+          "quadrant": "dorsal-lateral",
+          "somatotopy": "upper limb proprioception/vibration relay",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-Medial lemniscus-Hand>leg",
+          "notes": "The fasciculus cuneatus fibers terminate here. Lateral to nucleus gracilis."
+        },
+        {
+          "tract_name": "Internal arcuate fibers (forming)",
+          "system": "sensory-ascending",
+          "zone": "deep to dorsal column nuclei, sweeping ventromedially",
+          "quadrant": "central, curving ventral-medial",
+          "somatotopy": "decussation of dorsal column-medial lemniscus system",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "Fibers from gracilis and cuneatus nuclei crossing midline to form contralateral medial lemniscus."
+        },
+        {
+          "tract_name": "Pyramidal decussation",
+          "system": "motor-descending",
+          "zone": "ventral-medial, crossing midline",
+          "quadrant": "ventral-medial",
+          "somatotopy": "corticospinal fibers crossing; upper limb fibers cross more rostrally than lower limb",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "The pyramidal decussation is the hallmark of this level. ~85-90% of CST fibers cross here to form the lateral CST."
+        },
+        {
+          "tract_name": "Lateral corticospinal tract (forming)",
+          "system": "motor-descending",
+          "zone": "lateral funiculus, posterior part",
+          "quadrant": "lateral",
+          "somatotopy": "voluntary motor (all levels below)",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Crossed fibers accumulating in lateral funiculus."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract",
+          "system": "sensory-descending (CN V)",
+          "zone": "lateral, superficial (replacing Lissauer's tract position)",
+          "quadrant": "lateral-dorsal (surface)",
+          "somatotopy": "face pain/temperature (ipsilateral)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "At spinomedullary junction, the spinal trigeminal tract is on the lateral surface. Its nucleus (pars caudalis) is medial to it."
+        },
+        {
+          "tract_name": "Spinal trigeminal nucleus (pars caudalis)",
+          "system": "gray matter nucleus (CN V)",
+          "zone": "lateral, deep to spinal trigeminal tract",
+          "quadrant": "lateral",
+          "somatotopy": "face pain/temperature processing",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "The caudal part extends down to C2-C3. Continuous with substantia gelatinosa."
+        },
+        {
+          "tract_name": "Lateral spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "anterolateral funiculus",
+          "quadrant": "lateral-ventral",
+          "somatotopy": "pain/temperature body",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Same position, continuing rostrally."
+        },
+        {
+          "tract_name": "Posterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial, dorsal to spinothalamic",
+          "quadrant": "lateral-dorsal (surface)",
+          "somatotopy": "proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Will enter inferior cerebellar peduncle at higher medullary levels."
+        },
+        {
+          "tract_name": "Anterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral funiculus, superficial, ventral",
+          "quadrant": "lateral-ventral (surface)",
+          "somatotopy": "proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Continues rostrally to enter cerebellum via superior cerebellar peduncle."
+        },
+        {
+          "tract_name": "Medullospinal (hypothalamospinal) sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral funiculus, intermediate region / reticular formation",
+          "quadrant": "lateral (deep)",
+          "somatotopy": "descending sympathetic from hypothalamus to IML",
+          "color_in_atlas": "not specifically shaded",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "Descending sympathetic fibers from hypothalamus. Damage here causes Horner syndrome. Located in lateral reticular formation / lateral funiculus."
+        }
+      ]
+    },
+    {
+      "level_id": "SC-05",
+      "figure": "6-5A",
+      "page": "p-05.jpg",
+      "level_name": "Caudal Medulla / Medulla Oblongata (low level, post-decussation)",
+      "description": "Cross-section through the caudal medulla, just above the pyramidal decussation. Shows pyramids forming ventrally, inferior olivary nucleus beginning to appear, and clear separation into medial and lateral zones. This is the transition from spinal cord to brainstem architecture.",
+      "tracts": [
+        {
+          "tract_name": "Pyramid (corticospinal tract, pre-decussation)",
+          "system": "motor-descending",
+          "zone": "ventral-medial, large prominent structure",
+          "quadrant": "ventral-medial",
+          "somatotopy": "all voluntary motor fibers before crossing",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "At caudal medulla, the pyramids are prominent ventromedial structures containing all corticospinal fibers before/during decussation."
+        },
+        {
+          "tract_name": "Medial lemniscus (forming)",
+          "system": "sensory-ascending",
+          "zone": "paramedian, dorsal to pyramids",
+          "quadrant": "ventral-medial (deep)",
+          "somatotopy": "proprioception/vibration; at this level arranged vertically with leg ventral, arm dorsal",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "After internal arcuate fibers decussate, the medial lemniscus forms as a vertical band near midline. Somatotopy: lower limb ventral, upper limb dorsal at this level."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus",
+          "system": "sensory (CN V)",
+          "zone": "lateral, superficial",
+          "quadrant": "lateral-dorsal",
+          "somatotopy": "face pain/temperature",
+          "color_in_atlas": "blue/pink",
+          "clinical_pathway": "sensory-TL",
+          "notes": "Prominent at this level. The tract is superficial, nucleus is deep to it."
+        },
+        {
+          "tract_name": "Lateral spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "anterolateral region",
+          "quadrant": "lateral-ventral",
+          "somatotopy": "pain/temperature body",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "In the anterolateral system, lateral to the inferior olivary nucleus."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (restiform body) - forming",
+          "system": "cerebellar afferent bundle",
+          "zone": "lateral, dorsal",
+          "quadrant": "lateral-dorsal",
+          "somatotopy": "cerebellar input",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "The posterior spinocerebellar tract and other cerebellar afferents are assembling into the inferior cerebellar peduncle."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus",
+          "system": "visceral sensory (CN VII, IX, X)",
+          "zone": "dorsolateral, near floor of 4th ventricle",
+          "quadrant": "dorsal-lateral (deep)",
+          "somatotopy": "taste (rostral) and visceral sensation (caudal)",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "The solitary tract is a bundle with the nucleus tractus solitarius surrounding it. Located dorsolateral in the medulla."
+        },
+        {
+          "tract_name": "Hypoglossal nucleus (XII)",
+          "system": "motor nucleus (CN XII)",
+          "zone": "dorsal, paramedian (floor of 4th ventricle)",
+          "quadrant": "dorsal-medial",
+          "somatotopy": "tongue muscles (ipsilateral)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "motor-Corticobulbar tract-12",
+          "notes": "Near the midline in the floor of the 4th ventricle. Medial medulla."
+        },
+        {
+          "tract_name": "Dorsal motor nucleus of vagus (X)",
+          "system": "parasympathetic motor nucleus",
+          "zone": "dorsal, lateral to hypoglossal nucleus",
+          "quadrant": "dorsal-lateral (medial)",
+          "somatotopy": "vagal parasympathetic outflow",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Just lateral to CN XII nucleus. Provides parasympathetic innervation to thoracic and abdominal viscera."
+        },
+        {
+          "tract_name": "Nucleus ambiguus",
+          "system": "motor nucleus (CN IX, X, XI cranial root)",
+          "zone": "lateral reticular formation, midway between surface and 4th ventricle floor",
+          "quadrant": "lateral (deep, mid-level)",
+          "somatotopy": "pharynx, larynx muscles",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "motor-Corticobulbar tract-7, 9, 10",
+          "notes": "Deep in lateral medulla. Important landmark for lateral vs medial medullary syndromes."
+        },
+        {
+          "tract_name": "Descending sympathetic tract",
+          "system": "autonomic-descending",
+          "zone": "lateral reticular formation",
+          "quadrant": "lateral (deep)",
+          "somatotopy": "sympathetic pathway from hypothalamus",
+          "color_in_atlas": "not specifically shaded",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "Descending sympathetic fibers in the lateral medulla. Damage causes Horner syndrome (Wallenberg syndrome includes this)."
+        },
+        {
+          "tract_name": "Inferior olivary nucleus (forming)",
+          "system": "relay nucleus (to cerebellum)",
+          "zone": "ventral-lateral, large folded structure",
+          "quadrant": "ventral-lateral",
+          "somatotopy": "motor coordination relay to cerebellum",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Beginning to appear at this level. Will become prominent in higher medulla. Landmark separating medial and lateral medulla."
+        },
+        {
+          "tract_name": "Vestibular nuclei area",
+          "system": "vestibular relay",
+          "zone": "dorsal-lateral, lateral to 4th ventricle floor",
+          "quadrant": "dorsal-lateral",
+          "somatotopy": "balance/vestibular processing",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "ataxia-vertigo-nystagmus-vomit",
+          "notes": "Vestibular nuclei begin to appear at this level. Located in the lateral floor of 4th ventricle."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "reticular",
+          "zone": "central core of medulla, between nuclei",
+          "quadrant": "central",
+          "somatotopy": "arousal, autonomic, respiratory centers",
+          "color_in_atlas": "not specifically shaded",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Diffuse network filling the central tegmentum. Critical for consciousness and respiratory/cardiovascular centers."
+        }
+      ]
+    }
+  ],
+
+  "zone_schema": {
+    "description": "Standardized zone nomenclature for spinal cord cross-sections",
+    "primary_divisions": {
+      "white_matter": [
+        "posterior funiculus (dorsal columns)",
+        "lateral funiculus",
+        "anterior funiculus"
+      ],
+      "gray_matter": [
+        "dorsal horn (laminae I-VI)",
+        "intermediate zone (lamina VII)",
+        "ventral horn (laminae VIII-IX)",
+        "lateral horn (IML, T1-L2 only)"
+      ]
+    },
+    "quadrant_system": {
+      "description": "8-direction system for precise zone localization within cross-section",
+      "directions": [
+        "dorsal-medial",
+        "dorsal",
+        "dorsal-lateral",
+        "lateral",
+        "lateral-ventral",
+        "ventral-lateral",
+        "ventral",
+        "ventral-medial"
+      ],
+      "depth": ["surface", "superficial", "mid", "deep", "central"]
+    },
+    "vascular_territories": {
+      "anterior_spinal_artery": "anterior 2/3 of cord (ventral horns, lateral spinothalamic, corticospinal, anterior funiculus)",
+      "posterior_spinal_arteries": "posterior 1/3 of cord (dorsal columns, dorsal horns)",
+      "radicular_arteries": "lateral portions, variable supply"
+    }
+  },
+
+  "clinical_correlation": {
+    "anterior_spinal_artery_syndrome": {
+      "spared": ["posterior funiculus (proprioception/vibration)"],
+      "affected": ["lateral corticospinal tract (motor)", "lateral spinothalamic tract (pain/temp)", "ventral horns (LMN at level of lesion)"],
+      "key_finding": "Motor paralysis + pain/temperature loss BELOW lesion, with PRESERVED proprioception/vibration"
+    },
+    "brown_sequard_syndrome": {
+      "ipsilateral_loss": ["motor (CST)", "proprioception/vibration (dorsal columns)"],
+      "contralateral_loss": ["pain/temperature (spinothalamic, crosses 1-2 levels above entry)"],
+      "key_finding": "Hemisection of cord"
+    },
+    "central_cord_syndrome": {
+      "most_affected": "upper extremity motor (hands) due to medial position of arm fibers in lateral CST at cervical levels",
+      "less_affected": "lower extremity motor (legs - lateral fibers)",
+      "key_finding": "Arm weakness > leg weakness, often with cape-like sensory loss"
+    },
+    "syringomyelia": {
+      "affected": "crossing fibers of anterior commissure (spinothalamic), central gray",
+      "spared": "dorsal columns, lateral CST initially",
+      "key_finding": "Bilateral loss of pain/temperature at level of lesion (cape distribution), preserved touch and proprioception"
+    }
+  }
+}

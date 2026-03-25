@@ -1,0 +1,1966 @@
+{
+  "_metadata": {
+    "batch": 5,
+    "region": "Forebrain",
+    "source": "Haines Neuroanatomy Atlas, 8th Edition, Chapter 6",
+    "chapter_title": "Internal Morphology of the Spinal Cord and Brain in Stained Sections",
+    "pages": [
+      "p-27.jpg",
+      "p-28.jpg",
+      "p-29.jpg",
+      "p-30.jpg",
+      "p-31.jpg",
+      "p-32.jpg",
+      "p-33.jpg",
+      "p-34.jpg",
+      "p-35.jpg",
+      "p-36.jpg"
+    ],
+    "figures": [
+      "6-29A",
+      "6-30A",
+      "6-31A",
+      "6-32A",
+      "6-33A",
+      "6-34A",
+      "6-35A",
+      "6-36A",
+      "6-37A",
+      "6-38"
+    ],
+    "stain": "Myelin (Weigert-type) and cell body stains; color overlays for fiber systems",
+    "color_key": {
+      "blue": "Somatosensory (medial lemniscus / thalamocortical sensory fibers)",
+      "green": "Corticospinal / corticobulbar motor fibers",
+      "gray_dark": "Thalamic nuclei (mediodorsal, anterior, etc.)",
+      "gray_light": "Caudate nucleus / striatum",
+      "red_pink": "Vascular territories (MCA deep / lenticulostriate)",
+      "orange": "Anterior choroidal artery territory"
+    },
+    "orientation_note": "All sections shown in axial plane; superior is toward top of image in most figures; images are printed with inferior side up (atlas convention — brain viewed from below)"
+  },
+  "anatomical_levels": [
+    {
+      "level_id": "FB-01",
+      "figure": "6-29A",
+      "page": "p-27.jpg",
+      "level_name": "Forebrain — Mid-Thalamic / Basal Ganglia Level (superior cut through thalamus)",
+      "approximate_MNI_z": "+10 to +14",
+      "orientation": "Axial, inferior aspect of thalamus, superior basal ganglia",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus body",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": "head/body of caudate — dorsomedial to internal capsule",
+          "vascular_territory": "lenticulostriate (lateral branches of MCA)",
+          "clinical_pathway": "basal ganglia motor circuit (indirect/direct pathway)",
+          "notes": "Large C-shaped gray matter mass lateral to lateral ventricle body"
+        },
+        {
+          "tract_name": "Caudate nucleus tail",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery (posterior segment)",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": "Curves posteriorly and inferiorly around thalamus"
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum / lentiform nucleus",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg dorsal, arm middle, face ventral within putamen",
+          "vascular_territory": "lenticulostriate arteries (MCA branches)",
+          "clinical_pathway": "basal ganglia motor circuit (direct and indirect)",
+          "notes": "Lateral component of lentiform nucleus; separated from caudate by internal capsule anterior limb"
+        },
+        {
+          "tract_name": "Globus pallidus (external segment, GPe)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum / lentiform nucleus",
+          "quadrant": "Lateral-medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "lenticulostriate arteries / anterior choroidal",
+          "clinical_pathway": "basal ganglia indirect pathway output",
+          "notes": "Lateral pallidal segment; medial to putamen"
+        },
+        {
+          "tract_name": "Globus pallidus (internal segment, GPi)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum / lentiform nucleus",
+          "quadrant": "Medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "basal ganglia direct pathway output (to thalamus VL)",
+          "notes": "Main output nucleus of basal ganglia; target for DBS in Parkinson disease"
+        },
+        {
+          "tract_name": "Internal capsule — anterior limb",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Anterior-medial",
+          "depth": "deep",
+          "somatotopy": "frontopontine fibers (lateral) and anterior thalamic radiations (medial); no strict somatotopy",
+          "vascular_territory": "lenticulostriate arteries (medial and lateral)",
+          "clinical_pathway": "frontopontine tract; anterior thalamic radiation (prefrontal-thalamic)",
+          "notes": "Between caudate head (medially) and putamen/GP (laterally); contains frontopontine and anterior thalamic radiations"
+        },
+        {
+          "tract_name": "Internal capsule — genu",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Central (medial bend)",
+          "depth": "deep",
+          "somatotopy": "corticobulbar fibers for face (bilateral) in genu; head/face representation",
+          "vascular_territory": "lenticulostriate arteries (primarily); small contribution from anterior choroidal",
+          "clinical_pathway": "motor-Corticobulbar tract (to cranial nerve motor nuclei: VII, X, XII)",
+          "notes": "Knee of internal capsule at level of genu; corticobulbar fibers most concentrated here"
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior-lateral",
+          "depth": "deep",
+          "somatotopy": "from anterior to posterior: face (genu transition) → arm → leg (most posterior); corticospinal fibers in middle third of posterior limb",
+          "vascular_territory": "anterior two-thirds: lenticulostriate arteries; posterior third: anterior choroidal artery",
+          "clinical_pathway": "motor-Corticospinal tract (face→arm→leg anterior to posterior); also sensory thalamocortical fibers (posterior portion)",
+          "notes": "Most clinically important segment; small lacunar infarct here causes dense contralateral hemiplegia"
+        },
+        {
+          "tract_name": "Internal capsule — retrolenticular part",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "optic radiation (inferior) and posterior thalamic radiation",
+          "vascular_territory": "anterior choroidal artery (primary); PCA branches",
+          "clinical_pathway": "optic tract/radiation (visual pathway); posterior thalamic radiation (somesthetic)",
+          "notes": "Posterior to lentiform nucleus; contains optic radiation passing to occipital cortex"
+        },
+        {
+          "tract_name": "Internal capsule — sublenticular part",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Inferior-posterior",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "optic radiation (Meyer loop — inferior fibers for superior visual field); temporopontine fibers",
+          "notes": "Below lentiform nucleus; Meyer loop of optic radiation passes here toward temporal lobe"
+        },
+        {
+          "tract_name": "Thalamus — ventral posterolateral nucleus (VPL)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (ventral nuclear group)",
+          "quadrant": "Posterolateral thalamus",
+          "depth": "deep",
+          "somatotopy": "leg lateral, arm middle, face medial (within VPL)",
+          "vascular_territory": "thalamogeniculate branches of PCA; posterior choroidal artery",
+          "clinical_pathway": "sensory-Medial lemniscus relay (contralateral body proprioception, discriminative touch); spinothalamic relay",
+          "notes": "Primary somatosensory thalamic relay for body; projects to S1 (postcentral gyrus)"
+        },
+        {
+          "tract_name": "Thalamus — ventral posteromedial nucleus (VPM)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (ventral nuclear group)",
+          "quadrant": "Posteromedial thalamus",
+          "depth": "deep",
+          "somatotopy": "face/oral cavity somatotopy; trigeminal inputs",
+          "vascular_territory": "thalamoperforating arteries (posterior communicating / PCA)",
+          "clinical_pathway": "sensory-face relay (trigeminal lemniscus to somatosensory cortex face area)",
+          "notes": "Relay for trigeminal (face) sensation; medial to VPL"
+        },
+        {
+          "tract_name": "Thalamus — ventral lateral nucleus (VL)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (ventral nuclear group)",
+          "quadrant": "Lateral thalamus",
+          "depth": "deep",
+          "somatotopy": "leg/arm motor somatotopy from cerebellum/basal ganglia",
+          "vascular_territory": "thalamogeniculate / thalamoperforating arteries",
+          "clinical_pathway": "motor — cerebellar and pallidal relay to motor cortex (M1); target for essential tremor DBS",
+          "notes": "VLa receives GPi; VLp receives cerebellum (dentate); projects to precentral gyrus"
+        },
+        {
+          "tract_name": "Thalamus — mediodorsal nucleus (MD)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (medial nuclear group)",
+          "quadrant": "Medial thalamus",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamoperforating arteries (PCA, posterior communicating)",
+          "clinical_pathway": "prefrontal-limbic relay; reciprocal with prefrontal cortex",
+          "notes": "Large nucleus in medial thalamus; bilateral infarct causes severe amnesia (Korsakoff)"
+        },
+        {
+          "tract_name": "Thalamus — lateral dorsal nucleus (LD)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus",
+          "quadrant": "Lateral thalamus (superior)",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior choroidal artery",
+          "clinical_pathway": "limbic circuit (Papez circuit relay)",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — pulvinar",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (posterior group)",
+          "quadrant": "Posterior thalamus",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior choroidal artery; PCA branches",
+          "clinical_pathway": "visual and multimodal association relay",
+          "notes": "Largest thalamic nucleus; posterior thalamic pillow; multimodal"
+        },
+        {
+          "tract_name": "Thalamus — lateral geniculate nucleus (LGN)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (metathalamus)",
+          "quadrant": "Posterolateral thalamus (inferior)",
+          "depth": "deep",
+          "somatotopy": "retinotopic: upper retina (lower field) medial; lower retina (upper field) lateral",
+          "vascular_territory": "anterior choroidal artery (hilum) and posterior choroidal artery (peripheral)",
+          "clinical_pathway": "optic tract/radiation — visual relay; optic tract → LGN → optic radiation → V1",
+          "notes": "Dual blood supply makes LGN susceptible to characteristic pie-in-sky or pie-on-floor field defects with choroidal occlusion"
+        },
+        {
+          "tract_name": "Thalamus — medial geniculate nucleus (MGN)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (metathalamus)",
+          "quadrant": "Posteromedial thalamus (inferior)",
+          "depth": "deep",
+          "somatotopy": "tonotopic",
+          "vascular_territory": "thalamogeniculate branches of PCA",
+          "clinical_pathway": "auditory relay — inferior colliculus → MGN → auditory cortex (Heschl gyri)",
+          "notes": null
+        },
+        {
+          "tract_name": "Fornix",
+          "structure_type": "white matter tract",
+          "zone": "Limbic / diencephalic",
+          "quadrant": "Midline (superior to thalamus)",
+          "depth": "deep periventricular",
+          "somatotopy": null,
+          "vascular_territory": "anterior communicating artery perforators",
+          "clinical_pathway": "hippocampal-mammillary-thalamic (Papez) circuit; memory",
+          "notes": "Arches over thalamus; columns descend toward mammillary bodies"
+        },
+        {
+          "tract_name": "Corpus callosum — body",
+          "structure_type": "commissural tract",
+          "zone": "Interhemispheric commissure",
+          "quadrant": "Superior midline",
+          "depth": "superficial-deep",
+          "somatotopy": "leg medial, arm lateral, face most lateral in body",
+          "vascular_territory": "ACA (pericallosal artery)",
+          "clinical_pathway": "interhemispheric transfer of motor and sensory information",
+          "notes": null
+        },
+        {
+          "tract_name": "Corona radiata",
+          "structure_type": "white matter tract (fan)",
+          "zone": "Cerebral white matter (superior to internal capsule)",
+          "quadrant": "Diffuse (all quadrants)",
+          "depth": "intermediate",
+          "somatotopy": "fan mirrors internal capsule — leg medial/superior, arm middle, face lateral/inferior",
+          "vascular_territory": "MCA (lateral corona radiata); ACA (medial corona radiata); watershed zone superiorly",
+          "clinical_pathway": "motor-Corticospinal tract (superior portion); somatosensory thalamocortical radiation",
+          "notes": "Superior continuation of internal capsule fibers; more dispersed; stroke here causes less dense deficits than internal capsule"
+        },
+        {
+          "tract_name": "Cingulum",
+          "structure_type": "white matter tract",
+          "zone": "Cingulate gyrus white matter",
+          "quadrant": "Medial hemisphere",
+          "depth": "intermediate (subcortical)",
+          "somatotopy": null,
+          "vascular_territory": "ACA (callosomarginal artery)",
+          "clinical_pathway": "limbic association tract; connects frontal, parietal, temporal limbic areas",
+          "notes": null
+        },
+        {
+          "tract_name": "External capsule",
+          "structure_type": "white matter",
+          "zone": "Lateral to putamen",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "MCA (lateral lenticulostriate / capsular branches)",
+          "clinical_pathway": "claustrocortical connections; uncinate fasciculus passage",
+          "notes": "Between putamen (medially) and claustrum (laterally)"
+        },
+        {
+          "tract_name": "Extreme capsule",
+          "structure_type": "white matter",
+          "zone": "Lateral to claustrum",
+          "quadrant": "Lateral",
+          "depth": "deep subcortical",
+          "somatotopy": null,
+          "vascular_territory": "MCA cortical branches",
+          "clinical_pathway": "language network (arcuate/superior longitudinal fasciculus ventral route); insular connections",
+          "notes": "Between claustrum (medially) and insular cortex (laterally)"
+        },
+        {
+          "tract_name": "Claustrum",
+          "structure_type": "nucleus (thin gray)",
+          "zone": "Lateral to external capsule",
+          "quadrant": "Lateral",
+          "depth": "deep subcortical",
+          "somatotopy": null,
+          "vascular_territory": "MCA lenticulostriate / insular branches",
+          "clinical_pathway": "consciousness / cortico-cortical integration (proposed); not a defined clinical pathway",
+          "notes": null
+        },
+        {
+          "tract_name": "Lateral ventricle — body",
+          "structure_type": "ventricle",
+          "zone": "Periventricular",
+          "quadrant": "Central",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "periventricular branches (terminal zone) of MCA and ACA",
+          "clinical_pathway": "CSF pathway; periventricular white matter adjacent carries motor fibers",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-02",
+      "figure": "6-30A",
+      "page": "p-28.jpg",
+      "level_name": "Forebrain — Thalamus / Internal Capsule Level (mid-thalamic, at level of posterior commissure region)",
+      "approximate_MNI_z": "+6 to +10",
+      "orientation": "Axial, through thalamus showing nuclei and internal capsule clearly with color-coded fiber systems",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus body",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral (head visible)",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "lenticulostriate arteries (Heubner for head, lateral lenticulostriates for body)",
+          "clinical_pathway": "basal ganglia circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg dorsal, arm central, face ventral",
+          "vascular_territory": "lateral lenticulostriate arteries (MCA)",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus (GPe and GPi)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial to putamen",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery (GPi primarily); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output (GPi → VL thalamus via ansa lenticularis and lenticular fasciculus)",
+          "notes": "Color-coded section shows pallidal fibers projecting medially"
+        },
+        {
+          "tract_name": "Internal capsule — anterior limb",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Anterior",
+          "depth": "deep",
+          "somatotopy": "frontopontine (lateral fibers) and thalamocortical prefrontal (medial fibers)",
+          "vascular_territory": "medial and lateral lenticulostriate arteries",
+          "clinical_pathway": "frontopontine tract; anterior thalamic radiation",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — genu",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Central",
+          "depth": "deep",
+          "somatotopy": "corticobulbar (head/face); most rostral motor fibers",
+          "vascular_territory": "lenticulostriate arteries (principally)",
+          "clinical_pathway": "motor-Corticobulbar tract",
+          "notes": "Genu fibers for cranial nerve motor nuclei (pseudobulbar palsy if bilateral damage)"
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb (corticospinal fibers)",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "anterior to posterior: face → arm → leg (from genu to retrolenticular); arm fibers in anterior half of posterior limb",
+          "vascular_territory": "anterior two-thirds: lenticulostriate; posterior third: anterior choroidal artery",
+          "clinical_pathway": "motor-Corticospinal tract (primary motor fibers for contralateral limbs)",
+          "notes": "Color-coded green in atlas; dense concentration of UMN fibers; lacunar infarct here = pure motor hemiplegia"
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb (thalamocortical sensory fibers)",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior limb (posterior portion)",
+          "depth": "deep",
+          "somatotopy": "body somatotopy mirrors VPL projection",
+          "vascular_territory": "anterior choroidal artery (posterior segment of posterior limb)",
+          "clinical_pathway": "sensory-Medial lemniscus (thalamocortical projection from VPL/VPM → S1)",
+          "notes": "Color-coded blue in atlas"
+        },
+        {
+          "tract_name": "Lenticular fasciculus (Forel H2 field)",
+          "structure_type": "white matter tract",
+          "zone": "Subthalamus",
+          "quadrant": "Medial to GPi",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamoperforating arteries (posterior communicating / PCA)",
+          "clinical_pathway": "basal ganglia output — GPi to VL thalamus (motor relay)",
+          "notes": "Passes through/below zona incerta; joins ansa lenticularis at Forel H field"
+        },
+        {
+          "tract_name": "Ansa lenticularis",
+          "structure_type": "white matter tract",
+          "zone": "Subthalamus / ventral to GP",
+          "quadrant": "Anteromedial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery; thalamoperforating branches",
+          "clinical_pathway": "basal ganglia output — GPi to VL thalamus (loops ventrally around internal capsule)",
+          "notes": "Ventral pallidothalamic pathway"
+        },
+        {
+          "tract_name": "Subthalamic nucleus (STN)",
+          "structure_type": "nucleus",
+          "zone": "Subthalamus",
+          "quadrant": "Medial to internal capsule (inferior thalamic level)",
+          "depth": "deep",
+          "somatotopy": "sensorimotor (lateral STN), associative (medial STN)",
+          "vascular_territory": "thalamoperforating arteries; anterior choroidal",
+          "clinical_pathway": "basal ganglia indirect pathway hub; target for Parkinson disease DBS",
+          "notes": "Damage → contralateral hemiballismus"
+        },
+        {
+          "tract_name": "Thalamus — anterior nucleus (AN)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (anterior group)",
+          "quadrant": "Anterior thalamus",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "polar artery (thalamotuberal — from posterior communicating or PCA)",
+          "clinical_pathway": "Papez circuit relay (mammillary body → mammillothalamic tract → AN → cingulate)",
+          "notes": "Part of limbic/memory circuit; damage contributes to amnesia"
+        },
+        {
+          "tract_name": "Mammillothalamic tract",
+          "structure_type": "white matter tract",
+          "zone": "Anterior thalamic region / hypothalamus",
+          "quadrant": "Anteromedial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamoperforating arteries; posterior communicating perforators",
+          "clinical_pathway": "memory circuit (Papez) — mammillary body to anterior thalamus",
+          "notes": "Damage (Wernicke encephalopathy) → anterograde amnesia"
+        },
+        {
+          "tract_name": "Thalamus — VPL nucleus",
+          "structure_type": "nucleus",
+          "zone": "Thalamus",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": "leg lateral, arm middle, face medial",
+          "vascular_territory": "thalamogeniculate arteries (PCA branches)",
+          "clinical_pathway": "sensory-Medial lemniscus and spinothalamic relay for body",
+          "notes": "Color blue in atlas"
+        },
+        {
+          "tract_name": "Thalamus — LGN",
+          "structure_type": "nucleus",
+          "zone": "Metathalamus",
+          "quadrant": "Posterolateral inferior",
+          "depth": "deep",
+          "somatotopy": "retinotopic (6 layers)",
+          "vascular_territory": "anterior choroidal (hilum, 25%); posterior lateral choroidal (peripheral, 75%)",
+          "clinical_pathway": "visual pathway relay",
+          "notes": "Visible as lateral bump of thalamus"
+        },
+        {
+          "tract_name": "Optic tract",
+          "structure_type": "white matter tract",
+          "zone": "Basal forebrain / lateral to hypothalamus",
+          "quadrant": "Inferolateral",
+          "depth": "deep basal",
+          "somatotopy": "upper retina (lower visual field) medial; lower retina (upper visual field) lateral; macular fibers central",
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "optic tract/radiation — contralateral homonymous hemianopia if damaged",
+          "notes": "Wraps around cerebral peduncle at this level"
+        },
+        {
+          "tract_name": "Corticospinal fibers in cerebral peduncle (basis pedunculi)",
+          "structure_type": "white matter tract",
+          "zone": "Midbrain / cerebral peduncle",
+          "quadrant": "Anterior",
+          "depth": "deep basal",
+          "somatotopy": "face (corticobulbar) medial; arm middle; leg lateral in peduncle",
+          "vascular_territory": "posterior communicating artery perforators; PCA",
+          "clinical_pathway": "motor-Corticospinal tract (descending to spinal cord) + motor-Corticobulbar",
+          "notes": "Middle three-fifths of basis pedunculi carry corticospinal fibers"
+        },
+        {
+          "tract_name": "Zona incerta",
+          "structure_type": "nucleus / gray matter zone",
+          "zone": "Subthalamus",
+          "quadrant": "Medial (between thalamus and STN)",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamoperforating arteries",
+          "clinical_pathway": "motor modulation; DBS target for tremor (caudal zona incerta)",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-03",
+      "figure": "6-31A",
+      "page": "p-29.jpg",
+      "level_name": "Forebrain — Diencephalon / Mesencephalon Junction Level (at level of posterior commissure / superior colliculus transition)",
+      "approximate_MNI_z": "+2 to +6",
+      "orientation": "Axial — transition from thalamus inferiorly; cerebellum and brainstem visible",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus (body/tail)",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "lenticulostriate (body); anterior choroidal (tail)",
+          "clinical_pathway": "basal ganglia circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg superior, arm middle, face inferior",
+          "vascular_territory": "lateral lenticulostriate arteries",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial-lateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (GPi); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "arm anterior, leg posterior in posterior limb",
+          "vascular_territory": "lenticulostriate (anterior 2/3); anterior choroidal (posterior 1/3)",
+          "clinical_pathway": "motor-Corticospinal tract; sensory thalamocortical",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus (multiple nuclei visible at this level)",
+          "structure_type": "nucleus complex",
+          "zone": "Thalamus",
+          "quadrant": "Central-posterior",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamogeniculate (PCA); thalamoperforating (posterior communicating/PCA)",
+          "clinical_pathway": "multiple — sensory relay, motor relay, limbic",
+          "notes": "VPL, VPM, and pulvinar visible at this level"
+        },
+        {
+          "tract_name": "Lateral geniculate nucleus (LGN)",
+          "structure_type": "nucleus",
+          "zone": "Metathalamus",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": "retinotopic (6 laminae)",
+          "vascular_territory": "anterior choroidal artery (hilum); posterior choroidal (peripheral)",
+          "clinical_pathway": "visual pathway relay",
+          "notes": null
+        },
+        {
+          "tract_name": "Optic tract",
+          "structure_type": "white matter tract",
+          "zone": "Basal forebrain / lateral hypothalamus",
+          "quadrant": "Inferolateral",
+          "depth": "basal deep",
+          "somatotopy": "retinotopic (upper/lower retina)",
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "visual — contralateral homonymous hemianopia with complete lesion",
+          "notes": "Visible wrapping around cerebral peduncle"
+        },
+        {
+          "tract_name": "Optic radiation (beginning)",
+          "structure_type": "white matter tract",
+          "zone": "Retrolenticular internal capsule / temporal-occipital white matter",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "upper field (Meyer loop, temporal) inferior; lower field parietal/superior",
+          "vascular_territory": "MCA (temporal loop / Meyer loop); PCA (occipital portion)",
+          "clinical_pathway": "visual pathway — optic radiation to primary visual cortex V1 (calcarine)",
+          "notes": "Meyer loop takes inferior detour through temporal lobe — damaged in temporal lobectomy → contralateral superior quadrantanopia"
+        },
+        {
+          "tract_name": "Corticospinal tract — cerebral peduncle",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon / basis pedunculi",
+          "quadrant": "Anterior",
+          "depth": "deep basal",
+          "somatotopy": "medial: face/corticobulbar; middle: arm; lateral: leg",
+          "vascular_territory": "posterior communicating artery perforators; anterior choroidal; PCA",
+          "clinical_pathway": "motor-Corticospinal tract",
+          "notes": null
+        },
+        {
+          "tract_name": "Medial lemniscus (at upper mesencephalon)",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon (tegmentum, lateral)",
+          "quadrant": "Posterior-lateral tegmentum",
+          "depth": "deep",
+          "somatotopy": "leg lateral, arm medial (rotated from pons configuration)",
+          "vascular_territory": "short circumferential arteries of PCA",
+          "clinical_pathway": "sensory-Medial lemniscus (discriminative touch, proprioception, vibration from contralateral body)",
+          "notes": "Approaches VPL thalamus from lateral tegmentum at this level"
+        },
+        {
+          "tract_name": "Spinothalamic tract (at upper mesencephalon)",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon (lateral tegmentum)",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg posterior/lateral, arm middle, face anterior/medial",
+          "vascular_territory": "long circumferential PCA branches",
+          "clinical_pathway": "sensory-Spinothalamic tract (pain, temperature, crude touch from contralateral body)",
+          "notes": "Travels adjacent to medial lemniscus at mesencephalic level"
+        },
+        {
+          "tract_name": "Substantia nigra — pars compacta (SNc)",
+          "structure_type": "nucleus",
+          "zone": "Mesencephalon (midbrain)",
+          "quadrant": "Anterior-posterior junction (crus/tegmentum border)",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating perforators; PCA branches",
+          "clinical_pathway": "dopaminergic nigrostriatal projection (degenerated in Parkinson disease)",
+          "notes": "Appears dark in stained sections due to neuromelanin"
+        },
+        {
+          "tract_name": "Red nucleus",
+          "structure_type": "nucleus",
+          "zone": "Mesencephalon (tegmentum)",
+          "quadrant": "Central tegmentum",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating perforators; PCA",
+          "clinical_pathway": "rubrospinal tract; cerebellar dentate → red nucleus → thalamus relay",
+          "notes": "Round nuclear mass in tegmentum; landmark for Benedikt syndrome (ipsilateral CN III + contralateral cerebellar tremor)"
+        },
+        {
+          "tract_name": "Cerebral aqueduct (Aqueduct of Sylvius)",
+          "structure_type": "CSF channel",
+          "zone": "Mesencephalon periaqueductal gray",
+          "quadrant": "Central posterior",
+          "depth": "deep midline",
+          "somatotopy": null,
+          "vascular_territory": "PCA perforators (periaqueductal region)",
+          "clinical_pathway": "CSF drainage; periaqueductal gray = pain modulation, Parinaud syndrome if dorsal compression",
+          "notes": null
+        },
+        {
+          "tract_name": "Posterior commissure",
+          "structure_type": "commissure",
+          "zone": "Dorsal mesencephalon / pretectum",
+          "quadrant": "Posterior midline",
+          "depth": "deep dorsal",
+          "somatotopy": null,
+          "vascular_territory": "PCA posterior perforators",
+          "clinical_pathway": "pupillary light reflex pathway (pretectal nuclei coordination); damage → Argyll Robertson pupil / Parinaud",
+          "notes": null
+        },
+        {
+          "tract_name": "Habenular nuclei / habenular commissure",
+          "structure_type": "nucleus/commissure",
+          "zone": "Epithalamus",
+          "quadrant": "Posteromedial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior choroidal artery",
+          "clinical_pathway": "limbic-to-brainstem relay (habenulointerpeduncular tract = fasciculus retroflexus)",
+          "notes": null
+        },
+        {
+          "tract_name": "Cerebellum (superior portion visible)",
+          "structure_type": "cortex/nuclei",
+          "zone": "Posterior fossa",
+          "quadrant": "Posterior",
+          "depth": "posterior fossa",
+          "somatotopy": "vermis=axial; hemispheres=limb",
+          "vascular_territory": "SCA (superior cerebellar artery)",
+          "clinical_pathway": "cerebellar motor coordination",
+          "notes": "Visible in inferior portion of this forebrain-level section"
+        },
+        {
+          "tract_name": "Lateral sulcus (Sylvian fissure)",
+          "structure_type": "sulcus landmark",
+          "zone": "Cortical surface",
+          "quadrant": "Lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "vascular_territory": "MCA (insular/opercular branches)",
+          "clinical_pathway": "MCA territory boundary landmark; language areas (Broca/Wernicke) adjacent",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-04",
+      "figure": "6-32A",
+      "page": "p-30.jpg",
+      "level_name": "Forebrain — Thalamus Level (at level of anterior thalamic nuclei / mammillary bodies / superior colliculus visible)",
+      "approximate_MNI_z": "+8 to +12",
+      "orientation": "Axial, mid-thalamic; mammillary bodies may be visible inferiorly",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus (head and body)",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "recurrent artery of Heubner (head); medial lenticulostriate (body)",
+          "clinical_pathway": "basal ganglia circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg superior, arm central, face inferior",
+          "vascular_territory": "lateral lenticulostriate arteries (MCA)",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus (GPe/GPi)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial-lateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (GPi); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output to thalamus",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — all segments",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Anterior to posterior",
+          "depth": "deep",
+          "somatotopy": "anterior limb: frontopontine+ant thalamic rad; genu: corticobulbar (face); posterior limb: face→arm→leg; retrolenticular: optic radiation",
+          "vascular_territory": "lenticulostriate (anterior portions); anterior choroidal (posterior limb posterior + retrolenticular)",
+          "clinical_pathway": "motor (corticospinal, corticobulbar), sensory (thalamocortical), visual (optic radiation)",
+          "notes": "Full bowtie shape visible at this level"
+        },
+        {
+          "tract_name": "Thalamus — mediodorsal nucleus",
+          "structure_type": "nucleus",
+          "zone": "Thalamus",
+          "quadrant": "Medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamoperforating (PCA/posterior communicating)",
+          "clinical_pathway": "prefrontal circuit; memory; emotion",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — VPL/VPM",
+          "structure_type": "nucleus",
+          "zone": "Thalamus",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": "VPL: leg lateral/arm/face medial; VPM: face",
+          "vascular_territory": "thalamogeniculate arteries (PCA)",
+          "clinical_pathway": "sensory relay — medial lemniscus and spinothalamic",
+          "notes": null
+        },
+        {
+          "tract_name": "Optic tract",
+          "structure_type": "white matter tract",
+          "zone": "Basal",
+          "quadrant": "Inferolateral",
+          "depth": "basal deep",
+          "somatotopy": "retinotopic",
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "visual pathway",
+          "notes": null
+        },
+        {
+          "tract_name": "Mammillary body",
+          "structure_type": "nucleus",
+          "zone": "Hypothalamus (posterior)",
+          "quadrant": "Inferior midline",
+          "depth": "basal deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating artery perforators; PCA (P1 segment)",
+          "clinical_pathway": "memory circuit (Papez) — hippocampus → fornix → mammillary body → mammillothalamic tract → anterior thalamus",
+          "notes": "Atrophied in Wernicke-Korsakoff syndrome"
+        },
+        {
+          "tract_name": "Fornix (column)",
+          "structure_type": "white matter tract",
+          "zone": "Hypothalamus / periventricular",
+          "quadrant": "Anteromedial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior communicating artery perforators",
+          "clinical_pathway": "hippocampal-mammillary memory circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Hippocampus (tail / posterior portion)",
+          "structure_type": "cortical structure / allocortex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Posteromedial",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "PCA (posterior hippocampal); anterior choroidal (anterior hippocampus)",
+          "clinical_pathway": "memory encoding and consolidation",
+          "notes": null
+        },
+        {
+          "tract_name": "Cerebral peduncle (crus cerebri)",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon anterior",
+          "quadrant": "Inferior-anterior",
+          "depth": "deep basal",
+          "somatotopy": "corticobulbar medial, arm middle, leg lateral; frontopontine lateral fifth",
+          "vascular_territory": "posterior communicating perforators; anterior choroidal; PCA",
+          "clinical_pathway": "motor-Corticospinal + motor-Corticobulbar descending fibers",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamostriate vein",
+          "structure_type": "vein (landmark)",
+          "zone": "Thalamocaudate groove",
+          "quadrant": "Medial (at caudate-thalamic junction)",
+          "depth": "deep periventricular",
+          "somatotopy": null,
+          "vascular_territory": "venous drainage",
+          "clinical_pathway": "venous landmark; joins internal cerebral vein",
+          "notes": "Landmark at junction of thalamus and caudate"
+        }
+      ]
+    },
+    {
+      "level_id": "FB-05",
+      "figure": "6-33A",
+      "page": "p-31.jpg",
+      "level_name": "Forebrain — Mid-Thalamic Level with Basal Ganglia (through centrum semiovale / thalamus body)",
+      "approximate_MNI_z": "+10 to +14",
+      "orientation": "Axial; full view of thalamus, internal capsule, basal ganglia, and overlying corona radiata",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus (head/body)",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "lenticulostriate (lateral MCA branches)",
+          "clinical_pathway": "basal ganglia motor/cognitive circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg dorsal, arm middle, face ventral",
+          "vascular_territory": "lateral lenticulostriate arteries",
+          "clinical_pathway": "basal ganglia",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus (GPe and GPi)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (GPi); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — anterior limb",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Anterior",
+          "depth": "deep",
+          "somatotopy": "frontopontine, anterior thalamic radiation",
+          "vascular_territory": "medial and lateral lenticulostriate",
+          "clinical_pathway": "frontopontine tract; anterior thalamic radiation",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — genu",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Central",
+          "depth": "deep",
+          "somatotopy": "corticobulbar (face/head representation)",
+          "vascular_territory": "lenticulostriate arteries",
+          "clinical_pathway": "motor-Corticobulbar tract",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb (corticospinal)",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "face (genu adjacent) → arm (anterior) → leg (posterior) — anterior to posterior",
+          "vascular_territory": "anterior two-thirds: lenticulostriate; posterior third: anterior choroidal",
+          "clinical_pathway": "motor-Corticospinal tract",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — retrolenticular",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "optic radiation (upper/lower visual fields)",
+          "vascular_territory": "anterior choroidal; PCA branches",
+          "clinical_pathway": "optic radiation (visual pathway)",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — VPL nucleus",
+          "structure_type": "nucleus",
+          "zone": "Thalamus",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": "leg lateral, arm middle, face medial",
+          "vascular_territory": "thalamogeniculate arteries (PCA)",
+          "clinical_pathway": "sensory-Medial lemniscus relay; spinothalamic relay",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — pulvinar",
+          "structure_type": "nucleus",
+          "zone": "Thalamus posterior",
+          "quadrant": "Posteromedial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior choroidal; PCA thalamogeniculate",
+          "clinical_pathway": "visual and multimodal association",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — centromedian nucleus (CM)",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (intralaminar)",
+          "quadrant": "Central thalamus",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "thalamogeniculate; thalamoperforating",
+          "clinical_pathway": "arousal/consciousness; motor integration; DBS target for pain and consciousness disorders",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — reticular nucleus",
+          "structure_type": "nucleus",
+          "zone": "Thalamus (lateral shell)",
+          "quadrant": "Lateral thalamus (thin rim)",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "lenticulostriate (lateral); thalamogeniculate (medial)",
+          "clinical_pathway": "thalamic gating/inhibition (GABAergic); modulates sensory relay",
+          "notes": "Thin GABAergic shell separating thalamus from internal capsule"
+        },
+        {
+          "tract_name": "Corona radiata (superior)",
+          "structure_type": "white matter tract",
+          "zone": "Cerebral white matter",
+          "quadrant": "Diffuse",
+          "depth": "intermediate",
+          "somatotopy": "medial: leg; middle: arm; lateral: face (mirrors internal capsule)",
+          "vascular_territory": "superior: ACA and MCA watershed; lateral: MCA; medial: ACA",
+          "clinical_pathway": "motor-Corticospinal + sensory thalamocortical radiation",
+          "notes": null
+        },
+        {
+          "tract_name": "Superior longitudinal fasciculus (SLF)",
+          "structure_type": "white matter association tract",
+          "zone": "Frontoparietal white matter",
+          "quadrant": "Lateral (temporal-parietal-frontal)",
+          "depth": "intermediate subcortical",
+          "somatotopy": null,
+          "vascular_territory": "MCA (angular and supramarginal branches territory)",
+          "clinical_pathway": "language (arcuate fasciculus component — Broca to Wernicke); spatial attention (SLF I/II)",
+          "notes": null
+        },
+        {
+          "tract_name": "Stria terminalis",
+          "structure_type": "white matter tract",
+          "zone": "Thalamocaudate groove (periventricular)",
+          "quadrant": "Medial (along caudate-thalamic border)",
+          "depth": "deep periventricular",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal; lenticulostriate",
+          "clinical_pathway": "amygdala → hypothalamus (limbic output pathway); anxiety circuits",
+          "notes": null
+        },
+        {
+          "tract_name": "Anterior commissure",
+          "structure_type": "commissure",
+          "zone": "Anterior basal forebrain",
+          "quadrant": "Anterior midline",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior communicating artery perforators",
+          "clinical_pathway": "interhemispheric olfactory and anterior temporal connections",
+          "notes": null
+        },
+        {
+          "tract_name": "Substantia innominata / nucleus basalis of Meynert",
+          "structure_type": "nucleus",
+          "zone": "Basal forebrain (ventral to striatum)",
+          "quadrant": "Anterior-inferior",
+          "depth": "deep basal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal; MCA perforators",
+          "clinical_pathway": "cholinergic projection to cortex; degenerated in Alzheimer disease",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-06",
+      "figure": "6-34A",
+      "page": "p-32.jpg",
+      "level_name": "Forebrain — Thalamus / Posterior Limb Internal Capsule Level (showing posterior limb in detail and surrounding structures)",
+      "approximate_MNI_z": "+6 to +10",
+      "orientation": "Axial through thalamus; corona radiata to subcortical junction; clear posterior limb internal capsule",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus head",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterior",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "recurrent artery of Heubner (ACA); medial lenticulostriate",
+          "clinical_pathway": "basal ganglia cognitive circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "dorsal: leg; central: arm; ventral: face",
+          "vascular_territory": "lateral lenticulostriate arteries (MCA)",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (GPi); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule — posterior limb (full extent)",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "from genu going posteriorly: corticobulbar (face) → arm (corticospinal) → leg (corticospinal) → thalamocortical sensory fibers most posterior",
+          "vascular_territory": "anterior 2/3: lenticulostriate; posterior 1/3: anterior choroidal artery",
+          "clinical_pathway": "motor-Corticospinal tract (arm and leg); motor-Corticobulbar (face); sensory thalamocortical",
+          "notes": "Most critical segment for motor function; posterior limb lesion = contralateral dense hemiplegia"
+        },
+        {
+          "tract_name": "Thalamic radiations (posterior)",
+          "structure_type": "white matter tract",
+          "zone": "Posterior thalamus / retrolenticular capsule",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "visual (optic radiation) inferior; somatosensory superior",
+          "vascular_territory": "anterior choroidal (retrolenticular); PCA (occipital portion)",
+          "clinical_pathway": "optic radiation; posterior thalamic radiation (somatosensory)",
+          "notes": null
+        },
+        {
+          "tract_name": "Thalamus — VPL, VPM, LGN, MGN, pulvinar",
+          "structure_type": "nucleus complex",
+          "zone": "Thalamus",
+          "quadrant": "Posterior lateral thalamus",
+          "depth": "deep",
+          "somatotopy": "VPL (body); VPM (face); LGN (vision); MGN (hearing); pulvinar (multimodal)",
+          "vascular_territory": "thalamogeniculate (PCA) for VPL/VPM/pulvinar; anterior choroidal+posterior choroidal for LGN",
+          "clinical_pathway": "sensory relay (VPL/VPM); visual relay (LGN); auditory relay (MGN)",
+          "notes": null
+        },
+        {
+          "tract_name": "Optic radiation",
+          "structure_type": "white matter tract",
+          "zone": "Retrolenticular / temporal-occipital white matter",
+          "quadrant": "Posterior-lateral",
+          "depth": "deep",
+          "somatotopy": "inferior (Meyer loop through temporal lobe): upper retina/lower visual field; superior (parietal): lower retina/upper visual field; macular: central",
+          "vascular_territory": "Meyer loop: MCA (anterior temporal); parietal loop: MCA (posterior parietal); occipital: PCA",
+          "clinical_pathway": "optic radiation — LGN to primary visual cortex (V1 at calcarine sulcus); hemianopia / quadrantanopia depending on lesion location",
+          "notes": "Complete lesion: contralateral homonymous hemianopia (macular sparing if PCA territory, because macula also supplied by MCA)"
+        },
+        {
+          "tract_name": "Hippocampus / parahippocampal gyrus",
+          "structure_type": "cortical structure",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Posteromedial",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (anterior); PCA (posterior — hippocampal branches)",
+          "clinical_pathway": "memory (declarative/episodic); mesial temporal lobe epilepsy focus",
+          "notes": null
+        },
+        {
+          "tract_name": "Choroid plexus (temporal horn / trigone)",
+          "structure_type": "choroid plexus",
+          "zone": "Lateral ventricle (temporal horn)",
+          "quadrant": "Posterior-medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery (temporal horn choroid plexus)",
+          "clinical_pathway": "CSF production",
+          "notes": null
+        },
+        {
+          "tract_name": "Posterior cerebral artery territory (occipital-temporal cortex)",
+          "structure_type": "vascular territory",
+          "zone": "Occipital and medial temporal cortex",
+          "quadrant": "Posterior-medial",
+          "depth": "cortical",
+          "somatotopy": null,
+          "vascular_territory": "PCA",
+          "clinical_pathway": "visual cortex; memory; PCA stroke = contralateral homonymous hemianopia + amnesia (if bilateral)",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-07",
+      "figure": "6-35A",
+      "page": "p-33.jpg",
+      "level_name": "Forebrain — Hypothalamus / Anterior Thalamus Level (at level of hypothalamus, amygdala, anterior internal capsule)",
+      "approximate_MNI_z": "+2 to +6 (anterior portion — hypothalamic level)",
+      "orientation": "Axial through hypothalamus and anterior/mid-thalamus; hippocampus beginning; amygdala visible",
+      "tracts": [
+        {
+          "tract_name": "Caudate nucleus (head)",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "recurrent artery of Heubner; medial lenticulostriate",
+          "clinical_pathway": "basal ganglia (head of caudate — prefrontal/cognitive territory)",
+          "notes": null
+        },
+        {
+          "tract_name": "Putamen",
+          "structure_type": "nucleus",
+          "zone": "Striatum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg superior, arm middle, face inferior",
+          "vascular_territory": "lateral lenticulostriate arteries",
+          "clinical_pathway": "basal ganglia motor circuit",
+          "notes": null
+        },
+        {
+          "tract_name": "Globus pallidus (GPe/GPi)",
+          "structure_type": "nucleus",
+          "zone": "Pallidum",
+          "quadrant": "Medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (GPi); lenticulostriate (GPe)",
+          "clinical_pathway": "basal ganglia output",
+          "notes": null
+        },
+        {
+          "tract_name": "Internal capsule (anterior limb and genu)",
+          "structure_type": "white matter tract",
+          "zone": "Internal capsule",
+          "quadrant": "Anterior-central",
+          "depth": "deep",
+          "somatotopy": "anterior limb: frontopontine+ant thalamic radiation; genu: corticobulbar",
+          "vascular_territory": "medial and lateral lenticulostriate arteries",
+          "clinical_pathway": "frontopontine; anterior thalamic radiation; corticobulbar",
+          "notes": null
+        },
+        {
+          "tract_name": "Amygdala (amygdaloid complex)",
+          "structure_type": "nucleus complex",
+          "zone": "Medial temporal lobe (anterior)",
+          "quadrant": "Anteromedial temporal",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery; MCA (anterior temporal branches)",
+          "clinical_pathway": "fear/emotional processing; uncinate fasciculus connections; temporal lobe epilepsy",
+          "notes": "Anterior to hippocampus; medial to lateral ventricle temporal horn"
+        },
+        {
+          "tract_name": "Hippocampus (head — pes hippocampi)",
+          "structure_type": "allocortex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Posteromedial temporal",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery (CA1 sector); posterior communicating perforators",
+          "clinical_pathway": "declarative memory; CA1 vulnerable to ischemia",
+          "notes": null
+        },
+        {
+          "tract_name": "Hypothalamus (lateral nucleus, dorsomedial, ventromedial areas)",
+          "structure_type": "nucleus complex",
+          "zone": "Hypothalamus",
+          "quadrant": "Inferior midline / medial",
+          "depth": "deep basal",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating artery perforators; anterior communicating artery perforators (anterior hypothalamus)",
+          "clinical_pathway": "autonomic regulation; endocrine (pituitary); temperature regulation; sleep-wake",
+          "notes": "Lateral hypothalamic syndrome: ipsilateral Horner (hypothalamospinal tract)"
+        },
+        {
+          "tract_name": "Optic tract",
+          "structure_type": "white matter tract",
+          "zone": "Basal / lateral hypothalamus",
+          "quadrant": "Inferolateral",
+          "depth": "basal",
+          "somatotopy": "upper field fibers (lower retina) lateral; lower field (upper retina) medial",
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "visual pathway — contralateral homonymous hemianopia with complete lesion",
+          "notes": null
+        },
+        {
+          "tract_name": "Anterior commissure (posterior part — temporal connections)",
+          "structure_type": "commissure",
+          "zone": "Anterior forebrain",
+          "quadrant": "Anterior midline",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior communicating artery perforators",
+          "clinical_pathway": "interhemispheric olfactory and temporal lobe connections",
+          "notes": "Visible at this level as compact bundle"
+        },
+        {
+          "tract_name": "Uncinate fasciculus",
+          "structure_type": "white matter association tract",
+          "zone": "Frontotemporal white matter (external/extreme capsule region)",
+          "quadrant": "Anterolateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "MCA (anterior temporal and orbitofrontal branches)",
+          "clinical_pathway": "frontal-temporal connection; language (naming); social/emotional behavior; damaged in semantic dementia",
+          "notes": "Hooks under Sylvian fissure connecting orbitofrontal to temporal pole"
+        },
+        {
+          "tract_name": "Inferior longitudinal fasciculus (ILF)",
+          "structure_type": "white matter association tract",
+          "zone": "Temporal-occipital white matter",
+          "quadrant": "Lateral temporal",
+          "depth": "intermediate",
+          "somatotopy": null,
+          "vascular_territory": "MCA (temporal); PCA (occipital terminus)",
+          "clinical_pathway": "visual recognition / object identification pathway; prosopagnosia if bilateral",
+          "notes": null
+        },
+        {
+          "tract_name": "Lateral sulcus / Sylvian fissure",
+          "structure_type": "sulcus landmark",
+          "zone": "Cortical",
+          "quadrant": "Lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "vascular_territory": "MCA",
+          "clinical_pathway": "MCA territory boundary; language cortices adjacent",
+          "notes": null
+        },
+        {
+          "tract_name": "Hypothalamospinal tract (in lateral hypothalamus)",
+          "structure_type": "white matter tract",
+          "zone": "Lateral hypothalamus / lateral tegmentum",
+          "quadrant": "Lateral hypothalamus",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating artery perforators; lateral hypothalamic branches",
+          "clinical_pathway": "sympathetic pathway (descending to ciliospinal center of Budge in C8-T1 lateral horn); lesion = ipsilateral Horner syndrome",
+          "notes": "Runs through lateral tegmentum from hypothalamus to T1 spinal cord"
+        }
+      ]
+    },
+    {
+      "level_id": "FB-08",
+      "figure": "6-36A",
+      "page": "p-34.jpg",
+      "level_name": "Forebrain — Optic Tract / Hypothalamus Level (inferior, at chiasm vicinity; temporal lobe; deep to cortex)",
+      "approximate_MNI_z": "-2 to +2",
+      "orientation": "Axial through hypothalamus/optic tract; inferior basal forebrain; temporal and frontal lobes at this level",
+      "tracts": [
+        {
+          "tract_name": "Optic chiasm / optic tract",
+          "structure_type": "white matter tract",
+          "zone": "Basal forebrain / hypothalamus",
+          "quadrant": "Inferior midline / inferolateral",
+          "depth": "basal",
+          "somatotopy": "nasal (decussating) fibers cross at chiasm; temporal fibers ipsilateral; after chiasm: contralateral homonymous fields",
+          "vascular_territory": "anterior communicating artery (superior chiasm); ophthalmic artery / internal carotid (inferior chiasm); anterior choroidal (optic tract)",
+          "clinical_pathway": "visual pathway — chiasm lesion: bitemporal hemianopia; optic tract: contralateral homonymous hemianopia",
+          "notes": "Superior chiasm supplied by ACA; inferior by ICA; pituitary tumor classically compresses chiasm from below"
+        },
+        {
+          "tract_name": "Lateral geniculate nucleus (LGN)",
+          "structure_type": "nucleus",
+          "zone": "Metathalamus (inferior thalamus)",
+          "quadrant": "Posterolateral",
+          "depth": "deep",
+          "somatotopy": "6 laminae — monocular layers 1,4,6 vs 2,3,5; upper field medial, lower field lateral",
+          "vascular_territory": "anterior choroidal artery (hilum/inferior) + posterior lateral choroidal (peripheral/superior)",
+          "clinical_pathway": "visual relay — lesion causes sectoranopia (wedge scotoma) due to dual blood supply",
+          "notes": null
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "structure_type": "white matter tract",
+          "zone": "Brainstem (medial tegmentum — visible at this level in lower diencephalon/midbrain transition)",
+          "quadrant": "Paramedian anterior",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "paramedian branches of basilar artery / PCA",
+          "clinical_pathway": "conjugate gaze — internuclear ophthalmoplegia if damaged (MLF lesion between PPRF-CN VI and CN III)",
+          "notes": null
+        },
+        {
+          "tract_name": "Hypothalamus (posterior region / tuber cinereum)",
+          "structure_type": "nucleus complex",
+          "zone": "Hypothalamus",
+          "quadrant": "Inferior midline",
+          "depth": "basal deep",
+          "somatotopy": null,
+          "vascular_territory": "posterior communicating artery perforators",
+          "clinical_pathway": "autonomic / neuroendocrine",
+          "notes": null
+        },
+        {
+          "tract_name": "Corticospinal / corticobulbar fibers (cerebral peduncle)",
+          "structure_type": "white matter tract",
+          "zone": "Cerebral peduncle / mesencephalon",
+          "quadrant": "Anterior",
+          "depth": "basal deep",
+          "somatotopy": "medial: face (corticobulbar); arm: middle; leg: lateral",
+          "vascular_territory": "posterior communicating perforators; PCA (P1)",
+          "clinical_pathway": "motor-Corticospinal + motor-Corticobulbar",
+          "notes": null
+        },
+        {
+          "tract_name": "Medial lemniscus (mid-mesencephalon)",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon tegmentum (lateral)",
+          "quadrant": "Lateral tegmentum",
+          "depth": "deep",
+          "somatotopy": "leg lateral/posterior, arm middle, face medial/anterior",
+          "vascular_territory": "long circumferential PCA branches",
+          "clinical_pathway": "sensory-Medial lemniscus (contralateral discriminative touch / proprioception)",
+          "notes": null
+        },
+        {
+          "tract_name": "Spinothalamic tract (mid-mesencephalon)",
+          "structure_type": "white matter tract",
+          "zone": "Mesencephalon tegmentum (lateral)",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": "leg posterior, arm middle, face anterior",
+          "vascular_territory": "long circumferential PCA",
+          "clinical_pathway": "sensory-Spinothalamic tract (pain and temperature from contralateral body)",
+          "notes": null
+        },
+        {
+          "tract_name": "Hippocampus (body)",
+          "structure_type": "allocortex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Posteromedial",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (anterior); PCA hippocampal branches (posterior)",
+          "clinical_pathway": "memory",
+          "notes": null
+        },
+        {
+          "tract_name": "Parahippocampal gyrus / entorhinal cortex",
+          "structure_type": "cortex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Medial temporal",
+          "depth": "cortical",
+          "somatotopy": null,
+          "vascular_territory": "PCA (posterior hippocampal branches)",
+          "clinical_pathway": "memory consolidation; Alzheimer disease early affected; olfactory input relay",
+          "notes": null
+        },
+        {
+          "tract_name": "Inferior fronto-occipital fasciculus (IFOF)",
+          "structure_type": "white matter association tract",
+          "zone": "Temporal-occipital white matter",
+          "quadrant": "Lateral temporal / deep to extreme capsule",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "MCA (temporal); PCA (occipital portion)",
+          "clinical_pathway": "semantic language network; frontal-occipital connections",
+          "notes": null
+        },
+        {
+          "tract_name": "Limen insulae / insular cortex",
+          "structure_type": "cortex",
+          "zone": "Insula",
+          "quadrant": "Lateral",
+          "depth": "deep to Sylvian fissure",
+          "somatotopy": null,
+          "vascular_territory": "MCA (insular branches)",
+          "clinical_pathway": "visceral sensation; pain; vestibular; language; autonomic",
+          "notes": null
+        },
+        {
+          "tract_name": "Pyriform (piriform) cortex",
+          "structure_type": "cortex (allocortex)",
+          "zone": "Anterior medial temporal / basal frontal",
+          "quadrant": "Anteromedial basal",
+          "depth": "cortical basal",
+          "somatotopy": null,
+          "vascular_territory": "MCA (anterior temporal); anterior choroidal",
+          "clinical_pathway": "olfactory cortex (primary); seizure propagation in TLE",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-09",
+      "figure": "6-37A",
+      "page": "p-35.jpg",
+      "level_name": "Forebrain — Amygdala / Temporal Horn Level (at inferior temporal lobe, amygdala, basal forebrain)",
+      "approximate_MNI_z": "-6 to -2",
+      "orientation": "Axial through amygdala and temporal horn of lateral ventricle; inferior basal ganglia level",
+      "tracts": [
+        {
+          "tract_name": "Amygdala (central, basolateral, cortical nuclei)",
+          "structure_type": "nucleus complex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Anteromedial temporal",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery; MCA anterior temporal branches",
+          "clinical_pathway": "fear/emotional processing; Kluver-Bucy syndrome if bilateral; TLE focus",
+          "notes": "Anterior to hippocampus at this level"
+        },
+        {
+          "tract_name": "Hippocampus (body)",
+          "structure_type": "allocortex",
+          "zone": "Medial temporal lobe",
+          "quadrant": "Posterior medial",
+          "depth": "deep medial temporal",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal (anterior); PCA hippocampal branches (posterior)",
+          "clinical_pathway": "declarative memory; episodic memory",
+          "notes": null
+        },
+        {
+          "tract_name": "Choroid plexus (temporal horn)",
+          "structure_type": "choroid plexus",
+          "zone": "Lateral ventricle temporal horn",
+          "quadrant": "Medial temporal",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal artery",
+          "clinical_pathway": "CSF production; anterior choroidal territory landmark",
+          "notes": null
+        },
+        {
+          "tract_name": "Lateral ventricle temporal horn",
+          "structure_type": "ventricle",
+          "zone": "Temporal lobe",
+          "quadrant": "Medial temporal",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "periventricular terminal zone",
+          "clinical_pathway": "CSF; enlarges in mesial temporal sclerosis (atrophy of hippocampus)",
+          "notes": null
+        },
+        {
+          "tract_name": "Meyer loop (anterior optic radiation)",
+          "structure_type": "white matter tract",
+          "zone": "Temporal lobe white matter (lateral and inferior to temporal horn)",
+          "quadrant": "Lateral temporal",
+          "depth": "deep",
+          "somatotopy": "upper retinal fibers (lower visual field) — most anterior loop",
+          "vascular_territory": "MCA (anterior temporal branches)",
+          "clinical_pathway": "optic radiation — Meyer loop carries superior visual field information; anterior temporal lobectomy → contralateral superior quadrantanopia ('pie in the sky')",
+          "notes": "Extends anteriorly to 3-5 cm from temporal pole before turning posteriorly toward calcarine"
+        },
+        {
+          "tract_name": "Inferior longitudinal fasciculus (ILF)",
+          "structure_type": "white matter association tract",
+          "zone": "Temporal white matter",
+          "quadrant": "Lateral temporal",
+          "depth": "intermediate",
+          "somatotopy": null,
+          "vascular_territory": "MCA (temporal); PCA (posterior occipital end)",
+          "clinical_pathway": "visual object recognition; prosopagnosia; semantic memory",
+          "notes": null
+        },
+        {
+          "tract_name": "Stria terminalis",
+          "structure_type": "white matter tract",
+          "zone": "Along thalamocaudate groove / temporal horn medial wall",
+          "quadrant": "Medial temporal",
+          "depth": "deep periventricular",
+          "somatotopy": null,
+          "vascular_territory": "anterior choroidal",
+          "clinical_pathway": "amygdala → hypothalamus / BNST (bed nucleus stria terminalis); anxiety and stress circuits",
+          "notes": null
+        },
+        {
+          "tract_name": "Olfactory tract / olfactory cortex",
+          "structure_type": "tract/cortex",
+          "zone": "Basal frontal / olfactory sulcus",
+          "quadrant": "Anterior inferior",
+          "depth": "cortical basal",
+          "somatotopy": null,
+          "vascular_territory": "ACA (olfactory artery from A1); MCA (anterior temporal)",
+          "clinical_pathway": "olfaction; anosmia with basal frontal damage",
+          "notes": null
+        },
+        {
+          "tract_name": "Corona radiata (lateral at this level)",
+          "structure_type": "white matter tract",
+          "zone": "Cerebral white matter",
+          "quadrant": "Lateral",
+          "depth": "intermediate",
+          "somatotopy": "face fibers inferior-lateral; arm superior; leg most superior-medial",
+          "vascular_territory": "MCA (lateral); ACA (medial)",
+          "clinical_pathway": "motor-Corticospinal; sensory thalamocortical",
+          "notes": null
+        },
+        {
+          "tract_name": "Claustrum",
+          "structure_type": "nucleus",
+          "zone": "Lateral to external capsule",
+          "quadrant": "Lateral",
+          "depth": "deep subcortical",
+          "somatotopy": null,
+          "vascular_territory": "MCA lenticulostriate / insular branches",
+          "clinical_pathway": "cortico-cortical integration (consciousness proposed)",
+          "notes": null
+        },
+        {
+          "tract_name": "External and extreme capsules",
+          "structure_type": "white matter",
+          "zone": "Lateral to putamen / claustrum",
+          "quadrant": "Lateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "vascular_territory": "MCA capsular/insular branches",
+          "clinical_pathway": "claustrocortical; language (extreme capsule — IFOF / uncinate passage)",
+          "notes": null
+        },
+        {
+          "tract_name": "Basilar / temporal cortex (fusiform gyrus, parahippocampal)",
+          "structure_type": "cortex",
+          "zone": "Inferior temporal lobe",
+          "quadrant": "Inferior temporal",
+          "depth": "cortical",
+          "somatotopy": null,
+          "vascular_territory": "PCA (posterior fusiform); MCA (anterior temporal fusiform)",
+          "clinical_pathway": "face recognition (fusiform face area); visual word form area; object recognition",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "level_id": "FB-10",
+      "figure": "6-38",
+      "page": "p-36.jpg",
+      "level_name": "Vascular Territory Map — Multiple Forebrain Levels (ACA / MCA / PCA / lenticulostriate / anterior choroidal territories)",
+      "approximate_MNI_z": "Multiple levels — composite illustration",
+      "orientation": "Composite axial diagram illustrating arterial territories across 3-4 forebrain levels (rostral to caudal)",
+      "notes": "This figure is specifically a vascular territory map — color-coded regions for each arterial territory at each forebrain level",
+      "vascular_territories": [
+        {
+          "territory_name": "Anterior cerebral artery (ACA)",
+          "color_code": "light blue / pale",
+          "structures_supplied": [
+            "Medial frontal cortex (paracentral lobule — leg area of M1 and S1)",
+            "Medial parietal cortex",
+            "Corpus callosum (pericallosal artery — body and splenium)",
+            "Medial corona radiata (leg fibers of corticospinal tract)",
+            "Anterior limb of internal capsule (medial portion — recurrent artery of Heubner)",
+            "Head of caudate nucleus (via Heubner)",
+            "Anterior hypothalamus",
+            "Cingulate gyrus (callosomarginal artery)"
+          ],
+          "clinical_syndromes": [
+            "ACA stroke: contralateral leg weakness > arm (paracentral lobule); abulia; urinary incontinence; alien hand (callosal involvement)",
+            "Heubner infarct: caudate head + anterior limb IC → mild contralateral weakness + behavioral changes"
+          ]
+        },
+        {
+          "territory_name": "Middle cerebral artery (MCA) — cortical branches",
+          "color_code": "yellow / medium",
+          "structures_supplied": [
+            "Lateral frontal cortex (inferior, middle frontal gyri — Broca area in dominant hemisphere)",
+            "Lateral temporal cortex (superior temporal gyrus — Wernicke area in dominant hemisphere)",
+            "Lateral parietal cortex (angular, supramarginal gyri)",
+            "Primary motor cortex (arm and face areas — precentral gyrus lateral)",
+            "Primary somatosensory cortex (arm and face — postcentral gyrus lateral)",
+            "Insula",
+            "Opercular cortex",
+            "Lateral occipital cortex (partial)"
+          ],
+          "clinical_syndromes": [
+            "Complete MCA: dense contralateral hemiplegia (arm > leg), hemisensory loss, hemianopia, aphasia (dominant) or neglect (non-dominant)",
+            "Superior division MCA: motor + Broca aphasia",
+            "Inferior division MCA: Wernicke aphasia + hemianopia"
+          ]
+        },
+        {
+          "territory_name": "MCA — lenticulostriate arteries (deep perforators)",
+          "color_code": "red / dark pink",
+          "structures_supplied": [
+            "Lateral lenticulostriate: putamen, GPe, anterior 2/3 of posterior limb of IC, anterior limb of IC (lateral portion), caudate body",
+            "Medial lenticulostriate: caudate head (medial), anterior limb IC (medial)",
+            "Corona radiata (lateral — arm fiber region)"
+          ],
+          "clinical_syndromes": [
+            "Lacunar infarct — posterior limb IC: pure motor hemiplegia (face+arm+leg equally affected)",
+            "Putaminal hemorrhage (hypertensive): contralateral hemiplegia, hemisensory loss, hemianopia",
+            "Lacunar infarct — anterior limb IC/caudate: mild motor + behavioral changes"
+          ]
+        },
+        {
+          "territory_name": "Anterior choroidal artery (AChA)",
+          "color_code": "orange",
+          "structures_supplied": [
+            "Posterior limb of internal capsule (posterior 1/3 — where thalamocortical sensory fibers travel)",
+            "Retrolenticular internal capsule (optic radiation beginning)",
+            "Sublenticular internal capsule (Meyer loop)",
+            "Globus pallidus interna (GPi)",
+            "Lateral geniculate nucleus (hilum / inferior portion)",
+            "Choroid plexus (temporal horn)",
+            "Anterior hippocampus (including CA1)",
+            "Amygdala (partial)",
+            "Tail of caudate nucleus (partial)",
+            "Optic tract (middle and posterior segments)",
+            "Uncus and parahippocampal gyrus (anterior)"
+          ],
+          "clinical_syndromes": [
+            "AChA syndrome (classic triad): contralateral hemiplegia (posterior limb IC motor fibers) + hemisensory loss + hemianopia (optic radiation / LGN)",
+            "Variable presentation due to extensive collaterals; may be partial",
+            "Anterior choroidal stroke: pure motor stroke if only posterior limb IC involved; LGN infarct: sectoranopia (wedge)"
+          ]
+        },
+        {
+          "territory_name": "Posterior cerebral artery (PCA)",
+          "color_code": "green / pale green",
+          "structures_supplied": [
+            "Primary visual cortex V1 (calcarine cortex) — entire cortical visual processing",
+            "Visual association cortex (V2, V3, V4, V5 in occipital and occipitotemporal cortex)",
+            "Inferior and medial temporal cortex (parahippocampal gyrus, fusiform gyrus posterior, lingual gyrus)",
+            "Posterior hippocampus (hippocampal branches)",
+            "Splenium of corpus callosum",
+            "Thalamic nuclei (thalamogeniculate arteries: VPL, VPM, pulvinar, centromedian)",
+            "Thalamoperforating arteries (posterior): mediodorsal thalamus, intralaminar nuclei, subthalamus, STN",
+            "Posterior choroidal artery: LGN (peripheral), MGN, pulvinar, posterior thalamus, choroid plexus (body/atrium)",
+            "Midbrain tegmentum (short and long circumferential branches)",
+            "Posterior hypothalamus (mammillary bodies via P1 perforators)"
+          ],
+          "clinical_syndromes": [
+            "PCA cortical: contralateral homonymous hemianopia (macular sparing common — macular cortex also MCA supplied)",
+            "PCA with thalamic: hemianopia + hemisensory loss (Dejerine-Roussy syndrome if thalamic pain)",
+            "Bilateral PCA: cortical blindness (Anton syndrome — denial of blindness)",
+            "P1 perforators: top-of-the-basilar syndrome — bilateral thalamic + midbrain infarct → coma, vertical gaze palsy",
+            "Posterior thalamic (thalamogeniculate): thalamic pain syndrome (Dejerine-Roussy)",
+            "Splenium + left occipital: alexia without agraphia (dominant hemisphere PCA)"
+          ]
+        },
+        {
+          "territory_name": "Posterior communicating artery (PComm) perforators",
+          "color_code": "overlap with PCA/AChA zones",
+          "structures_supplied": [
+            "Anterior thalamus (polar artery — thalamotuberal artery: anterior thalamus, mammillothalamic tract)",
+            "Posterior hypothalamus (tuberal branches)",
+            "Subthalamus (anterior STN zone)"
+          ],
+          "clinical_syndromes": [
+            "Bilateral polar artery infarcts (from single thalamotuberal artery arising from one PComm): severe anterograde amnesia (Korsakoff-like without alcohol history — 'strategic infarct amnesia')"
+          ]
+        },
+        {
+          "tract_name": "Watershed zones (ACA-MCA and MCA-PCA)",
+          "zone": "Parasagittal cortex and posterior parieto-occipital cortex",
+          "quadrant": "Medial parasagittal (ACA-MCA); posterior parieto-occipital (MCA-PCA)",
+          "depth": "cortical and subcortical",
+          "somatotopy": "ACA-MCA watershed: shoulder/arm area (proximal limb weakness in hypoperfusion — 'man in a barrel')",
+          "vascular_territory": "watershed / border zone",
+          "clinical_pathway": "vulnerable to hypoperfusion — border zone infarcts; proximal arm and leg weakness with face/hand sparing (ACA-MCA); visual dysfunction (MCA-PCA)",
+          "notes": "Visible on p-36 as transition zones between colored vascular territories"
+        }
+      ],
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract — forebrain full course",
+          "structure_type": "white matter tract",
+          "zone": "Motor cortex → corona radiata → internal capsule → cerebral peduncle",
+          "quadrant": "variable by level",
+          "depth": "deep",
+          "somatotopy": "face lateral/genu; arm anterior posterior limb; leg posterior in posterior limb; in corona radiata: leg medial, arm middle, face lateral",
+          "vascular_territory": "cortex: MCA (arm/face) + ACA (leg); corona radiata: MCA (lateral) + ACA (medial); IC posterior limb: lenticulostriate (anterior 2/3) + AChA (posterior 1/3); peduncle: posterior communicating + PCA",
+          "clinical_pathway": "motor-Corticospinal tract — complete map across all forebrain levels shown",
+          "notes": "Single artery (lenticulostriate or AChA) occlusion in posterior limb IC can produce maximal motor deficit equal to entire MCA cortical territory"
+        },
+        {
+          "tract_name": "Sensory pathway (medial lemniscus + thalamocortical) — forebrain",
+          "structure_type": "white matter tract",
+          "zone": "Thalamus VPL → posterior limb IC → corona radiata → postcentral gyrus",
+          "quadrant": "Posterior",
+          "depth": "deep",
+          "somatotopy": "VPL: leg lateral, arm middle, face medial → posterior limb IC: similar arrangement → S1 postcentral",
+          "vascular_territory": "VPL: thalamogeniculate (PCA); posterior limb IC (sensory portion): AChA; corona radiata: MCA; S1 cortex: MCA (arm/face) + ACA (leg)",
+          "clinical_pathway": "sensory-Medial lemniscus (discriminative touch / proprioception) — thalamocortical portion",
+          "notes": null
+        },
+        {
+          "tract_name": "Visual pathway — forebrain",
+          "structure_type": "white matter tract",
+          "zone": "Optic tract → LGN → optic radiation → V1",
+          "quadrant": "Posterolateral to medial occipital",
+          "depth": "deep",
+          "somatotopy": "lower retina/upper field superior (parietal loop); upper retina/lower field inferior (Meyer loop temporal); macular central",
+          "vascular_territory": "optic tract: AChA; LGN: AChA (hilum) + posterior choroidal (peripheral); Meyer loop: MCA (anterior temporal); parietal loop: MCA posterior parietal; calcarine V1: PCA",
+          "clinical_pathway": "optic tract/radiation — visual field deficits map predictably to lesion location",
+          "notes": "Macular sparing in PCA occipital infarct because macular V1 has dual supply (MCA + PCA)"
+        }
+      ]
+    }
+  ],
+  "internal_capsule_summary": {
+    "description": "Detailed somatotopic and vascular map of the internal capsule — synthesized across all forebrain sections",
+    "segments": [
+      {
+        "segment": "Anterior limb",
+        "contents": [
+          "Frontopontine fibers (lateral)",
+          "Anterior thalamic radiation (prefrontal ↔ thalamus MD/AN)",
+          "Thalamocortical fibers for prefrontal cortex"
+        ],
+        "somatotopy": "No strict motor somatotopy; frontopontine fibers lateral, thalamic radiations medial",
+        "vascular_territory": "Medial lenticulostriate (from MCA M1); lateral lenticulostriate (from MCA M1)",
+        "clinical": "Lacunar infarct: mild contralateral weakness + personality/behavioral changes; often subclinical"
+      },
+      {
+        "segment": "Genu",
+        "contents": [
+          "Corticobulbar fibers (face representation — bilateral for most cranial nerves, contralateral for lower face VII)"
+        ],
+        "somatotopy": "Face / head — corticobulbar for CN VII (lower face contralateral), IX, X, XI, XII",
+        "vascular_territory": "Lenticulostriate arteries (primarily lateral)",
+        "clinical": "Genu lacune: contralateral central facial weakness; if bilateral: pseudobulbar palsy (dysarthria, dysphagia, emotional lability)"
+      },
+      {
+        "segment": "Posterior limb — anterior third",
+        "contents": [
+          "Corticospinal (arm fibers — primary)",
+          "Corticobulbar (face, transitioning from genu)"
+        ],
+        "somatotopy": "Face (genu junction) → arm (primary location for arm corticospinal)",
+        "vascular_territory": "Lateral lenticulostriate arteries (MCA)",
+        "clinical": "Lacunar infarct: contralateral face+arm weakness (pure motor stroke)"
+      },
+      {
+        "segment": "Posterior limb — middle third",
+        "contents": [
+          "Corticospinal (arm and leg fibers — most concentrated motor fibers)",
+          "Most critical motor segment"
+        ],
+        "somatotopy": "Arm (anterior) → leg (posterior)",
+        "vascular_territory": "Lateral lenticulostriate arteries (MCA) — anterior; junction with AChA posteriorly",
+        "clinical": "Densest lacunar pure motor stroke location; small (<15mm) infarct = complete contralateral hemiplegia"
+      },
+      {
+        "segment": "Posterior limb — posterior third",
+        "contents": [
+          "Thalamocortical fibers (VPL/VPM → somatosensory cortex)",
+          "Posterior thalamic radiation"
+        ],
+        "somatotopy": "Somatosensory somatotopy (leg posterior, face anterior)",
+        "vascular_territory": "Anterior choroidal artery",
+        "clinical": "AChA infarct: hemiplegia + hemisensory loss; thalamocortical involvement adds sensory component"
+      },
+      {
+        "segment": "Retrolenticular part",
+        "contents": [
+          "Optic radiation (posterior thalamic / LGN → V1)",
+          "Posterior thalamic radiation (parietotemporal fibers)"
+        ],
+        "somatotopy": "Upper visual field inferior (Meyer loop); lower visual field superior (parietal loop); macular central",
+        "vascular_territory": "Anterior choroidal artery (predominantly); PCA posterior choroidal (contribution)",
+        "clinical": "AChA infarct: adds homonymous hemianopia to classic triad"
+      },
+      {
+        "segment": "Sublenticular part",
+        "contents": [
+          "Meyer loop of optic radiation (anterior loop through temporal lobe)",
+          "Temporopontine fibers",
+          "Auditory radiation (inferior)"
+        ],
+        "somatotopy": "Upper retinal fibers (lower visual field) — most anterior Meyer loop",
+        "vascular_territory": "Anterior choroidal artery; MCA (anterior temporal branches)",
+        "clinical": "Temporal lobectomy for epilepsy removes Meyer loop → contralateral superior quadrantanopia ('pie in the sky')"
+      }
+    ]
+  },
+  "thalamic_nuclei_summary": {
+    "description": "Thalamic nuclei visible across forebrain sections — with clinical correlations",
+    "nuclei": [
+      {
+        "nucleus": "Ventral posterolateral (VPL)",
+        "sensory_modality": "Contralateral body: discriminative touch, proprioception (medial lemniscus), pain/temperature (spinothalamic)",
+        "somatotopy": "Leg lateral, arm central, face medial",
+        "projection": "Primary somatosensory cortex S1 (postcentral gyrus, areas 3a/3b/1/2)",
+        "vascular_territory": "Thalamogeniculate arteries (PCA)",
+        "clinical": "VPL infarct: contralateral hemisensory loss; may develop into thalamic pain (Dejerine-Roussy syndrome)"
+      },
+      {
+        "nucleus": "Ventral posteromedial (VPM)",
+        "sensory_modality": "Contralateral face: all modalities via trigeminal lemniscus",
+        "somatotopy": "Face; oral cavity; taste",
+        "projection": "S1 face area (inferior postcentral gyrus); also gustatory cortex",
+        "vascular_territory": "Thalamoperforating arteries (posterior communicating/PCA)",
+        "clinical": "VPM infarct: contralateral facial sensory loss; combined VPL+VPM → pure sensory stroke"
+      },
+      {
+        "nucleus": "Ventral lateral (VL) — anterior (VLa) and posterior (VLp)",
+        "sensory_modality": "Motor relay (not sensory); VLa: basal ganglia input; VLp: cerebellar input",
+        "somatotopy": "Leg lateral, arm medial (approximate)",
+        "projection": "Primary motor cortex M1 (precentral gyrus); premotor cortex",
+        "vascular_territory": "Thalamogeniculate / thalamoperforating arteries",
+        "clinical": "VLp: DBS target for essential tremor; VLa: related to pallidal circuit"
+      },
+      {
+        "nucleus": "Mediodorsal (MD)",
+        "sensory_modality": "Prefrontal / limbic relay",
+        "somatotopy": null,
+        "projection": "Prefrontal cortex (dorsolateral and medial)",
+        "vascular_territory": "Thalamoperforating arteries (paramedian from PCA or posterior communicating)",
+        "clinical": "Bilateral MD infarct: severe amnesia, apathy (Korsakoff-like); paramedian thalamic syndrome"
+      },
+      {
+        "nucleus": "Anterior nucleus (AN)",
+        "sensory_modality": "Limbic / memory relay",
+        "somatotopy": null,
+        "projection": "Cingulate cortex (anterior cingulate)",
+        "vascular_territory": "Polar artery (thalamotuberal — from posterior communicating)",
+        "clinical": "Papez circuit relay; AN stimulation used for treatment-resistant epilepsy (SANTE trial)"
+      },
+      {
+        "nucleus": "Lateral geniculate (LGN)",
+        "sensory_modality": "Vision",
+        "somatotopy": "Retinotopic (6 laminae; upper field medial, lower field lateral)",
+        "projection": "Primary visual cortex V1 (calcarine cortex) via optic radiation",
+        "vascular_territory": "Anterior choroidal (hilum, ~25%) + posterior lateral choroidal (~75%)",
+        "clinical": "LGN infarct: characteristic sectoranopia (wedge-shaped scotoma); pie-in-the-sky or pie-on-the-floor depending on which blood supply affected"
+      },
+      {
+        "nucleus": "Medial geniculate (MGN)",
+        "sensory_modality": "Hearing",
+        "somatotopy": "Tonotopic",
+        "projection": "Primary auditory cortex (Heschl gyri, superior temporal plane)",
+        "vascular_territory": "Thalamogeniculate branches of PCA",
+        "clinical": "MGN infarct: rarely causes clinically evident hearing loss (bilateral cortical representation)"
+      },
+      {
+        "nucleus": "Pulvinar",
+        "sensory_modality": "Visual association / multimodal",
+        "somatotopy": "Retinotopic in visual pulvinar",
+        "projection": "Visual association cortex (V4, V5); parietal cortex; temporal cortex",
+        "vascular_territory": "Posterior choroidal artery; PCA branches",
+        "clinical": "Pulvinar involvement in fatal familial insomnia; large posterior thalamic strokes affect spatial attention"
+      }
+    ]
+  },
+  "basal_ganglia_summary": {
+    "circuits": [
+      {
+        "circuit": "Direct pathway",
+        "pathway": "Striatum (D1 MSN) → GPi/SNr → (inhibits) VL thalamus → motor cortex",
+        "effect": "Facilitates movement (removes inhibition on thalamus)",
+        "relevant_nuclei": "Caudate, putamen, GPi, VL thalamus",
+        "clinical": "Underactive in Parkinson (loss of dopaminergic D1 stimulation)"
+      },
+      {
+        "circuit": "Indirect pathway",
+        "pathway": "Striatum (D2 MSN) → GPe → STN → GPi/SNr → VL thalamus → motor cortex",
+        "effect": "Suppresses movement (increases inhibition on thalamus)",
+        "relevant_nuclei": "Caudate, putamen, GPe, STN, GPi, VL thalamus",
+        "clinical": "Hyperactive in Parkinson (dopaminergic D2 disinhibition); STN lesion → hemiballismus"
+      }
+    ],
+    "vascular_territories_basal_ganglia": {
+      "caudate_head": "Recurrent artery of Heubner (ACA) + medial lenticulostriate (MCA)",
+      "caudate_body_tail": "Lateral lenticulostriate (body) + anterior choroidal (tail)",
+      "putamen": "Lateral lenticulostriate arteries (MCA) — primary supply",
+      "GPe": "Lateral lenticulostriate arteries",
+      "GPi": "Anterior choroidal artery (primary) + lenticulostriate (secondary)",
+      "STN": "Thalamoperforating arteries (posterior communicating/PCA)"
+    }
+  }
+}

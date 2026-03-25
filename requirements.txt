@@ -1,0 +1,4 @@
+PyQt6>=6.6.0
+SQLAlchemy>=2.0
+sqlalchemy-utils>=0.41
+psycopg2-binary>=2.9

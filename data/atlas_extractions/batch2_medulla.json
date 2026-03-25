@@ -1,0 +1,1040 @@
+{
+  "_metadata": {
+    "batch": 2,
+    "region": "Medulla Oblongata",
+    "source": "Haines Neuroanatomy Atlas 8th Edition, Chapter 6",
+    "pages": ["p-06.jpg", "p-07.jpg", "p-08.jpg", "p-09.jpg", "p-10.jpg", "p-11.jpg", "p-12.jpg"],
+    "extraction_date": "2026-03-25",
+    "notes": "Each figure shows a cross-section at a specific medullary level, from caudal (pyramidal decussation) to rostral (pontomedullary junction). The medulla is divided into: basis (pyramid), tegmentum (everything dorsal to pyramid), and tectum (4th ventricle roof structures). p-12 is a summary figure showing arterial territories and clinical syndrome zones across multiple levels."
+  },
+
+  "anatomical_levels": [
+    {
+      "level_id": "MED-01",
+      "figure": "6-5A",
+      "page": "p-06.jpg",
+      "level_name": "Caudal Medulla - Pyramidal Decussation",
+      "description": "Cross-section at the level of the pyramidal (motor) decussation. The corticospinal fibers are crossing from the ventromedial pyramid to the contralateral lateral funiculus. Nucleus gracilis and nucleus cuneatus are prominent dorsally. The spinal trigeminal tract and nucleus are visible laterally. This is the cervicomedullary junction zone.",
+      "tracts": [
+        {
+          "tract_name": "Pyramidal decussation (corticospinal tract crossing)",
+          "system": "motor-descending",
+          "zone": "ventromedial medulla, decussating fibers crossing midline",
+          "quadrant": "ventral-medial",
+          "depth": "mid to deep",
+          "somatotopy": "upper limb fibers decussate more rostrally, lower limb fibers more caudally",
+          "color_in_atlas": "green (hatched crossing pattern)",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "The decussation of pyramids. Arm fibers cross rostral to leg fibers. A cruciate paralysis pattern (arms > legs or legs > arms) results from partial lesions here."
+        },
+        {
+          "tract_name": "Nucleus gracilis",
+          "system": "sensory relay nucleus",
+          "zone": "dorsomedial medulla, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subpial)",
+          "somatotopy": "lower extremity proprioception and vibration",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+          "notes": "Second-order neuron for fasciculus gracilis. Located just deep to the dorsal surface at the midline."
+        },
+        {
+          "tract_name": "Nucleus cuneatus",
+          "system": "sensory relay nucleus",
+          "zone": "dorsolateral medulla, lateral to nucleus gracilis",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial",
+          "somatotopy": "upper extremity proprioception and vibration",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus-Hand>leg",
+          "notes": "Second-order neuron for fasciculus cuneatus. Located lateral to nucleus gracilis."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral medulla, surface",
+          "quadrant": "lateral (surface)",
+          "depth": "superficial",
+          "somatotopy": "ipsilateral face pain/temperature (onion-skin distribution: perioral = rostral pars oralis, peripheral = caudal pars caudalis)",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "The tract is on the surface; the nucleus (pars caudalis at this level) is deep to it. Continuation of Lissauer's tract equivalent for trigeminal system."
+        },
+        {
+          "tract_name": "Spinal trigeminal nucleus (pars caudalis)",
+          "system": "sensory relay nucleus",
+          "zone": "lateral medulla, deep to spinal trigeminal tract",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "ipsilateral face pain/temperature",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "Resembles the substantia gelatinosa of the spinal cord. Pars caudalis extends from obex down to C2-C3. Important in Wallenberg syndrome."
+        },
+        {
+          "tract_name": "Lateral corticospinal tract (post-decussation)",
+          "system": "motor-descending",
+          "zone": "lateral funiculus (below decussation level)",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "arm medial, leg lateral",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Below the level of decussation, some fibers are already in the lateral funiculus."
+        },
+        {
+          "tract_name": "Spinothalamic tract (anterolateral system)",
+          "system": "sensory-ascending",
+          "zone": "anterolateral medulla, surface",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "somatotopy": "sacral fibers lateral, cervical fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Continuous from spinal cord. Lies on the lateral/anterolateral surface of the medulla at this level."
+        },
+        {
+          "tract_name": "Anterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral surface, ventral to spinal trigeminal tract",
+          "quadrant": "lateral-ventral (surface)",
+          "depth": "surface",
+          "somatotopy": "proprioception to cerebellum",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Continues rostrally on the lateral surface. Will enter cerebellum via superior cerebellar peduncle at pons level."
+        },
+        {
+          "tract_name": "Posterior spinocerebellar tract",
+          "system": "sensory-ascending (cerebellar)",
+          "zone": "lateral surface, dorsal portion, joining inferior cerebellar peduncle",
+          "quadrant": "lateral-dorsal (surface)",
+          "depth": "surface",
+          "somatotopy": "ipsilateral proprioception",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "At this level begins to aggregate with other fibers forming the inferior cerebellar peduncle (restiform body)."
+        },
+        {
+          "tract_name": "Central gray / reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum, surrounding central canal",
+          "quadrant": "central (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Contains autonomic and respiratory neurons. Continuous with spinal cord central gray."
+        },
+        {
+          "tract_name": "Descending sympathetic fibers",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum, lateral reticular formation",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "Descending from hypothalamus through lateral brainstem tegmentum. Damage here causes ipsilateral Horner syndrome. Located in the PICA vascular territory."
+        },
+        {
+          "tract_name": "Accessory cuneate nucleus",
+          "system": "sensory relay (cerebellar)",
+          "zone": "lateral to cuneate nucleus",
+          "quadrant": "lateral-dorsal",
+          "depth": "mid",
+          "somatotopy": "upper limb proprioception to cerebellum",
+          "color_in_atlas": "blue tinted",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Equivalent of Clarke's nucleus for upper limb. Relays proprioception to cerebellum via inferior cerebellar peduncle. Only present at cervicomedullary junction and caudal medulla levels."
+        }
+      ],
+      "vascular_territories": {
+        "anterior_spinal_artery": ["pyramidal decussation", "anterior median area"],
+        "vertebral_artery_branches": ["anterolateral medulla"],
+        "PICA": ["lateral tegmentum", "spinal trigeminal area", "spinocerebellar tracts", "descending sympathetic fibers"],
+        "posterior_spinal_artery": ["nucleus gracilis", "nucleus cuneatus", "dorsal surface"]
+      }
+    },
+    {
+      "level_id": "MED-02",
+      "figure": "6-5B",
+      "page": "p-07.jpg",
+      "level_name": "Caudal Medulla - Sensory Decussation (Internal Arcuate Fibers)",
+      "description": "Cross-section at the level of the sensory decussation. Internal arcuate fibers from nucleus gracilis and cuneatus sweep ventromedially, cross the midline, and form the medial lemniscus. The pyramid is now fully formed ventrally. The hypoglossal nucleus appears dorsally near the floor of the 4th ventricle. The dorsal motor nucleus of vagus is visible. Inferior olivary nucleus is beginning to appear.",
+      "tracts": [
+        {
+          "tract_name": "Internal arcuate fibers / Sensory decussation",
+          "system": "sensory-ascending (crossing)",
+          "zone": "central medulla, sweeping from dorsolateral to ventromedial, crossing midline",
+          "quadrant": "traversing dorsal-lateral to ventral-medial",
+          "depth": "deep (crossing through tegmentum)",
+          "somatotopy": "gracile (leg) and cuneate (arm) fibers crossing together",
+          "color_in_atlas": "blue (arching fibers)",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "The great sensory decussation. After crossing, fibers form the medial lemniscus. A midline lesion here causes bilateral proprioception/vibration loss."
+        },
+        {
+          "tract_name": "Medial lemniscus (newly formed)",
+          "system": "sensory-ascending",
+          "zone": "paramedian, dorsal to pyramid, vertical orientation",
+          "quadrant": "ventral-medial",
+          "depth": "deep",
+          "somatotopy": "at this level: leg ventral, arm dorsal (will rotate as it ascends)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "Just formed after sensory decussation. Oriented vertically (parasagittal) at this level. In ASA / medial medullary territory."
+        },
+        {
+          "tract_name": "Pyramid (corticospinal tract)",
+          "system": "motor-descending",
+          "zone": "ventromedial medulla, basis",
+          "quadrant": "ventral-medial",
+          "depth": "superficial (ventral surface)",
+          "somatotopy": "face lateral, arm intermediate, leg medial (at medullary pyramid level)",
+          "color_in_atlas": "green/gray",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "The fully formed pyramid. Contains corticospinal and corticobulbar fibers. Visible as the prominent ventral bulge. Supplied by vertebral artery / ASA branches."
+        },
+        {
+          "tract_name": "Hypoglossal nucleus (CN XII)",
+          "system": "motor nucleus - cranial nerve",
+          "zone": "dorsomedial tegmentum, floor of 4th ventricle, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subependymal, near 4th ventricle floor)",
+          "somatotopy": "tongue muscles (ipsilateral)",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Corticobulbar tract-12",
+          "notes": "Located in the hypoglossal trigone on the floor of the 4th ventricle. A medial structure — involved in medial medullary (Dejerine) syndrome when CN XII root is affected."
+        },
+        {
+          "tract_name": "Hypoglossal nerve root fibers (CN XII)",
+          "system": "motor root fibers",
+          "zone": "traversing ventromedially from hypoglossal nucleus, exiting between pyramid and olive",
+          "quadrant": "ventral-medial (exit zone)",
+          "depth": "deep to superficial (traversing)",
+          "somatotopy": "tongue (ipsilateral)",
+          "color_in_atlas": "green lines",
+          "clinical_pathway": "motor-Corticobulbar tract-12",
+          "notes": "Root fibers pass ventromedially through the tegmentum, past the medial lemniscus, to exit between pyramid and olive. Damage here causes ipsilateral tongue weakness with deviation toward the lesion."
+        },
+        {
+          "tract_name": "Dorsal motor nucleus of vagus (CN X)",
+          "system": "autonomic motor nucleus",
+          "zone": "dorsal tegmentum, lateral to hypoglossal nucleus",
+          "quadrant": "dorsal-lateral (relative to hypoglossal N.)",
+          "depth": "superficial (subependymal)",
+          "somatotopy": null,
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "CN9-CN10 nuclei",
+          "notes": "Parasympathetic motor nucleus. Supplies thoracic and abdominal viscera via vagus nerve. Located in the vagal trigone of the 4th ventricle floor."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus",
+          "system": "sensory-visceral/taste",
+          "zone": "dorsolateral tegmentum, lateral to dorsal motor nucleus of vagus",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": "rostral: taste (CN VII, IX); caudal: visceral sensation (CN IX, X)",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "The tract surrounds the nucleus. At this caudal level, primarily involved in visceral sensation (cardiorespiratory reflexes). In PICA territory."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral medulla, surface layer (tract) with nucleus deep to it",
+          "quadrant": "lateral",
+          "depth": "superficial (tract) to mid (nucleus)",
+          "somatotopy": "ipsilateral face pain/temperature",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "Still at pars caudalis level. The tract is a surface landmark on the lateral medulla."
+        },
+        {
+          "tract_name": "Spinothalamic tract (anterolateral system)",
+          "system": "sensory-ascending",
+          "zone": "anterolateral medulla, between olive and spinal trigeminal tract",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial to mid",
+          "somatotopy": "contralateral pain/temperature",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Located in the lateral medulla. In the territory of PICA/vertebral artery. Affected in lateral medullary syndrome."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (restiform body) - forming",
+          "system": "cerebellar afferent",
+          "zone": "dorsolateral medulla, aggregating fibers",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue-green",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Contains posterior spinocerebellar tract, cuneocerebellar fibers, olivocerebellar fibers (climbing fibers). Building up at this level, will become prominent more rostrally."
+        },
+        {
+          "tract_name": "MLF (medial longitudinal fasciculus)",
+          "system": "integrative / vestibular-oculomotor",
+          "zone": "dorsomedial tegmentum, paramedian, ventral to 4th ventricle floor",
+          "quadrant": "dorsal-medial",
+          "depth": "mid (just deep to ependyma)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF",
+          "notes": "Located adjacent to the midline, just ventral to the floor of the 4th ventricle. Carries vestibular projections to oculomotor nuclei and descending fibers for head/neck coordination."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum, between olive and 4th ventricle floor",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically delineated",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Occupies the core of the tegmentum. Contains respiratory, cardiovascular, and arousal centers."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum, near spinal trigeminal complex",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "Runs through lateral tegmentum. In PICA territory. Damage causes Horner syndrome (Wallenberg)."
+        },
+        {
+          "tract_name": "Inferior olivary nucleus (beginning to appear)",
+          "system": "relay nucleus (cerebellar)",
+          "zone": "ventrolateral tegmentum",
+          "quadrant": "ventral-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined (folded structure)",
+          "clinical_pathway": null,
+          "notes": "The inferior olive is beginning to appear at this level. It will become the dominant landmark of the mid-medulla. Relays motor information to cerebellum via climbing fibers through inferior cerebellar peduncle."
+        }
+      ],
+      "vascular_territories": {
+        "anterior_spinal_artery": ["pyramid", "medial lemniscus", "hypoglossal nerve root fibers (traversing portion)"],
+        "vertebral_artery_paramedian_branches": ["medial lemniscus", "hypoglossal nucleus", "MLF"],
+        "PICA": ["lateral tegmentum", "spinal trigeminal tract/nucleus", "spinothalamic tract", "solitary tract/nucleus", "dorsal motor nucleus of vagus", "descending sympathetic pathway", "inferior cerebellar peduncle"],
+        "posterior_spinal_artery": ["dorsal surface structures near 4th ventricle"]
+      }
+    },
+    {
+      "level_id": "MED-03",
+      "figure": "6-5C",
+      "page": "p-08.jpg",
+      "level_name": "Mid-Medulla - Inferior Olivary Nucleus and Hypoglossal Nucleus",
+      "description": "Cross-section at the mid-medulla level. The inferior olivary nucleus is now a prominent folded (corrugated) structure in the ventrolateral tegmentum. The medial lemniscus is a well-defined vertical band paramedian, dorsal to the pyramid. The hypoglossal nucleus and nerve root are visible. The dorsal motor nucleus of vagus and the nucleus ambiguus are present. The 4th ventricle is open dorsally.",
+      "tracts": [
+        {
+          "tract_name": "Pyramid (corticospinal tract)",
+          "system": "motor-descending",
+          "zone": "ventromedial medulla, basis",
+          "quadrant": "ventral-medial",
+          "depth": "superficial (ventral surface)",
+          "somatotopy": "contains corticospinal and corticobulbar fibers",
+          "color_in_atlas": "gray/green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Well-defined at this level. Bordered laterally by the inferior olive. ASA/vertebral territory."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "paramedian, dorsal to pyramid, oriented vertically",
+          "quadrant": "ventral-medial",
+          "depth": "deep",
+          "somatotopy": "leg ventral, arm dorsal",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "Vertically oriented parasagittal band between pyramid and tegmentum. In the medial medullary territory (ASA/vertebral). Key structure in Dejerine syndrome."
+        },
+        {
+          "tract_name": "Inferior olivary nucleus",
+          "system": "cerebellar relay nucleus",
+          "zone": "ventrolateral tegmentum, large folded/corrugated structure",
+          "quadrant": "ventral-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined with folds",
+          "clinical_pathway": null,
+          "notes": "Prominent landmark of the mid-medulla. Olivocerebellar fibers cross midline and enter inferior cerebellar peduncle. The hilum faces medially. Palatal myoclonus results from lesions in the Guillain-Mollaret triangle (dentate-red nucleus-inferior olive)."
+        },
+        {
+          "tract_name": "Hypoglossal nucleus (CN XII)",
+          "system": "motor nucleus",
+          "zone": "dorsomedial tegmentum, paramedian, floor of 4th ventricle",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subependymal)",
+          "somatotopy": "tongue (ipsilateral)",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Corticobulbar tract-12",
+          "notes": "In the hypoglossal trigone. Medial structure. Its root fibers traverse ventromedially between the olive and the pyramid."
+        },
+        {
+          "tract_name": "Dorsal motor nucleus of vagus",
+          "system": "autonomic motor nucleus (parasympathetic)",
+          "zone": "dorsal tegmentum, lateral to hypoglossal nucleus, vagal trigone",
+          "quadrant": "dorsal (slightly lateral to midline)",
+          "depth": "superficial (subependymal)",
+          "somatotopy": null,
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "CN9-CN10 nuclei",
+          "notes": "Parasympathetic preganglionic neurons for viscera. Located in the vagal trigone of 4th ventricle floor."
+        },
+        {
+          "tract_name": "Nucleus ambiguus",
+          "system": "motor nucleus (branchial/special visceral efferent)",
+          "zone": "lateral tegmentum, deep within reticular formation",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "CN9-CN10 nuclei",
+          "notes": "Motor nucleus for CN IX, X, and cranial root of XI. Supplies pharynx, larynx, and upper esophagus. Located deep in the lateral reticular formation. In PICA territory. Damage causes dysphagia and hoarseness (Wallenberg syndrome)."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus",
+          "system": "sensory-visceral/taste",
+          "zone": "dorsolateral tegmentum",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": "taste (rostral) and visceral sensation (caudal)",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "At this level, both taste and visceral sensory components are present. In PICA territory."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus (pars interpolaris)",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral medulla, surface (tract) and deep (nucleus)",
+          "quadrant": "lateral",
+          "depth": "superficial (tract) to mid (nucleus)",
+          "somatotopy": "ipsilateral face pain/temperature and dental pain",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "At this level, the nucleus transitions from pars caudalis to pars interpolaris. Pars interpolaris is particularly important for dental pain referral patterns."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral medulla, between inferior olive and spinal trigeminal tract",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "contralateral pain/temperature",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "In the lateral medulla. Overlapping territory of PICA and vertebral artery. Affected in Wallenberg syndrome."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (restiform body)",
+          "system": "cerebellar afferent bundle",
+          "zone": "dorsolateral medulla, prominent bundle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue/green",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "Now a well-formed bundle containing posterior spinocerebellar, cuneocerebellar, and olivocerebellar fibers. Damage causes ipsilateral cerebellar ataxia (Wallenberg). PICA territory."
+        },
+        {
+          "tract_name": "MLF (medial longitudinal fasciculus)",
+          "system": "integrative",
+          "zone": "dorsomedial tegmentum, paramedian, ventral to 4th ventricle floor",
+          "quadrant": "dorsal-medial",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF",
+          "notes": "Paramedian location near 4th ventricle. Carries descending vestibulospinal connections and ascending vestibulo-oculomotor connections."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum, large area between olive and 4th ventricle floor",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not delineated",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Extensive at this level. Contains lateral and medial reticular nuclei. Involved in respiratory rhythm generation, cardiovascular regulation, swallowing."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum, dorsolateral to inferior olive",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "In the lateral tegmentum, near nucleus ambiguus and spinal trigeminal complex. PICA territory. Wallenberg syndrome causes Horner."
+        },
+        {
+          "tract_name": "Medial accessory olivary nucleus",
+          "system": "cerebellar relay",
+          "zone": "medial to the main inferior olivary nucleus",
+          "quadrant": "ventral-medial (lateral to pyramid)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Part of the olivary complex. Sends climbing fibers to cerebellum."
+        },
+        {
+          "tract_name": "Dorsal accessory olivary nucleus",
+          "system": "cerebellar relay",
+          "zone": "dorsal to the main inferior olivary nucleus",
+          "quadrant": "lateral (dorsal aspect of olive)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Part of the olivary complex."
+        },
+        {
+          "tract_name": "Raphe nuclei",
+          "system": "modulatory (serotonergic)",
+          "zone": "midline tegmentum",
+          "quadrant": "medial (midline)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically marked",
+          "clinical_pathway": null,
+          "notes": "Serotonergic neurons in the midline raphe. Part of the descending pain modulation system."
+        }
+      ],
+      "vascular_territories": {
+        "anterior_spinal_artery_vertebral_branches": ["pyramid", "medial lemniscus", "hypoglossal nerve root (traversing)", "medial accessory olivary nucleus"],
+        "vertebral_artery_short_circumferential": ["inferior olivary nucleus (medial portion)", "pyramid (lateral portion)"],
+        "PICA_vertebral_long_circumferential": ["lateral tegmentum", "spinal trigeminal tract/nucleus", "spinothalamic tract", "nucleus ambiguus", "solitary tract/nucleus", "descending sympathetic pathway", "inferior cerebellar peduncle", "dorsal motor nucleus of vagus"],
+        "PICA_medial_branch": ["dorsal medulla near 4th ventricle floor", "hypoglossal nucleus area"]
+      }
+    },
+    {
+      "level_id": "MED-04",
+      "figure": "6-5D/E",
+      "page": "p-09.jpg",
+      "level_name": "Mid-Rostral Medulla - Vagal Level / Full Inferior Olive",
+      "description": "Cross-section at the level where the inferior olivary nucleus is at its maximum extent. The 4th ventricle is wide open with the choroid plexus laterally. Vagal structures (dorsal motor nucleus, nucleus ambiguus, solitary nucleus) are all prominent. The inferior cerebellar peduncle is large. Cerebellar tissue visible dorsally (vermis and tonsils flanking the 4th ventricle).",
+      "tracts": [
+        {
+          "tract_name": "Pyramid (corticospinal tract)",
+          "system": "motor-descending",
+          "zone": "ventromedial medulla, basis",
+          "quadrant": "ventral-medial",
+          "depth": "superficial",
+          "somatotopy": "corticospinal + corticobulbar fibers",
+          "color_in_atlas": "gray/green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Stable location through the medulla. Flanked by the inferior olive laterally."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "paramedian, dorsal to pyramid",
+          "quadrant": "ventral-medial",
+          "depth": "deep",
+          "somatotopy": "leg ventral, arm dorsal (beginning to rotate)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "Still vertical parasagittal orientation but beginning to rotate toward horizontal as it ascends toward pons."
+        },
+        {
+          "tract_name": "Inferior olivary nucleus (maximum extent)",
+          "system": "cerebellar relay",
+          "zone": "ventrolateral tegmentum, large convoluted structure",
+          "quadrant": "ventral-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined (folded/corrugated)",
+          "clinical_pathway": null,
+          "notes": "At maximum size. The hilum opens medially. Olivocerebellar fibers exit the hilum, cross the midline, and enter the contralateral inferior cerebellar peduncle."
+        },
+        {
+          "tract_name": "Nucleus ambiguus",
+          "system": "motor nucleus (CN IX, X, XI cranial root)",
+          "zone": "deep lateral tegmentum, within reticular formation",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": "pharynx, larynx (CN IX, X), trapezius/SCM (CN XI cranial root)",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "CN9-CN10 nuclei",
+          "notes": "Prominent at this level. Supplies motor fibers to pharyngeal and laryngeal muscles. Damage causes dysphagia, hoarseness, absent gag reflex (Wallenberg)."
+        },
+        {
+          "tract_name": "Dorsal motor nucleus of vagus",
+          "system": "autonomic motor (parasympathetic)",
+          "zone": "dorsal tegmentum, vagal trigone of 4th ventricle floor",
+          "quadrant": "dorsal (paramedian)",
+          "depth": "superficial (subependymal)",
+          "somatotopy": null,
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "CN9-CN10 nuclei",
+          "notes": "Prominent parasympathetic nucleus. Cardiovascular and GI parasympathetic outflow."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus",
+          "system": "sensory-visceral/taste",
+          "zone": "dorsolateral tegmentum, lateral to dorsal motor nucleus",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": "visceral sensation, baroreceptor/chemoreceptor input (CN IX, X)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "Major relay for visceral afferents including carotid body (CN IX) and aortic arch (CN X) chemoreceptors and baroreceptors. PICA territory."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus (pars interpolaris to pars oralis transition)",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral medulla",
+          "quadrant": "lateral",
+          "depth": "superficial (tract) to mid (nucleus)",
+          "somatotopy": "ipsilateral face pain/temperature",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "Transitioning from pars interpolaris to pars oralis at more rostral medullary levels."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral medulla, anterolateral surface",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "somatotopy": "contralateral body pain/temperature",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "PICA territory. Affected in Wallenberg syndrome causing contralateral body pain/temperature loss."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (restiform body)",
+          "system": "cerebellar afferent",
+          "zone": "dorsolateral medulla, very large bundle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue/green",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "At maximum size before entering the cerebellum. Contains spinocerebellar, cuneocerebellar, olivocerebellar, vestibulocerebellar fibers. PICA territory."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsomedial tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF",
+          "notes": "Consistent paramedian dorsomedial position."
+        },
+        {
+          "tract_name": "Hypoglossal nucleus (CN XII, rostral end)",
+          "system": "motor nucleus",
+          "zone": "dorsomedial tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subependymal)",
+          "somatotopy": "tongue",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Corticobulbar tract-12",
+          "notes": "Rostral extent of the hypoglossal nucleus. Tapers at this level."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not delineated",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Contains respiratory rhythm generators (pre-Botzinger complex is nearby). Cardiovascular control centers."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "In the reticular formation of the lateral tegmentum. PICA territory."
+        }
+      ],
+      "vascular_territories": {
+        "anterior_spinal_artery_vertebral": ["pyramid", "medial lemniscus", "MLF (partially)"],
+        "vertebral_short_circumferential": ["inferior olive (medial part)"],
+        "PICA": ["lateral tegmentum (all structures)", "inferior cerebellar peduncle", "spinal trigeminal", "spinothalamic", "nucleus ambiguus", "solitary tract/nucleus", "descending sympathetic pathway"],
+        "PICA_medial_branch": ["dorsal medulla", "dorsal motor nucleus of vagus", "choroid plexus region"]
+      }
+    },
+    {
+      "level_id": "MED-05",
+      "figure": "6-5F",
+      "page": "p-10.jpg",
+      "level_name": "Rostral Medulla - Cochlear and Vestibular Nuclei Level",
+      "description": "Cross-section at the rostral medulla. The cochlear nuclei (dorsal and ventral) wrap around the inferior cerebellar peduncle. The vestibular nuclei complex is prominent in the lateral floor of the 4th ventricle. The inferior olive is beginning to diminish. Stria medullaris (of 4th ventricle) may be visible crossing the floor. The lateral recess of the 4th ventricle is open.",
+      "tracts": [
+        {
+          "tract_name": "Pyramid (corticospinal tract)",
+          "system": "motor-descending",
+          "zone": "ventromedial medulla",
+          "quadrant": "ventral-medial",
+          "depth": "superficial",
+          "somatotopy": "corticospinal + corticobulbar fibers",
+          "color_in_atlas": "gray/green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "Continues unchanged at the ventral surface."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "paramedian, dorsal to pyramid, beginning to rotate from vertical toward horizontal",
+          "quadrant": "ventral-medial",
+          "depth": "deep",
+          "somatotopy": "leg medial/ventral, arm lateral/dorsal (rotating)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "Beginning the rotation from parasagittal (vertical) to coronal (horizontal) orientation that will be complete at the pons. ASA territory."
+        },
+        {
+          "tract_name": "Inferior olivary nucleus (diminishing)",
+          "system": "cerebellar relay",
+          "zone": "ventrolateral tegmentum",
+          "quadrant": "ventral-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": null,
+          "notes": "Tapering off at the rostral medulla level. Will disappear by the pontomedullary junction."
+        },
+        {
+          "tract_name": "Vestibular nuclei complex",
+          "system": "sensory-vestibular",
+          "zone": "lateral floor of 4th ventricle, large area",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid to superficial (subependymal)",
+          "somatotopy": null,
+          "color_in_atlas": "pink/salmon (large area)",
+          "clinical_pathway": "ataxia-vertigo-nystagmus-vomit",
+          "notes": "Includes medial, lateral (Deiters), superior, and inferior vestibular nuclei. Located in the vestibular area of the 4th ventricle floor. Damage causes vertigo, nystagmus, nausea/vomiting, and gait ataxia. PICA territory. Key component of Wallenberg syndrome."
+        },
+        {
+          "tract_name": "Dorsal cochlear nucleus",
+          "system": "sensory-auditory",
+          "zone": "dorsal surface of inferior cerebellar peduncle, forming the acoustic tubercle",
+          "quadrant": "dorsal-lateral (surface)",
+          "depth": "surface",
+          "somatotopy": "tonotopic organization",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "auditory pathway (cochlear nuclei)",
+          "notes": "The dorsal cochlear nucleus sits on top of the ICP like a cap. Second-order auditory neuron. Stria of Held/Monakow arise from here."
+        },
+        {
+          "tract_name": "Ventral cochlear nucleus",
+          "system": "sensory-auditory",
+          "zone": "anterolateral surface of inferior cerebellar peduncle",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "somatotopy": "tonotopic organization",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "auditory pathway (cochlear nuclei)",
+          "notes": "Wraps around the ventral aspect of the ICP. CN VIII auditory fibers enter between the two cochlear nuclei. Gives rise to trapezoid body fibers that cross to form the lateral lemniscus."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle",
+          "system": "cerebellar afferent",
+          "zone": "dorsolateral medulla, turning to enter cerebellum",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue/green",
+          "clinical_pathway": "ataxia-cerebellospinal pathway",
+          "notes": "At this level, the ICP is curving dorsally to enter the cerebellum. The cochlear nuclei drape over it."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus (pars oralis)",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "ipsilateral face pain/temperature (perioral region in pars oralis)",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "At the rostral medulla, we are in pars oralis territory. This part receives perioral sensory input."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral medulla / anterolateral",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial to mid",
+          "somatotopy": "contralateral body pain/temperature",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Continues in its lateral medullary position. Will transition into the pons."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus (rostral portion - taste)",
+          "system": "sensory-taste",
+          "zone": "dorsolateral tegmentum, medial to vestibular nuclei",
+          "quadrant": "dorsal-lateral (medial aspect)",
+          "depth": "mid",
+          "somatotopy": "taste from anterior 2/3 tongue (CN VII) and posterior 1/3 (CN IX)",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "At this rostral level, the gustatory (taste) function predominates. PICA territory."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsomedial tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF",
+          "notes": "Important relay between vestibular nuclei and oculomotor nuclei. Damage causes internuclear ophthalmoplegia (more clinically significant at pontine/midbrain levels)."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not delineated",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Contains autonomic, respiratory, and emetic centers. Vomiting center (area postrema nearby)."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "PICA territory. Continues through lateral tegmentum."
+        }
+      ],
+      "vascular_territories": {
+        "anterior_spinal_artery_vertebral": ["pyramid", "medial lemniscus"],
+        "PICA": ["vestibular nuclei", "cochlear nuclei", "inferior cerebellar peduncle", "lateral tegmentum", "spinal trigeminal", "spinothalamic tract", "solitary tract/nucleus", "descending sympathetic"],
+        "AICA_overlapping": ["ventral cochlear nucleus (borderline AICA/PICA territory)", "lateral pontomedullary junction"]
+      }
+    },
+    {
+      "level_id": "MED-06",
+      "figure": "6-5G/H",
+      "page": "p-11.jpg",
+      "level_name": "Rostral Medulla / Pontomedullary Junction",
+      "description": "Cross-section at the pontomedullary junction. The pontine nuclei and transverse pontine fibers are beginning to appear ventrally. The vestibular nuclei remain prominent. The facial nucleus (CN VII) may be appearing. The inferior cerebellar peduncle has largely entered the cerebellum. The lateral lemniscus is forming from cochlear nucleus projections.",
+      "tracts": [
+        {
+          "tract_name": "Pyramid (transitioning to pontine basis)",
+          "system": "motor-descending",
+          "zone": "ventromedial, now becoming embedded in pontine base",
+          "quadrant": "ventral-medial",
+          "depth": "deep (within basis pontis)",
+          "somatotopy": "corticospinal + corticobulbar + corticopontine fibers",
+          "color_in_atlas": "gray/green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "notes": "The corticospinal fibers transition from the isolated pyramid into the basis pontis where they become interspersed with pontine nuclei and transverse pontine fibers."
+        },
+        {
+          "tract_name": "Medial lemniscus (rotating toward horizontal)",
+          "system": "sensory-ascending",
+          "zone": "ventral tegmentum, rotating from vertical to horizontal (transverse)",
+          "quadrant": "ventral-medial to ventral",
+          "depth": "deep",
+          "somatotopy": "leg medial, arm lateral (rotation progressing)",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "notes": "The medial lemniscus is rotating from its vertical parasagittal orientation in the medulla to horizontal in the pons. At the junction, it is at an intermediate angle."
+        },
+        {
+          "tract_name": "Vestibular nuclei complex (lateral/superior)",
+          "system": "sensory-vestibular",
+          "zone": "lateral floor of 4th ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "ataxia-vertigo-nystagmus-vomit",
+          "notes": "Lateral (Deiters) and superior vestibular nuclei are prominent at this level. The lateral vestibular nucleus gives rise to the lateral vestibulospinal tract."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus (pars oralis, rostral)",
+          "system": "sensory-cranial nerve",
+          "zone": "lateral tegmentum, transitioning to principal sensory nucleus territory",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "ipsilateral face (perioral emphasis at pars oralis)",
+          "color_in_atlas": "pink/salmon",
+          "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+          "notes": "Pars oralis merges with the principal (chief) sensory nucleus of V at the pontine level. The rostral end of the spinal trigeminal system."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "contralateral body pain/temperature",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "notes": "Now in the lateral tegmentum of the pontomedullary junction."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsomedial tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "MLF",
+          "notes": "Connecting vestibular nuclei to oculomotor nuclei. Also carries tectospinal fibers."
+        },
+        {
+          "tract_name": "Lateral lemniscus (forming)",
+          "system": "sensory-auditory ascending",
+          "zone": "lateral tegmentum, lateral to spinothalamic tract",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory pathway (cochlear nuclei)",
+          "notes": "Formed from crossed (trapezoid body) and uncrossed fibers from cochlear nuclei. Ascending to inferior colliculus. Unilateral lesion causes minimal hearing loss due to bilateral representation."
+        },
+        {
+          "tract_name": "Solitary tract and nucleus (rostral - gustatory)",
+          "system": "sensory-taste",
+          "zone": "dorsolateral tegmentum",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "somatotopy": "taste",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "sensory-Taste, solitary tract",
+          "notes": "Rostral gustatory portion. Taste fibers from CN VII (chorda tympani) and CN IX synapse here."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not delineated",
+          "clinical_pathway": "Reticular formation",
+          "notes": "Pontine reticular formation begins here. Involved in arousal, eye movement coordination, and motor planning."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "sympathetic pathway",
+          "notes": "Continues in the lateral tegmentum at the pontomedullary junction."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending (rubro-olivary) + ascending (gustatory/reticular)",
+          "zone": "central tegmentum, paramedian",
+          "quadrant": "central-medial",
+          "depth": "deep",
+          "somatotopy": null,
+          "color_in_atlas": "green/outlined",
+          "clinical_pathway": null,
+          "notes": "Contains descending fibers from red nucleus to inferior olive (part of Guillain-Mollaret triangle) and ascending fibers. Palatal myoclonus results from lesions."
+        }
+      ],
+      "vascular_territories": {
+        "basilar_paramedian_branches": ["medial tegmentum", "pyramid/basis pontis", "medial lemniscus", "MLF"],
+        "AICA": ["lateral tegmentum", "cochlear nuclei (ventral)", "facial nerve area"],
+        "PICA_rostral_branches": ["vestibular nuclei", "inferior cerebellar peduncle (residual)", "dorsomedial medulla"],
+        "AICA_PICA_overlap": ["lateral pontomedullary junction is a watershed zone between PICA and AICA territories"]
+      }
+    },
+    {
+      "level_id": "MED-07",
+      "figure": "6-10 (Summary/Vascular)",
+      "page": "p-12.jpg",
+      "level_name": "Medulla - Arterial Territory and Clinical Syndrome Overview",
+      "description": "Summary figure showing multiple medullary cross-sections with arterial territory overlays. Demonstrates the vascular supply at different medullary levels and the structures affected in lateral medullary (Wallenberg/PICA) and medial medullary (Dejerine/ASA-vertebral) syndromes. Shows the transition from caudal to rostral medulla with color-coded arterial territories.",
+      "tracts": [],
+      "vascular_syndrome_map": {
+        "lateral_medullary_syndrome_Wallenberg": {
+          "artery": "PICA (or vertebral artery)",
+          "territory": "dorsolateral medulla / lateral tegmentum",
+          "structures_affected": [
+            {"structure": "Inferior cerebellar peduncle", "deficit": "ipsilateral cerebellar ataxia (limb and gait)"},
+            {"structure": "Vestibular nuclei", "deficit": "vertigo, nystagmus, nausea/vomiting, falling toward lesion side"},
+            {"structure": "Spinal trigeminal tract and nucleus", "deficit": "ipsilateral face pain/temperature loss"},
+            {"structure": "Spinothalamic tract", "deficit": "contralateral body pain/temperature loss"},
+            {"structure": "Nucleus ambiguus (CN IX, X)", "deficit": "ipsilateral vocal cord paralysis (hoarseness), dysphagia, absent gag reflex"},
+            {"structure": "Solitary tract/nucleus", "deficit": "ipsilateral taste loss (if rostral portion)"},
+            {"structure": "Descending sympathetic pathway", "deficit": "ipsilateral Horner syndrome (miosis, ptosis, anhidrosis)"},
+            {"structure": "Dorsal motor nucleus of vagus", "deficit": "autonomic dysfunction (tachycardia, BP instability)"}
+          ],
+          "structures_spared": [
+            "Pyramid (corticospinal tract) - spared, no motor weakness",
+            "Medial lemniscus - spared, proprioception/vibration intact",
+            "Hypoglossal nucleus/nerve - spared, tongue function normal"
+          ],
+          "key_clinical_feature": "Crossed sensory pattern: ipsilateral face + contralateral body pain/temperature loss. NO motor weakness (pyramid is in medial territory)."
+        },
+        "medial_medullary_syndrome_Dejerine": {
+          "artery": "Anterior spinal artery or vertebral artery (paramedian branches)",
+          "territory": "anteromedial medulla / medial tegmentum",
+          "structures_affected": [
+            {"structure": "Pyramid (corticospinal tract)", "deficit": "contralateral hemiparesis (UMN type, spares face initially)"},
+            {"structure": "Medial lemniscus", "deficit": "contralateral proprioception/vibration loss"},
+            {"structure": "Hypoglossal nerve root fibers (CN XII)", "deficit": "ipsilateral tongue weakness with deviation toward lesion side"},
+            {"structure": "MLF (if extension)", "deficit": "possible eye movement abnormality"}
+          ],
+          "structures_spared": [
+            "Lateral tegmentum (all PICA territory structures) - spared",
+            "Spinal trigeminal - spared, face sensation normal",
+            "Spinothalamic - spared, pain/temperature normal",
+            "Inferior cerebellar peduncle - spared, no ataxia"
+          ],
+          "key_clinical_feature": "Classic triad: contralateral hemiparesis + contralateral proprioception loss + ipsilateral tongue deviation. Rare syndrome."
+        },
+        "arterial_territory_summary": {
+          "ASA_vertebral_paramedian": {
+            "territory_name": "Medial medullary territory",
+            "structures": ["pyramid", "medial lemniscus", "hypoglossal nerve (traversing)", "MLF", "paramedian reticular formation"],
+            "clinical_syndrome": "Medial medullary (Dejerine) syndrome"
+          },
+          "PICA_vertebral_long_circumferential": {
+            "territory_name": "Lateral medullary territory",
+            "structures": ["inferior cerebellar peduncle", "vestibular nuclei", "spinal trigeminal tract/nucleus", "spinothalamic tract", "nucleus ambiguus", "solitary tract/nucleus", "descending sympathetic pathway", "dorsal motor nucleus of vagus"],
+            "clinical_syndrome": "Lateral medullary (Wallenberg) syndrome"
+          },
+          "posterior_spinal_artery": {
+            "territory_name": "Posterior medullary territory",
+            "structures": ["gracile nucleus", "cuneate nucleus", "dorsal surface near 4th ventricle"],
+            "clinical_syndrome": "Rare; dorsal column nuclei dysfunction with proprioceptive loss"
+          },
+          "AICA_overlap_zone": {
+            "territory_name": "Pontomedullary junction (lateral)",
+            "structures": ["cochlear nuclei", "facial nerve area", "lateral tegmentum at junction"],
+            "clinical_syndrome": "AICA syndrome features overlap (hearing loss, facial weakness, vertigo)"
+          }
+        }
+      }
+    }
+  ]
+}

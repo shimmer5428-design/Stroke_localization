@@ -1,0 +1,1357 @@
+{
+  "_metadata": {
+    "batch": 4,
+    "region": "Midbrain",
+    "source": "Haines Neuroanatomy Atlas 8th Edition, Chapter 6",
+    "chapter_title": "Internal Morphology of the Spinal Cord and Brain in Stained Sections",
+    "pages": [
+      "p-21.jpg",
+      "p-22.jpg",
+      "p-23.jpg",
+      "p-24.jpg",
+      "p-25.jpg",
+      "p-26.jpg"
+    ],
+    "extraction_date": "2026-03-25",
+    "notes": "Six images extracted: figures 6-23A through 6-26A are cross-sectional stained sections of midbrain levels; figure 6-27 is a vascular territory diagram; figure 6-28 is a sagittal/overview context image. Structures identified from label lines in each image."
+  },
+  "anatomical_levels": [
+    {
+      "level_id": "MB-01",
+      "figure": "6-23A",
+      "page": "p-21.jpg",
+      "level_name": "Inferior Colliculus Level",
+      "description": "Transverse section through the midbrain at the level of the inferior colliculus. The section passes through the caudal midbrain, showing the inferior colliculus dorsally, the cerebral peduncles ventrally, the red nucleus, substantia nigra, and the decussation of the superior cerebellar peduncle. The CN3 nucleus is present and the EW nucleus begins to appear. The MLF is prominent paramedian dorsally. Section is slightly caudal, corresponding to a T1-weighted MRI appearance at the inferior colliculus level.",
+      "tracts": [
+        {
+          "tract_name": "Inferior colliculus",
+          "system": "sensory-auditory",
+          "zone": "dorsal midline, tectum",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "gray (nuclear gray)",
+          "clinical_pathway": "auditory relay",
+          "vascular_territory": "PCA (quadrigeminal branches)",
+          "notes": "Large paired nuclear mass forming the dorsal tectum at this level; prominent bilateral rounded prominences"
+        },
+        {
+          "tract_name": "Brachium of inferior colliculus",
+          "system": "sensory-auditory",
+          "zone": "dorsolateral tegmentum",
+          "quadrant": "dorsolateral",
+          "depth": "superficial",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "white",
+          "clinical_pathway": "auditory relay (IC to MGN)",
+          "vascular_territory": "PCA (posterior thalamic perforators)",
+          "notes": "Visible as white fiber bundle running laterally from inferior colliculus toward medial geniculate nucleus; labeled on lateral aspect"
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "system": "motor-extraocular / vestibular",
+          "zone": "paramedian dorsal tegmentum, floor of cerebral aqueduct",
+          "quadrant": "dorsomedial",
+          "depth": "superficial to mid",
+          "somatotopy": "none",
+          "color_in_atlas": "blue (in atlas color coding)",
+          "clinical_pathway": "MLF",
+          "vascular_territory": "Basilar perforators (paramedian)",
+          "notes": "Paired paramedian bundles running longitudinally; critical for conjugate eye movements; INO when damaged"
+        },
+        {
+          "tract_name": "Periaqueductal gray (PAG)",
+          "system": "pain modulation / autonomic",
+          "zone": "surrounding cerebral aqueduct",
+          "quadrant": "dorsomedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation / pain modulation",
+          "vascular_territory": "PCA (paramedian mesencephalic)",
+          "notes": "Surrounds the cerebral aqueduct; involved in descending pain modulation and autonomic control"
+        },
+        {
+          "tract_name": "Cerebral aqueduct (Aqueduct of Sylvius)",
+          "system": "CSF pathway",
+          "zone": "central dorsal",
+          "quadrant": "dorsomedial",
+          "depth": "surface (cavity)",
+          "somatotopy": "N/A",
+          "color_in_atlas": "white space",
+          "clinical_pathway": "N/A (CSF flow)",
+          "vascular_territory": "PCA",
+          "notes": "Central CSF channel through midbrain; obstruction causes non-communicating hydrocephalus"
+        },
+        {
+          "tract_name": "Oculomotor nucleus (CN3 nucleus)",
+          "system": "motor-extraocular",
+          "zone": "paramedian ventral periaqueductal gray",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "somatotopic subgroups (SR, IR, MR, IO, levator palpebrae)",
+          "color_in_atlas": "gray nuclear",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "Basilar perforators / PCA paramedian",
+          "notes": "Paired nucleus ventral to PAG at superior colliculus / inferior colliculus junction; fascicles course ventrally through red nucleus and tegmentum"
+        },
+        {
+          "tract_name": "Trochlear nucleus (CN4 nucleus)",
+          "system": "motor-extraocular",
+          "zone": "paramedian, caudal periaqueductal gray (at inferior colliculus level)",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray nuclear",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "Basilar perforators (paramedian)",
+          "notes": "Most caudal extraocular motor nucleus; fascicles decussate in the anterior medullary velum and exit dorsally — the only CN to exit dorsally"
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-somatosensory (DCML)",
+          "zone": "lateral tegmentum, medial to spinothalamic tract",
+          "quadrant": "ventrolateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial at this level",
+          "color_in_atlas": "blue (DCML color coding)",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "PCA (lateral tegmental branches) / SCA",
+          "notes": "At midbrain level, has rotated to occupy lateral tegmentum; carries fine touch, proprioception, vibration from contralateral body"
+        },
+        {
+          "tract_name": "Spinothalamic tract (anterolateral system)",
+          "system": "sensory-pain/temperature",
+          "zone": "lateral tegmentum, lateral to medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "light blue",
+          "clinical_pathway": "spinothalamic tract",
+          "vascular_territory": "PCA lateral tegmental / SCA",
+          "notes": "Lies lateral and slightly anterior to medial lemniscus in midbrain tegmentum; carries pain, temperature, crude touch"
+        },
+        {
+          "tract_name": "Red nucleus",
+          "system": "motor-indirect (cerebellar outflow / rubrospinal)",
+          "zone": "central tegmentum",
+          "quadrant": "ventromedial tegmentum",
+          "depth": "mid-deep",
+          "somatotopy": "somatotopic (arm dorsomedial, leg ventrolateral)",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Rubrospinal",
+          "vascular_territory": "PCA (paramedian and short circumferential)",
+          "notes": "Large paired round nucleus in tegmentum; receives dentate (via SCP decussation) and corticorubral input; gives rise to rubrospinal tract; prominent at inferior colliculus level"
+        },
+        {
+          "tract_name": "Substantia nigra",
+          "system": "motor-basal ganglia / dopaminergic",
+          "zone": "between tegmentum and cerebral peduncle",
+          "quadrant": "ventral",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "gray-brown (pigmented in real tissue)",
+          "clinical_pathway": "dopaminergic (nigro-striatal)",
+          "vascular_territory": "Basilar perforators (paramedian and short circumferential)",
+          "notes": "Divided into pars compacta (dopaminergic neurons, dorsally) and pars reticulata (GABAergic, ventrally); degenerates in Parkinson disease"
+        },
+        {
+          "tract_name": "Substantia nigra pars compacta",
+          "system": "motor-dopaminergic",
+          "zone": "dorsal substantia nigra band",
+          "quadrant": "ventral, dorsal half of SN",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "darker gray band",
+          "clinical_pathway": "dopaminergic (nigro-striatal)",
+          "vascular_territory": "Basilar perforators",
+          "notes": "Contains melanin-pigmented dopaminergic neurons; lost in Parkinson disease"
+        },
+        {
+          "tract_name": "Substantia nigra pars reticulata",
+          "system": "motor-basal ganglia output",
+          "zone": "ventral substantia nigra",
+          "quadrant": "ventral",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "lighter gray",
+          "clinical_pathway": "basal ganglia output",
+          "vascular_territory": "Basilar perforators",
+          "notes": "GABAergic output to thalamus (VA/VL) and superior colliculus; functionally analogous to globus pallidus internus"
+        },
+        {
+          "tract_name": "Cerebral peduncle (crus cerebri)",
+          "system": "motor-descending",
+          "zone": "ventral midbrain, bilateral",
+          "quadrant": "ventral",
+          "depth": "surface-superficial",
+          "somatotopy": "lateral 1/3 = corticospinal (leg lateral, arm medial); middle 3/5 = corticobulbar + corticospinal; medial 1/5 = frontopontine fibers",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-corticospinal tract + motor-Corticobulbar tract",
+          "vascular_territory": "Basilar perforators (anteromedial and anterolateral)",
+          "notes": "Massive white matter bundle ventral to substantia nigra; contains corticospinal (lateral), corticobulbar (middle), frontopontine (medial) and parietopontine/occipitopontine (lateral) fibers; CN3 fascicles exit between peduncle and SN"
+        },
+        {
+          "tract_name": "Corticospinal tract (within cerebral peduncle)",
+          "system": "motor-descending",
+          "zone": "middle to lateral cerebral peduncle",
+          "quadrant": "ventral lateral",
+          "depth": "superficial",
+          "somatotopy": "lateral = leg, medial = arm/face (within middle 3/5)",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "Basilar perforators (anteromedial)",
+          "notes": "Occupies middle 3/5 of cerebral peduncle; will continue into basis pontis and then pyramids"
+        },
+        {
+          "tract_name": "Corticobulbar tract (within cerebral peduncle)",
+          "system": "motor-descending",
+          "zone": "middle cerebral peduncle, medial to corticospinal",
+          "quadrant": "ventral medial",
+          "depth": "superficial",
+          "somatotopy": "none (bilateral cortical control of most CN motor nuclei)",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-Corticobulbar tract",
+          "vascular_territory": "Basilar perforators",
+          "notes": "Travels with corticospinal in peduncle; provides cortical input to contralateral (and some bilateral) cranial nerve motor nuclei"
+        },
+        {
+          "tract_name": "Frontopontine fibers (within cerebral peduncle)",
+          "system": "motor-corticopontine",
+          "zone": "medial 1/5 of cerebral peduncle",
+          "quadrant": "ventromedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "corticopontine (motor coordination relay)",
+          "vascular_territory": "Basilar perforators",
+          "notes": "From frontal cortex to ipsilateral pontine nuclei; part of corticopontocerebellar pathway"
+        },
+        {
+          "tract_name": "Temporopontine / parietopontine fibers (within cerebral peduncle)",
+          "system": "sensory-corticopontine",
+          "zone": "lateral 1/5 of cerebral peduncle",
+          "quadrant": "ventrolateral",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "corticopontine (sensorimotor coordination relay)",
+          "vascular_territory": "Basilar perforators",
+          "notes": "From temporal/parietal cortex to ipsilateral pontine nuclei"
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (decussation of SCP / brachium conjunctivum)",
+          "system": "motor-cerebellar outflow",
+          "zone": "ventral tegmentum at inferior colliculus level",
+          "quadrant": "ventromedial tegmentum",
+          "depth": "deep",
+          "somatotopy": "somatotopic (body parts organized within dentate nucleus axons)",
+          "color_in_atlas": "blue (cerebellar fiber color in atlas)",
+          "clinical_pathway": "cerebellar outflow (dentate to red nucleus / VL thalamus)",
+          "vascular_territory": "SCA / PCA junction",
+          "notes": "Decussation occurs in caudal midbrain tegmentum ventral to red nucleus; damage causes contralateral cerebellar ataxia (crossed effect)"
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "white",
+          "clinical_pathway": "auditory relay",
+          "vascular_territory": "SCA / lateral tegmental PCA",
+          "notes": "Auditory pathway from cochlear nuclei/SOC ascending to inferior colliculus; visible in lateral tegmentum at this level"
+        },
+        {
+          "tract_name": "Mesencephalic nucleus of CN5 (trigeminal)",
+          "system": "sensory-proprioception (jaw)",
+          "zone": "lateral periaqueductal gray",
+          "quadrant": "dorsolateral",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "CN5 proprioception (masticatory muscles)",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Unique: pseudounipolar cell bodies within CNS; carries proprioception from jaw muscles; runs in lateral PAG throughout midbrain"
+        },
+        {
+          "tract_name": "Dorsal raphe nucleus",
+          "system": "modulatory-serotonergic",
+          "zone": "midline dorsal tegmentum below PAG",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation / serotonergic modulation",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Major serotonergic nucleus; projects widely to forebrain; involved in mood, arousal"
+        },
+        {
+          "tract_name": "Reticular formation (midbrain)",
+          "system": "arousal / autonomic / pain modulation",
+          "zone": "central tegmentum, surrounding named structures",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray (light, unlabeled matrix)",
+          "clinical_pathway": "Reticular formation",
+          "vascular_territory": "PCA + basilar perforators",
+          "notes": "Ascending reticular activating system (ARAS); lesions cause coma; includes midbrain reticular nucleus"
+        },
+        {
+          "tract_name": "CN3 fascicles (oculomotor nerve fascicles)",
+          "system": "motor-extraocular",
+          "zone": "ventral tegmentum, coursing through red nucleus to exit medial to cerebral peduncle",
+          "quadrant": "ventromedial",
+          "depth": "mid-deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white (fascicle lines)",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "PCA (paramedian mesencephalic) / posterior communicating artery",
+          "notes": "Exit medially between cerebral peduncle and pons (interpeduncular fossa); vulnerable to PCA/PCom aneurysm causing CN3 palsy with pupil dilation"
+        },
+        {
+          "tract_name": "Interpeduncular nucleus",
+          "system": "limbic / habenular efferent",
+          "zone": "interpeduncular fossa, midline ventral",
+          "quadrant": "ventromedial",
+          "depth": "deep (floor of interpeduncular fossa)",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "limbic-habenulo-interpeduncular tract",
+          "vascular_territory": "Basilar tip perforators",
+          "notes": "Receives input from habenula via fasciculus retroflexus; involved in limbic and reward circuits"
+        },
+        {
+          "tract_name": "Anterior tegmental decussation (Forel's decussation / rubrospinal)",
+          "system": "motor-rubrospinal",
+          "zone": "ventral tegmentum midline, below red nucleus",
+          "quadrant": "ventromedial",
+          "depth": "mid-deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white (crossing fibers)",
+          "clinical_pathway": "motor-Rubrospinal",
+          "vascular_territory": "Basilar perforators (paramedian)",
+          "notes": "Rubrospinal fibers decussate immediately ventral to red nucleus (Forel's decussation); then descend contralaterally"
+        }
+      ]
+    },
+    {
+      "level_id": "MB-02",
+      "figure": "6-24A",
+      "page": "p-22.jpg",
+      "level_name": "Inferior Colliculus Level (slightly rostral variant) / CN3 fascicle level",
+      "description": "Transverse section through the midbrain at a level slightly rostral to or through the caudal inferior colliculus, showing prominent Purkinje cell/dentate outflow (SCP decussation still visible or just completed), red nucleus enlarging, and CN3 fascicles clearly visible traversing the tegmentum toward the interpeduncular fossa. The periaqueductal gray, MLF, and medial lemniscus are well-defined. The substantia nigra and cerebral peduncles are large. Corticospinal and corticopontine somatotopy is visible in the peduncle.",
+      "tracts": [
+        {
+          "tract_name": "Inferior colliculus (caudal part)",
+          "system": "sensory-auditory",
+          "zone": "dorsal tectum",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "gray nuclear",
+          "clinical_pathway": "auditory relay",
+          "vascular_territory": "PCA quadrigeminal",
+          "notes": "At this level the inferior colliculus nuclei are still visible bilaterally in the tectum"
+        },
+        {
+          "tract_name": "Brachium of inferior colliculus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum / dorsolateral surface",
+          "quadrant": "dorsolateral",
+          "depth": "superficial",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "white",
+          "clinical_pathway": "auditory relay",
+          "vascular_territory": "PCA lateral",
+          "notes": "Connects inferior colliculus to medial geniculate nucleus; visible as lateral surface bundle"
+        },
+        {
+          "tract_name": "Periaqueductal gray (PAG)",
+          "system": "pain modulation / autonomic",
+          "zone": "surrounding aqueduct",
+          "quadrant": "dorsomedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation / pain modulation",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Continuous longitudinal column; stimulation produces analgesia"
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "system": "motor-extraocular / vestibular",
+          "zone": "paramedian dorsal tegmentum",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "MLF",
+          "vascular_territory": "Basilar perforators (paramedian)",
+          "notes": "Well-defined paired bundles; INO caused by lesion here (usually demyelination in MS)"
+        },
+        {
+          "tract_name": "Red nucleus",
+          "system": "motor-cerebellar outflow / rubrospinal",
+          "zone": "central tegmentum",
+          "quadrant": "ventromedial tegmentum",
+          "depth": "mid",
+          "somatotopy": "arm dorsomedial, leg ventrolateral",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Rubrospinal",
+          "vascular_territory": "PCA (paramedian mesencephalic)",
+          "notes": "Larger at this level; receives contralateral dentate nucleus input (via SCP); gives rise to rubrospinal tract after decussation"
+        },
+        {
+          "tract_name": "CN3 fascicles (oculomotor)",
+          "system": "motor-extraocular",
+          "zone": "ventral tegmentum, traversing between CN3 nucleus and interpeduncular fossa",
+          "quadrant": "ventromedial",
+          "depth": "mid-deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white fascicle lines",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "PCA (paramedian) / posterior communicating artery",
+          "notes": "Fascicles pass through medial red nucleus and then through substantia nigra to exit in interpeduncular fossa; Benedict syndrome if red nucleus damaged with CN3 fascicles"
+        },
+        {
+          "tract_name": "Edinger-Westphal (EW) nucleus",
+          "system": "parasympathetic-pupil / accommodation",
+          "zone": "dorsal to CN3 nucleus, in midline PAG",
+          "quadrant": "dorsomedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "small gray dot/cluster",
+          "clinical_pathway": "EW nucleus",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Preganglionic parasympathetic neurons; fibers travel with CN3 on its dorsomedial surface; pupillary light reflex efferent limb; first affected in transtentorial herniation (fixed dilated pupil)"
+        },
+        {
+          "tract_name": "Substantia nigra (pars compacta + pars reticulata)",
+          "system": "motor-basal ganglia / dopaminergic",
+          "zone": "ventral midbrain between tegmentum and peduncle",
+          "quadrant": "ventral",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "dopaminergic / basal ganglia output",
+          "vascular_territory": "Basilar perforators (anteromedial)",
+          "notes": "Continuous from inferior to superior colliculus level; divided into compact (dorsal) and reticular (ventral) zones"
+        },
+        {
+          "tract_name": "Cerebral peduncle (crus cerebri)",
+          "system": "motor-descending",
+          "zone": "ventral midbrain",
+          "quadrant": "ventral",
+          "depth": "surface",
+          "somatotopy": "medial = frontopontine; middle 3/5 = corticospinal/corticobulbar; lateral = temporopontine/parietopontine",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-corticospinal tract + motor-Corticobulbar tract",
+          "vascular_territory": "Basilar perforators (anterior mesencephalic)",
+          "notes": "Same somatotopic organization as MB-01; fibers converge from internal capsule"
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-somatosensory (DCML)",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "PCA lateral / SCA",
+          "notes": "Has rotated from medial position (medulla) to lateral position (midbrain); adjacent to spinothalamic tract"
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-pain/temperature",
+          "zone": "lateral tegmentum, anterolateral to medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "light blue",
+          "clinical_pathway": "spinothalamic tract",
+          "vascular_territory": "PCA lateral / SCA",
+          "notes": "In close proximity to medial lemniscus at midbrain level; converge toward thalamus (VPL)"
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (SCP) / decussation",
+          "system": "motor-cerebellar outflow",
+          "zone": "ventral tegmentum",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "somatotopic",
+          "color_in_atlas": "blue (cerebellar)",
+          "clinical_pathway": "cerebellar outflow",
+          "vascular_territory": "SCA / PCA",
+          "notes": "At this level decussation is completing; fibers projecting to contralateral red nucleus and thalamus"
+        },
+        {
+          "tract_name": "Dorsal raphe nucleus",
+          "system": "modulatory-serotonergic",
+          "zone": "midline beneath PAG",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Visible at this level as midline cell group"
+        },
+        {
+          "tract_name": "Mesencephalic nucleus and tract of CN5",
+          "system": "sensory-proprioception",
+          "zone": "lateral PAG",
+          "quadrant": "dorsolateral",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "CN5 proprioception",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Continues throughout midbrain in lateral PAG"
+        },
+        {
+          "tract_name": "Reticular formation (central midbrain)",
+          "system": "arousal / autonomic",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray matrix",
+          "clinical_pathway": "Reticular formation",
+          "vascular_territory": "PCA + basilar perforators",
+          "notes": "ARAS; surrounds and lies between named nuclei"
+        },
+        {
+          "tract_name": "Commissure of inferior colliculus",
+          "system": "sensory-auditory",
+          "zone": "dorsal midline, between bilateral inferior colliculi",
+          "quadrant": "dorsomedial",
+          "depth": "surface",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "white",
+          "clinical_pathway": "auditory relay (binaural integration)",
+          "vascular_territory": "PCA quadrigeminal",
+          "notes": "Crosses midline connecting bilateral inferior colliculi; important for binaural hearing and sound localization"
+        }
+      ]
+    },
+    {
+      "level_id": "MB-03",
+      "figure": "6-25A",
+      "page": "p-23.jpg",
+      "level_name": "Superior Colliculus Level (with EW nucleus and CN3)",
+      "description": "Transverse section through the rostral midbrain at the level of the superior colliculus. This is the classic 'oculomotor level' showing the superior colliculus in the tectum, the prominent oculomotor (CN3) nucleus and Edinger-Westphal nucleus in the periaqueductal gray, large red nucleus, substantia nigra, and cerebral peduncles. The MLF, medial lemniscus, and spinothalamic tract maintain their established positions. The SCP decussation has passed. This level corresponds to the 'CN3 exit level' in clinical teaching.",
+      "tracts": [
+        {
+          "tract_name": "Superior colliculus",
+          "system": "sensory-visual / motor-oculomotor (reflex)",
+          "zone": "dorsal tectum",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "retinotopic and somatotopic maps",
+          "color_in_atlas": "gray layered nuclear",
+          "clinical_pathway": "visual reflex / saccade generation",
+          "vascular_territory": "PCA (quadrigeminal branches)",
+          "notes": "Multilayered structure; superficial layers receive retinal and cortical visual input; deep layers coordinate eye and head movements; involved in pupillary light reflex (pretectal relay)"
+        },
+        {
+          "tract_name": "Pretectal area (rostral to SC, visible at this level)",
+          "system": "sensory-visual reflex",
+          "zone": "dorsal tectum, rostral to SC",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "pupillary light reflex arc",
+          "vascular_territory": "PCA posterior",
+          "notes": "Olivary pretectal nucleus relays pupillary light reflex to bilateral EW nuclei (via posterior commissure)"
+        },
+        {
+          "tract_name": "Posterior commissure",
+          "system": "visual reflex / commissural",
+          "zone": "dorsal midline at midbrain-diencephalon junction",
+          "quadrant": "dorsomedial",
+          "depth": "surface",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "pupillary light reflex (consensual limb)",
+          "vascular_territory": "PCA",
+          "notes": "Carries fibers crossing to contralateral EW nucleus for consensual pupillary light reflex; lesion here causes Parinaud syndrome (upgaze palsy)"
+        },
+        {
+          "tract_name": "Oculomotor nucleus (CN3 nucleus) — full extent",
+          "system": "motor-extraocular",
+          "zone": "paramedian ventral PAG",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "SR, IR, MR, IO, levator palpebrae subgroups",
+          "color_in_atlas": "gray nuclear",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "PCA paramedian / basilar perforators",
+          "notes": "Most prominent at superior colliculus level; controls all extraocular muscles except SO (CN4) and LR (CN6)"
+        },
+        {
+          "tract_name": "Edinger-Westphal (EW) nucleus",
+          "system": "parasympathetic — pupil constriction and lens accommodation",
+          "zone": "rostral CN3 nucleus, midline/paramedian PAG",
+          "quadrant": "dorsomedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "small distinct gray cluster",
+          "clinical_pathway": "EW nucleus",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Preganglionic parasympathetic; fibers travel in superficial dorsomedial CN3; compressed first in uncal herniation causing fixed dilated pupil"
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "system": "motor-extraocular / vestibular",
+          "zone": "paramedian dorsal tegmentum",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "MLF",
+          "vascular_territory": "Basilar perforators (paramedian mesencephalic)",
+          "notes": "Still prominent at this level; connects CN3 nucleus caudally to CN6 nucleus in pons; lesion = INO"
+        },
+        {
+          "tract_name": "Red nucleus",
+          "system": "motor-cerebellar outflow / rubrospinal",
+          "zone": "central tegmentum",
+          "quadrant": "ventromedial tegmentum",
+          "depth": "mid",
+          "somatotopy": "arm dorsomedial, leg ventrolateral",
+          "color_in_atlas": "red/salmon",
+          "clinical_pathway": "motor-Rubrospinal",
+          "vascular_territory": "PCA (paramedian mesencephalic)",
+          "notes": "Fully developed at this level; damage produces contralateral intention tremor (dentato-rubral pathway disruption) or ipsilateral CN3 palsy with contralateral cerebellar signs (Benedict syndrome)"
+        },
+        {
+          "tract_name": "CN3 fascicles",
+          "system": "motor-extraocular",
+          "zone": "ventral tegmentum",
+          "quadrant": "ventromedial",
+          "depth": "mid-deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "CN3/CN4 related",
+          "vascular_territory": "PCA / posterior communicating artery",
+          "notes": "Pass through medial red nucleus then between peduncle and SN to exit in interpeduncular cistern; vulnerable to posterior communicating artery aneurysm"
+        },
+        {
+          "tract_name": "Substantia nigra",
+          "system": "motor-dopaminergic",
+          "zone": "ventral midbrain",
+          "quadrant": "ventral",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "dopaminergic / basal ganglia",
+          "vascular_territory": "Basilar perforators",
+          "notes": "Continuous structure; pars compacta and reticulata still distinguishable"
+        },
+        {
+          "tract_name": "Cerebral peduncle (crus cerebri)",
+          "system": "motor-descending",
+          "zone": "ventral midbrain",
+          "quadrant": "ventral",
+          "depth": "surface",
+          "somatotopy": "same as lower levels: frontopontine medial, corticospinal/corticobulbar middle, temporopontine lateral",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-corticospinal tract + motor-Corticobulbar tract",
+          "vascular_territory": "Basilar perforators (anterior mesencephalic)",
+          "notes": "Weber syndrome: ipsilateral CN3 palsy + contralateral hemiplegia from peduncle + CN3 fascicle infarct"
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-somatosensory (DCML)",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "PCA lateral",
+          "notes": "Ascending to VPL thalamus; in lateral tegmentum at midbrain level"
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-pain/temperature",
+          "zone": "lateral tegmentum, lateral/anterior to medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "light blue",
+          "clinical_pathway": "spinothalamic tract",
+          "vascular_territory": "PCA lateral",
+          "notes": "Merging with medial lemniscus as they jointly ascend to thalamus"
+        },
+        {
+          "tract_name": "Spinotectal tract",
+          "system": "sensory-pain/nociception to tectum",
+          "zone": "lateral tegmentum near spinothalamic",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "light",
+          "clinical_pathway": "spinothalamic tract (associated)",
+          "vascular_territory": "PCA lateral",
+          "notes": "Carries nociceptive information to superior colliculus for orienting responses to pain"
+        },
+        {
+          "tract_name": "Lateral lemniscus (terminating in inferior colliculus above)",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum (residual at this level)",
+          "quadrant": "lateral",
+          "depth": "superficial",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "white",
+          "clinical_pathway": "auditory relay",
+          "vascular_territory": "SCA / lateral PCA",
+          "notes": "Largely terminated in inferior colliculus at lower level; residual fibers still visible here"
+        },
+        {
+          "tract_name": "Mesencephalic nucleus of CN5",
+          "system": "sensory-proprioception",
+          "zone": "lateral PAG",
+          "quadrant": "dorsolateral",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "CN5 proprioception",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Still present throughout midbrain PAG"
+        },
+        {
+          "tract_name": "Reticular formation (midbrain central gray / cuneiform nucleus)",
+          "system": "arousal / cardiovascular / pain",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation",
+          "vascular_territory": "PCA + basilar perforators",
+          "notes": "ARAS; cuneiform and sub-cuneiform nuclei in lateral reticular formation at this level"
+        },
+        {
+          "tract_name": "Rubrospinal tract (post-decussation)",
+          "system": "motor-indirect",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "somatotopic (arm ventral, leg dorsal)",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-Rubrospinal",
+          "vascular_territory": "PCA lateral",
+          "notes": "After crossing in Forel's decussation (lower level), descends in lateral tegmentum; prominent in non-human primates, relatively small in humans"
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "motor / reticular / olivary",
+          "zone": "central tegmentum lateral to MLF",
+          "quadrant": "central to lateral",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "Reticular formation (descending rubro-olivary; ascending reticular)",
+          "vascular_territory": "PCA / basilar perforators",
+          "notes": "Contains rubro-olivary fibers descending; palatal myoclonus when damaged (inferior olivary hypertrophy)"
+        }
+      ]
+    },
+    {
+      "level_id": "MB-04",
+      "figure": "6-26A",
+      "page": "p-24.jpg",
+      "level_name": "Pretectal / Rostral Midbrain — Diencephalon Junction Level",
+      "description": "Transverse section through the transition zone between the rostral midbrain and the caudal diencephalon (subthalamus / posterior thalamus). The superior colliculus or pretectal area is visible dorsally. The pulvinar and posterior thalamic nuclei begin to appear. The cerebral peduncles are still visible but narrowing. The MLF continues. This level is important for understanding the pretectal pupillary reflex circuit and Parinaud syndrome. The posterior commissure and pineal gland region are visible.",
+      "tracts": [
+        {
+          "tract_name": "Pretectal nucleus (olivary pretectal nucleus)",
+          "system": "visual reflex — pupillary light reflex",
+          "zone": "dorsal midline at midbrain-diencephalon junction",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "pupillary light reflex arc",
+          "vascular_territory": "PCA posterior",
+          "notes": "Receives retinal ganglion cell input via optic tract; projects bilaterally (via posterior commissure) to EW nuclei; lesion disrupts afferent limb of PLR"
+        },
+        {
+          "tract_name": "Superior colliculus (rostral part / pretectal transition)",
+          "system": "sensory-visual reflex / saccades",
+          "zone": "dorsal tectum",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "retinotopic",
+          "color_in_atlas": "gray layered",
+          "clinical_pathway": "visual reflex / saccade generation",
+          "vascular_territory": "PCA quadrigeminal",
+          "notes": "Uppermost part of SC visible at this transition level"
+        },
+        {
+          "tract_name": "Posterior commissure",
+          "system": "commissural / visual reflex",
+          "zone": "dorsal midline",
+          "quadrant": "dorsomedial",
+          "depth": "surface",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "pupillary light reflex (consensual)",
+          "vascular_territory": "PCA",
+          "notes": "Connects pretectal nuclei bilaterally; also carries posterior commissure fibers from habenular commissure region; Parinaud syndrome caused by lesions compressing posterior commissure/pretectum (e.g., pineal tumors)"
+        },
+        {
+          "tract_name": "Pulvinar nucleus (posterior thalamus)",
+          "system": "sensory-multisensory association",
+          "zone": "dorsolateral, now thalamic territory",
+          "quadrant": "dorsolateral",
+          "depth": "deep (thalamic)",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "visual association / attention",
+          "vascular_territory": "PCA (posterior thalamoperforators)",
+          "notes": "Largest thalamic nucleus; multisensory; receives input from superior colliculus and visual cortex; involved in visual attention"
+        },
+        {
+          "tract_name": "Medial geniculate nucleus (MGN)",
+          "system": "sensory-auditory (thalamic relay)",
+          "zone": "dorsolateral thalamus at midbrain-thalamus junction",
+          "quadrant": "lateral",
+          "depth": "deep (thalamic)",
+          "somatotopy": "tonotopic",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "auditory relay (IC-MGN-auditory cortex)",
+          "vascular_territory": "PCA (medial geniculate branches)",
+          "notes": "Auditory thalamic relay; visible as prominent lateral prominence at this level; brachium of IC terminates here"
+        },
+        {
+          "tract_name": "Lateral geniculate nucleus (LGN)",
+          "system": "sensory-visual (thalamic relay)",
+          "zone": "ventrolateral thalamus",
+          "quadrant": "lateral",
+          "depth": "deep (thalamic)",
+          "somatotopy": "retinotopic (6 layers)",
+          "color_in_atlas": "gray layered",
+          "clinical_pathway": "visual pathway",
+          "vascular_territory": "PCA (anterior choroidal artery for anterior portion)",
+          "notes": "Primary visual thalamic relay; receives optic tract input; projects to V1 via optic radiation"
+        },
+        {
+          "tract_name": "Subthalamic nucleus (STN)",
+          "system": "motor-basal ganglia (indirect pathway)",
+          "zone": "ventrolateral subthalamus",
+          "quadrant": "ventrolateral",
+          "depth": "deep",
+          "somatotopy": "somatotopic (leg dorsomedial, arm ventrolateral)",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "basal ganglia indirect pathway",
+          "vascular_territory": "Posterior thalamoperforators / subthalamic branches of PCA",
+          "notes": "Lesion causes hemiballismus (contralateral wild flinging movements); target for DBS in Parkinson disease"
+        },
+        {
+          "tract_name": "Zona incerta",
+          "system": "motor-basal ganglia / reticular",
+          "zone": "between subthalamic nucleus and thalamus",
+          "quadrant": "ventrolateral",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation / motor modulation",
+          "vascular_territory": "Posterior thalamoperforators",
+          "notes": "Receives widespread input; modulates thalamic activity; DBS target for essential tremor"
+        },
+        {
+          "tract_name": "Fields of Forel (H, H1, H2)",
+          "system": "motor-basal ganglia / cerebellar outflow relay",
+          "zone": "ventral subthalamus, medial to STN",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white fiber bundles",
+          "clinical_pathway": "cerebellar outflow / SCP post-decussation relay",
+          "vascular_territory": "Posterior thalamoperforators",
+          "notes": "H2 = lenticular fasciculus (GPi output); H1 = thalamic fasciculus (to VL thalamus); H field = prerubral field (convergence of pallidothalamic and cerebellothalamic fibers)"
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "system": "motor-extraocular / vestibular",
+          "zone": "paramedian, now entering diencephalon",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "MLF",
+          "vascular_territory": "Basilar perforators / PCA paramedian",
+          "notes": "Continues rostrally; at this level becoming less distinct as it merges with subthalamic/midbrain reticular fiber systems"
+        },
+        {
+          "tract_name": "Cerebral peduncle (upper portion / internal capsule crus)",
+          "system": "motor-descending",
+          "zone": "ventral, transitioning to posterior limb internal capsule",
+          "quadrant": "ventral",
+          "depth": "surface",
+          "somatotopy": "maintained corticospinal somatotopy",
+          "color_in_atlas": "white",
+          "clinical_pathway": "motor-corticospinal tract + motor-Corticobulbar tract",
+          "vascular_territory": "Anterior choroidal artery / lenticulostriate",
+          "notes": "At this level the peduncle merges into the posterior limb of internal capsule"
+        },
+        {
+          "tract_name": "Habenulo-interpeduncular tract (fasciculus retroflexus of Meynert)",
+          "system": "limbic / habenular efferent",
+          "zone": "paramedian, dorsal to red nucleus",
+          "quadrant": "dorsomedial",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "limbic-habenular pathway",
+          "vascular_territory": "PCA paramedian",
+          "notes": "Descends from habenular nucleus (epithalamus) to interpeduncular nucleus; involved in reward and aversion circuitry"
+        },
+        {
+          "tract_name": "Medial lemniscus (approaching VPL thalamus)",
+          "system": "sensory-somatosensory (DCML)",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "PCA lateral",
+          "notes": "Approaching VPL thalamus; still in lateral tegmentum at this level"
+        },
+        {
+          "tract_name": "Spinothalamic tract (approaching VPL thalamus)",
+          "system": "sensory-pain/temperature",
+          "zone": "lateral tegmentum, adjacent to medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "light blue",
+          "clinical_pathway": "spinothalamic tract",
+          "vascular_territory": "PCA lateral",
+          "notes": "Both medial lemniscus and STT now closely approximated as they enter VPL thalamus"
+        },
+        {
+          "tract_name": "Reticular formation (midbrain-diencephalon transition)",
+          "system": "arousal / autonomic",
+          "zone": "central",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "Reticular formation",
+          "vascular_territory": "PCA + basilar perforators",
+          "notes": "ARAS continues into subthalamus; Nauta's midline thalamic nuclei are part of this system"
+        },
+        {
+          "tract_name": "Pineal gland",
+          "system": "endocrine / circadian",
+          "zone": "dorsal midline, between superior colliculi",
+          "quadrant": "dorsomedial",
+          "depth": "surface",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "N/A (clinical: pineal tumor compresses pretectum)",
+          "vascular_territory": "PCA (posterior tectum)",
+          "notes": "Pineal tumors cause Parinaud syndrome by compressing posterior commissure/pretectal area; visible at this level"
+        }
+      ]
+    },
+    {
+      "level_id": "MB-VASC",
+      "figure": "6-27",
+      "page": "p-25.jpg",
+      "level_name": "Vascular Territory Diagram — Midbrain (Inferior and Superior Colliculus Levels)",
+      "description": "This image (figure 6-27) is a dedicated vascular territory diagram showing two midbrain cross-sections with arterial supply territories demarcated. The upper section corresponds to the inferior colliculus level; the lower section to the superior colliculus / rostral midbrain level. Color-coded zones show territories of: (1) anteromedial basilar perforators, (2) anterolateral basilar perforators / short circumferential arteries, (3) lateral PCA / long circumferential arteries (quadrigeminal artery), (4) posterior/dorsal PCA territory. Clinical vascular syndromes are named (Weber, Claude, Benedict, Parinaud). The image also labels key structures in relation to arterial territories.",
+      "tracts": [
+        {
+          "tract_name": "Anteromedial territory (paramedian mesencephalic arteries)",
+          "system": "vascular territory",
+          "zone": "ventromedial midbrain",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "N/A",
+          "color_in_atlas": "solid pink/red fill",
+          "clinical_pathway": "motor-corticospinal tract + motor-Corticobulbar tract + CN3/CN4 related + motor-Rubrospinal",
+          "vascular_territory": "Basilar perforators (anteromedial / paramedian mesencephalic)",
+          "notes": "Supplies: cerebral peduncle (medial), substantia nigra (medial), CN3 fascicles, red nucleus, MLF, interpeduncular nucleus. Infarct here: Weber syndrome (peduncle + CN3) or Benedict syndrome (red nucleus + CN3)"
+        },
+        {
+          "tract_name": "Anterolateral territory (short circumferential mesencephalic arteries)",
+          "system": "vascular territory",
+          "zone": "ventrolateral midbrain",
+          "quadrant": "ventrolateral",
+          "depth": "deep",
+          "somatotopy": "N/A",
+          "color_in_atlas": "horizontal line hatching",
+          "clinical_pathway": "motor-corticospinal tract + dopaminergic (SN)",
+          "vascular_territory": "Short circumferential branches of basilar / SCA",
+          "notes": "Supplies: cerebral peduncle (lateral), substantia nigra (lateral). Isolated peduncle or SN infarcts"
+        },
+        {
+          "tract_name": "Lateral / quadrigeminal territory (PCA long circumferential)",
+          "system": "vascular territory",
+          "zone": "lateral and dorsolateral tegmentum",
+          "quadrant": "lateral to dorsolateral",
+          "depth": "mid-superficial",
+          "somatotopy": "N/A",
+          "color_in_atlas": "dotted fill",
+          "clinical_pathway": "sensory-Medial lemniscus + spinothalamic tract + auditory relay",
+          "vascular_territory": "PCA (long circumferential / quadrigeminal artery)",
+          "notes": "Supplies: lateral tegmentum (medial lemniscus, spinothalamic tract, SCP), brachium of inferior/superior colliculus, lateral lemniscus"
+        },
+        {
+          "tract_name": "Dorsal / tectal territory (posterior mesencephalic arteries)",
+          "system": "vascular territory",
+          "zone": "dorsal tectum",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "N/A",
+          "color_in_atlas": "light diagonal hatching",
+          "clinical_pathway": "auditory relay + visual reflex + EW nucleus territory",
+          "vascular_territory": "PCA (posterior / tectal branches — quadrigeminal plate arteries)",
+          "notes": "Supplies: inferior colliculus, superior colliculus, pretectal area, PAG, inferior/superior brachium. Damage: contralateral hearing loss (IC), Parinaud syndrome (pretectal), aqueductal obstruction"
+        },
+        {
+          "tract_name": "Weber syndrome territory",
+          "system": "clinical syndrome — vascular",
+          "zone": "ventromedial peduncle + CN3 fascicle territory",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "N/A",
+          "color_in_atlas": "labeled arrow to anteromedial zone",
+          "clinical_pathway": "motor-corticospinal tract + CN3/CN4 related",
+          "vascular_territory": "Basilar perforators (anteromedial)",
+          "notes": "Weber syndrome: ipsilateral CN3 palsy (complete: ptosis, mydriasis, eye down-and-out) + contralateral hemiplegia from cerebral peduncle infarct"
+        },
+        {
+          "tract_name": "Benedict syndrome territory",
+          "system": "clinical syndrome — vascular",
+          "zone": "CN3 fascicles + red nucleus",
+          "quadrant": "ventromedial tegmentum",
+          "depth": "mid",
+          "somatotopy": "N/A",
+          "color_in_atlas": "labeled arrow to red nucleus + CN3 zone",
+          "clinical_pathway": "CN3/CN4 related + motor-Rubrospinal",
+          "vascular_territory": "PCA (paramedian mesencephalic, slightly deeper than Weber)",
+          "notes": "Benedict syndrome: ipsilateral CN3 palsy + contralateral tremor/ataxia (red nucleus or dentato-rubral pathway). No hemiplegia (peduncle spared)"
+        },
+        {
+          "tract_name": "Claude syndrome territory",
+          "system": "clinical syndrome — vascular",
+          "zone": "CN3 + SCP/cerebellar outflow",
+          "quadrant": "ventromedial to lateral",
+          "depth": "mid",
+          "somatotopy": "N/A",
+          "color_in_atlas": "labeled annotation",
+          "clinical_pathway": "CN3/CN4 related + cerebellar outflow",
+          "vascular_territory": "PCA (combined territory)",
+          "notes": "Claude syndrome: ipsilateral CN3 palsy + contralateral cerebellar ataxia (SCP/dentato-thalamic pathway affected). Combination of Weber + Benedict features sometimes described"
+        },
+        {
+          "tract_name": "Parinaud syndrome territory",
+          "system": "clinical syndrome — compressive/vascular",
+          "zone": "dorsal pretectum / posterior commissure",
+          "quadrant": "dorsal",
+          "depth": "surface",
+          "somatotopy": "N/A",
+          "color_in_atlas": "labeled annotation dorsal",
+          "clinical_pathway": "EW nucleus + pupillary light reflex arc",
+          "vascular_territory": "PCA (posterior tectal / quadrigeminal)",
+          "notes": "Parinaud (dorsal midbrain) syndrome: upgaze palsy, convergence-retraction nystagmus, light-near dissociation, lid retraction (Collier sign). Caused by pineal tumors, hydrocephalus, or dorsal PCA infarct"
+        }
+      ]
+    },
+    {
+      "level_id": "MB-OVERVIEW",
+      "figure": "6-28",
+      "page": "p-26.jpg",
+      "level_name": "Overview / Sagittal Context — Brainstem with MRI Correlation",
+      "description": "This image (figure 6-28) provides a sagittal or oblique overview/context diagram showing the entire brainstem from medulla to diencephalon, with labeled major structures in their longitudinal relationships. It serves as an orientation image for the cross-sectional atlas plates and shows the MRI correlate. Key structures are labeled in their rostro-caudal positions. The image shows the relationship between the midbrain levels (inferior colliculus, superior colliculus, pretectal), pons, medulla oblongata, and transition to the diencephalon. Additional structures visible include the cerebellum, fourth ventricle, and major fiber tracts in sagittal view.",
+      "tracts": [
+        {
+          "tract_name": "Mesencephalon (midbrain) — sagittal overview",
+          "system": "structural overview",
+          "zone": "between pons and diencephalon",
+          "quadrant": "all",
+          "depth": "all",
+          "somatotopy": "N/A",
+          "color_in_atlas": "outline",
+          "clinical_pathway": "all midbrain pathways",
+          "vascular_territory": "PCA + basilar perforators + SCA",
+          "notes": "Confirms rostro-caudal extent of midbrain from pontomedullary junction to midbrain-diencephalon junction (posterior commissure)"
+        },
+        {
+          "tract_name": "Corpus callosum",
+          "system": "commissural",
+          "zone": "dorsal telencephalon",
+          "quadrant": "dorsal",
+          "depth": "deep",
+          "somatotopy": "somatotopic (genu = frontal, body = parietal, splenium = occipital/temporal)",
+          "color_in_atlas": "outline",
+          "clinical_pathway": "interhemispheric transfer",
+          "vascular_territory": "ACA (anterior 4/5) + PCA (splenium)",
+          "notes": "Visible in sagittal context to orient the section level"
+        },
+        {
+          "tract_name": "Fornix",
+          "system": "limbic",
+          "zone": "subcallosal, arching from hippocampus to mammillary body",
+          "quadrant": "dorsomedial",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "outline",
+          "clinical_pathway": "memory circuit (Papez circuit)",
+          "vascular_territory": "ACA / posterior thalamoperforators",
+          "notes": "Major hippocampal output; damage causes anterograde amnesia"
+        },
+        {
+          "tract_name": "Thalamus (medial surface, sagittal)",
+          "system": "relay / sensory / motor",
+          "zone": "central, lateral to third ventricle",
+          "quadrant": "central",
+          "depth": "deep",
+          "somatotopy": "nucleotopic (VPL, VPM, VA, VL, etc.)",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "sensory-Medial lemniscus + spinothalamic tract + cerebellar outflow",
+          "vascular_territory": "PCA (thalamoperforators) + anterior thalamoperforators",
+          "notes": "Sagittal view shows thalamic shape and relationship to midbrain"
+        },
+        {
+          "tract_name": "Hypothalamus",
+          "system": "autonomic / endocrine",
+          "zone": "inferior diencephalon",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "gray",
+          "clinical_pathway": "autonomic (Horner syndrome via descending sympathetic)",
+          "vascular_territory": "ACA / anterior hypothalamic perforators",
+          "notes": "Descending sympathetic fibers from hypothalamus pass through dorsolateral tegmentum of brainstem"
+        },
+        {
+          "tract_name": "Cerebellum (vermis and hemispheres)",
+          "system": "motor-coordination",
+          "zone": "posterior fossa",
+          "quadrant": "dorsal posterior",
+          "depth": "surface",
+          "somatotopy": "somatotopic (anterior lobe = spinal input; posterior lobe = cortical input)",
+          "color_in_atlas": "outline with folia",
+          "clinical_pathway": "cerebellar ataxia pathways",
+          "vascular_territory": "SCA (superior), AICA (anterior inferior), PICA (posterior inferior)",
+          "notes": "Connected to brainstem via 3 peduncles; visible in sagittal context"
+        },
+        {
+          "tract_name": "Fourth ventricle",
+          "system": "CSF pathway",
+          "zone": "posterior brainstem / anterior cerebellum",
+          "quadrant": "dorsal",
+          "depth": "surface (cavity)",
+          "somatotopy": "N/A",
+          "color_in_atlas": "white space",
+          "clinical_pathway": "CSF drainage",
+          "vascular_territory": "PICA (lateral recesses)",
+          "notes": "Connects aqueduct superiorly to central canal / cisterna magna inferiorly via foramina of Luschka and Magendie"
+        },
+        {
+          "tract_name": "Pons (basis pontis + tegmentum)",
+          "system": "multiple",
+          "zone": "between midbrain and medulla",
+          "quadrant": "all",
+          "depth": "all",
+          "somatotopy": "see pontine sections",
+          "color_in_atlas": "outline",
+          "clinical_pathway": "motor-corticospinal + corticobulbar + MLF + CN5/6/7/8",
+          "vascular_territory": "Basilar artery (paramedian + short circumferential + AICA)",
+          "notes": "Sagittal context; contains CN5, CN6, CN7, CN8 nuclei; corticospinal fibers scattered in basis pontis"
+        },
+        {
+          "tract_name": "Medulla oblongata",
+          "system": "multiple",
+          "zone": "between pons and spinal cord",
+          "quadrant": "all",
+          "depth": "all",
+          "somatotopy": "see medullary sections",
+          "color_in_atlas": "outline",
+          "clinical_pathway": "motor-corticospinal + sensory-Medial lemniscus + spinothalamic + CN9/10/11/12",
+          "vascular_territory": "Vertebral artery + PICA + anterior spinal artery",
+          "notes": "Sagittal context; pyramidal decussation and sensory decussation (internal arcuate fibers) occur here"
+        },
+        {
+          "tract_name": "Lateral longitudinal stria / stria medullaris thalami",
+          "system": "limbic / epithalamic",
+          "zone": "dorsomedial thalamus surface",
+          "quadrant": "dorsomedial",
+          "depth": "superficial",
+          "somatotopy": "none",
+          "color_in_atlas": "white line",
+          "clinical_pathway": "limbic circuit",
+          "vascular_territory": "PCA",
+          "notes": "Connects septal nuclei, amygdala, and other limbic areas to habenular nucleus; runs on dorsomedial thalamic surface"
+        },
+        {
+          "tract_name": "Mammillothalamic tract (of Vicq d'Azyr)",
+          "system": "limbic — Papez circuit",
+          "zone": "vertical tract in lateral hypothalamus / anterior thalamus",
+          "quadrant": "ventromedial",
+          "depth": "deep",
+          "somatotopy": "none",
+          "color_in_atlas": "white",
+          "clinical_pathway": "memory circuit (Papez)",
+          "vascular_territory": "Anterior thalamoperforators (tuberothalamic artery)",
+          "notes": "From mammillary body to anterior thalamic nucleus; key Papez circuit component; damage causes anterograde amnesia (Wernicke-Korsakoff)"
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (SCP — sagittal course)",
+          "system": "motor-cerebellar outflow",
+          "zone": "lateral midbrain/pontine tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "somatotopic",
+          "color_in_atlas": "outlined tract",
+          "clinical_pathway": "cerebellar outflow",
+          "vascular_territory": "SCA",
+          "notes": "Courses from dentate nucleus rostrally through lateral pontine/midbrain tegmentum to decussate in caudal midbrain; sagittal view shows full trajectory"
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (ICP / restiform body)",
+          "system": "sensory/motor-cerebellar input",
+          "zone": "lateral medulla to cerebellum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar ataxia pathways / spinocerebellar",
+          "vascular_territory": "PICA",
+          "notes": "Main cerebellar afferent from spinal cord and medullary nuclei; PICA occlusion (Wallenberg) damages ICP causing ipsilateral ataxia"
+        },
+        {
+          "tract_name": "Middle cerebellar peduncle (MCP / brachium pontis)",
+          "system": "motor-corticopontocerebellar",
+          "zone": "lateral pons to cerebellum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "none",
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "corticopontocerebellar relay",
+          "vascular_territory": "AICA / basilar",
+          "notes": "Largest cerebellar peduncle; carries pontine nuclei output to contralateral cerebellar hemisphere; damaged in lateral pontine infarcts"
+        }
+      ]
+    }
+  ],
+  "cross_level_summary": {
+    "motor_descending": {
+      "corticospinal_tract": {
+        "midbrain_location": "Middle 3/5 of cerebral peduncle (crus cerebri)",
+        "somatotopy": "Leg most lateral, arm medial, face most medial within corticospinal zone",
+        "vascular_territory": "Basilar perforators (anteromedial and short circumferential)",
+        "clinical_syndrome": "Weber syndrome (with CN3), pure motor hemiplegia if isolated peduncle"
+      },
+      "corticobulbar_tract": {
+        "midbrain_location": "Middle cerebral peduncle, medial to corticospinal fibers",
+        "somatotopy": "none",
+        "vascular_territory": "Basilar perforators (anteromedial)",
+        "clinical_syndrome": "Pseudobulbar palsy (bilateral lesions)"
+      },
+      "rubrospinal_tract": {
+        "midbrain_location": "Decussates ventral to red nucleus (Forel's decussation), then lateral tegmentum",
+        "somatotopy": "arm > leg in humans",
+        "vascular_territory": "PCA paramedian / lateral",
+        "clinical_syndrome": "Benedict syndrome (with CN3 and red nucleus)"
+      }
+    },
+    "sensory_ascending": {
+      "medial_lemniscus": {
+        "midbrain_location": "Lateral tegmentum at all midbrain levels (rotated from medial medullary position)",
+        "somatotopy": "Leg lateral, arm medial",
+        "vascular_territory": "PCA lateral / SCA",
+        "clinical_syndrome": "Contralateral loss of proprioception, vibration, fine touch"
+      },
+      "spinothalamic_tract": {
+        "midbrain_location": "Lateral tegmentum, adjacent and lateral to medial lemniscus",
+        "somatotopy": "Sacral lateral, cervical medial",
+        "vascular_territory": "PCA lateral / SCA",
+        "clinical_syndrome": "Contralateral loss of pain and temperature"
+      }
+    },
+    "oculomotor": {
+      "CN3_nucleus": {
+        "midbrain_location": "Paramedian ventral PAG, inferior and superior colliculus levels",
+        "vascular_territory": "PCA paramedian / basilar perforators",
+        "clinical_syndrome": "Complete CN3 palsy (ptosis, mydriasis, eye down-and-out)"
+      },
+      "EW_nucleus": {
+        "midbrain_location": "Rostral to CN3 nucleus, midline PAG (superior colliculus level)",
+        "vascular_territory": "PCA paramedian",
+        "clinical_syndrome": "Mydriasis (dilated fixed pupil); first sign in uncal herniation"
+      },
+      "CN4_nucleus": {
+        "midbrain_location": "Caudal PAG at inferior colliculus level; only CN to exit dorsally after decussation in anterior medullary velum",
+        "vascular_territory": "Basilar perforators",
+        "clinical_syndrome": "CN4 palsy: vertical diplopia, head tilt away from lesion, hypertropia"
+      },
+      "MLF": {
+        "midbrain_location": "Paramedian dorsal tegmentum throughout midbrain",
+        "vascular_territory": "Basilar perforators (paramedian)",
+        "clinical_syndrome": "INO (internuclear ophthalmoplegia): ipsilateral adduction failure on lateral gaze, contralateral abducting nystagmus"
+      }
+    },
+    "vascular_syndromes": [
+      {
+        "syndrome": "Weber syndrome",
+        "territory": "Anteromedial basilar perforators",
+        "structures": [
+          "Cerebral peduncle",
+          "CN3 fascicles"
+        ],
+        "deficits": "Ipsilateral CN3 palsy (complete) + contralateral hemiplegia"
+      },
+      {
+        "syndrome": "Benedict syndrome",
+        "territory": "Paramedian PCA (slightly deeper/dorsal to Weber)",
+        "structures": [
+          "CN3 fascicles",
+          "Red nucleus"
+        ],
+        "deficits": "Ipsilateral CN3 palsy + contralateral tremor/ataxia (no hemiplegia)"
+      },
+      {
+        "syndrome": "Claude syndrome",
+        "territory": "PCA combined anteromedial + lateral territory",
+        "structures": [
+          "CN3 fascicles",
+          "Red nucleus",
+          "SCP/dentate outflow"
+        ],
+        "deficits": "Ipsilateral CN3 palsy + contralateral cerebellar ataxia"
+      },
+      {
+        "syndrome": "Parinaud (dorsal midbrain) syndrome",
+        "territory": "PCA posterior/tectal or compressive (pineal tumor)",
+        "structures": [
+          "Posterior commissure",
+          "Pretectal area",
+          "Superior colliculus"
+        ],
+        "deficits": "Upgaze palsy, convergence-retraction nystagmus, light-near dissociation, Collier sign (lid retraction)"
+      },
+      {
+        "syndrome": "Nothnagel syndrome",
+        "territory": "Superior cerebellar peduncle + CN3",
+        "structures": [
+          "CN3 nucleus",
+          "SCP"
+        ],
+        "deficits": "Ipsilateral CN3 palsy + ipsilateral cerebellar ataxia (rare)"
+      }
+    ]
+  }
+}

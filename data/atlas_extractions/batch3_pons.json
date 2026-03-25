@@ -1,0 +1,1253 @@
+{
+  "_metadata": {
+    "batch": 3,
+    "region": "Pons",
+    "source": "Haines Neuroanatomy Atlas 8th Edition, Chapter 6",
+    "pages": ["p-13.jpg", "p-14.jpg", "p-15.jpg", "p-16.jpg", "p-17.jpg", "p-18.jpg", "p-19.jpg", "p-20.jpg"],
+    "extraction_date": "2026-03-25",
+    "notes": "The pons is divided into the basis pontis (ventral) containing pontine nuclei and corticospinal/corticopontine fibers, and the tegmentum (dorsal) containing cranial nerve nuclei, ascending/descending tracts, and reticular formation. The fourth ventricle forms the dorsal boundary. p-19 is a vascular territory overview figure (Figure 6-21) showing arterial patterns at three pontine levels with associated vascular syndromes."
+  },
+
+  "anatomical_levels": [
+    {
+      "level_id": "PONS-01",
+      "figure": "6-15A",
+      "page": "p-13.jpg",
+      "level_name": "Caudal Pons (pontomedullary junction) with Cerebellum",
+      "description": "Cross-section at the pontomedullary junction showing the transition from medulla to pons. The cerebellar peduncles (inferior and middle) are visible. Cerebellar cortex with deep nuclei is shown attached.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract fibers (within basis pontis)",
+          "system": "motor-descending",
+          "zone": "basis pontis, scattered bundles among pontine nuclei",
+          "quadrant": "ventral",
+          "depth": "ventral (surface to mid)",
+          "somatotopy": "dispersed at this level; fibers intermixed with pontocerebellar fibers",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches",
+          "notes": "At the pontomedullary junction the corticospinal fibers begin to scatter among pontine nuclei. They occupy the ventral portion of the basis pontis."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "tegmentum, ventral part, paramedian",
+          "quadrant": "ventral-medial (tegmentum)",
+          "depth": "mid (at junction of basis pontis and tegmentum)",
+          "somatotopy": "at caudal pons: begins rotating from vertical (medial=leg) toward horizontal orientation",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "The medial lemniscus is transitioning from its vertical orientation in the medulla to a more horizontal (mediolateral) orientation in the pons. Located in the ventral tegmentum just dorsal to the basis pontis."
+        },
+        {
+          "tract_name": "Spinothalamic tract (anterolateral system)",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum, ventrolateral",
+          "quadrant": "lateral",
+          "depth": "superficial to mid (lateral surface of tegmentum)",
+          "somatotopy": "sacral fibers lateral, cervical fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "AICA (long circumferential branches)",
+          "notes": "Located in the lateral tegmentum. Continues from medullary position. In lateral pontine lesions (AICA territory), this tract is affected causing contralateral pain/temperature loss."
+        },
+        {
+          "tract_name": "Spinal trigeminal tract and nucleus",
+          "system": "sensory-cranial",
+          "zone": "lateral tegmentum, superficial",
+          "quadrant": "lateral",
+          "depth": "superficial",
+          "somatotopy": "onion-skin pattern: perioral represented rostrally, peripheral face caudally",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-CN5",
+          "vascular_territory": "AICA",
+          "notes": "The spinal trigeminal tract and nucleus extend into the caudal pons. At this level, it represents the pars interpolaris portion."
+        },
+        {
+          "tract_name": "Inferior cerebellar peduncle (restiform body)",
+          "system": "cerebellar",
+          "zone": "dorsolateral tegmentum, entering cerebellum",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "AICA",
+          "notes": "The ICP carries spinocerebellar and olivocerebellar afferents into the cerebellum. Visible at caudal pontine level before it enters the cerebellum."
+        },
+        {
+          "tract_name": "Middle cerebellar peduncle (brachium pontis)",
+          "system": "cerebellar",
+          "zone": "lateral pons, forming the massive lateral expansion",
+          "quadrant": "lateral (entire lateral surface)",
+          "depth": "superficial to deep (massive structure)",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "AICA / long circumferential branches of basilar",
+          "notes": "The MCP is the largest cerebellar peduncle. It carries pontocerebellar fibers (from contralateral pontine nuclei). Begins to be visible at caudal pons."
+        },
+        {
+          "tract_name": "Medial longitudinal fasciculus (MLF)",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian, just ventral to fourth ventricle floor",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "The MLF runs as a compact bundle near the midline, just beneath the floor of the fourth ventricle. Carries internuclear fibers connecting CN3, CN4, CN6 nuclei."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum, surrounding the MLF",
+          "quadrant": "central (medial and lateral divisions)",
+          "depth": "mid to deep",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches",
+          "notes": "The pontine reticular formation occupies much of the central tegmentum. Includes the caudal pontine reticular nucleus at this level."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary / descending modulation",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "Carries descending fibers from red nucleus to inferior olive, and ascending fibers. Located in the central tegmentum."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum, dorsolateral to spinothalamic tract",
+          "quadrant": "lateral",
+          "depth": "mid (within lateral reticular formation)",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "AICA (long circumferential branches)",
+          "notes": "The descending sympathetic fibers course in the lateral tegmentum, similar position to the medulla. Lesion causes ipsilateral Horner syndrome."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-02",
+      "figure": "6-16A",
+      "page": "p-14.jpg",
+      "level_name": "Caudal Pons (CN6 and CN7 level - facial colliculus)",
+      "description": "Cross-section showing the facial colliculus region. CN7 fibers loop around CN6 nucleus (internal genu of facial nerve). This is the key level for Millard-Gubler and Foville syndromes.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract fibers (within basis pontis)",
+          "system": "motor-descending",
+          "zone": "basis pontis, scattered bundles",
+          "quadrant": "ventral",
+          "depth": "ventral (surface to mid)",
+          "somatotopy": "dispersed among pontine nuclei",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches",
+          "notes": "Corticospinal fibers scattered in basis pontis. Basilar paramedian branch occlusion causes contralateral hemiparesis."
+        },
+        {
+          "tract_name": "Abducens nucleus (CN6)",
+          "system": "motor-cranial",
+          "zone": "dorsal tegmentum, paramedian, beneath facial colliculus in fourth ventricle floor",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "red/orange",
+          "clinical_pathway": "oculomotor-CN6",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "CN6 nucleus is located just deep to the floor of the fourth ventricle, beneath the facial colliculus. Contains both abducens motor neurons AND internuclear neurons that project via MLF to contralateral CN3. Key structure in Foville syndrome."
+        },
+        {
+          "tract_name": "Facial nerve nucleus (CN7)",
+          "system": "motor-cranial",
+          "zone": "ventrolateral tegmentum",
+          "quadrant": "ventral-lateral (tegmentum)",
+          "depth": "mid to deep",
+          "somatotopy": "dorsal subnucleus = forehead (bilateral cortical input); lateral subnucleus = lower face (contralateral cortical input only)",
+          "color_in_atlas": "red/orange",
+          "clinical_pathway": "motor-CN7",
+          "vascular_territory": "AICA (short/long circumferential branches)",
+          "notes": "CN7 motor nucleus is in the ventrolateral tegmentum. Its axons first course dorsomedially to loop around CN6 nucleus (internal genu), then exit ventrolaterally. This long intrapontine course makes it vulnerable. Lesion here = LMN facial palsy (entire ipsilateral face)."
+        },
+        {
+          "tract_name": "Facial nerve fascicle (CN7 intrapontine course)",
+          "system": "motor-cranial",
+          "zone": "courses from ventrolateral tegmentum -> dorsomedially around CN6 nucleus -> ventrolaterally to exit pons",
+          "quadrant": "traverses multiple quadrants",
+          "depth": "variable (mid to superficial)",
+          "somatotopy": null,
+          "color_in_atlas": "red/orange fiber bundle",
+          "clinical_pathway": "motor-CN7",
+          "vascular_territory": "paramedian branches (genu around CN6) + AICA (exit zone)",
+          "notes": "The internal genu of CN7 wraps around the CN6 nucleus creating the facial colliculus. This is the anatomical basis for combined CN6+CN7 palsy in pontine lesions. Millard-Gubler syndrome: CN6 + CN7 palsy + contralateral hemiparesis."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "ventral tegmentum, oriented more horizontally (mediolateral)",
+          "quadrant": "ventral (tegmentum), extending medial to lateral",
+          "depth": "mid (tegmentum-basis pontis junction)",
+          "somatotopy": "rotating: leg fibers shifting lateral, arm fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "basilar artery paramedian branches (medial part) + short circumferential (lateral part)",
+          "notes": "At caudal pons level, the medial lemniscus has rotated from its vertical medullary orientation and is becoming more horizontal. Located at the junction of tegmentum and basis pontis."
+        },
+        {
+          "tract_name": "Spinothalamic tract (anterolateral system)",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral fibers lateral, cervical fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "AICA (long circumferential branches)",
+          "notes": "Continues in lateral tegmentum. Affected in lateral pontine syndrome."
+        },
+        {
+          "tract_name": "MLF (Medial longitudinal fasciculus)",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian, just ventral to CN6 nucleus",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "Runs immediately adjacent to and ventral to CN6 nucleus. Carries internuclear fibers. Lesion causes INO (internuclear ophthalmoplegia). In Foville syndrome, both CN6 and MLF are affected."
+        },
+        {
+          "tract_name": "PPRF (Paramedian pontine reticular formation)",
+          "system": "integrative-oculomotor",
+          "zone": "paramedian tegmentum, ventral and slightly caudal to CN6 nucleus",
+          "quadrant": "medial (tegmentum)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored / red zone",
+          "clinical_pathway": "oculomotor-horizontal gaze",
+          "vascular_territory": "basilar artery paramedian branches",
+          "notes": "The PPRF is the horizontal gaze center. Located near CN6 nucleus. Lesion causes ipsilateral horizontal gaze palsy. Combined CN6 nucleus + PPRF lesion = Foville syndrome (gaze palsy + ipsilateral facial palsy + contralateral hemiparesis)."
+        },
+        {
+          "tract_name": "Superior olivary nucleus",
+          "system": "sensory-auditory",
+          "zone": "ventrolateral tegmentum, near facial nucleus",
+          "quadrant": "ventral-lateral (tegmentum)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "orange/red",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "AICA",
+          "notes": "Part of the auditory pathway. Located in ventrolateral tegmentum near CN7 nucleus. Receives bilateral input from cochlear nuclei."
+        },
+        {
+          "tract_name": "Trapezoid body",
+          "system": "sensory-auditory",
+          "zone": "ventral tegmentum, crossing fibers",
+          "quadrant": "ventral (tegmentum)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "outlined crossing fibers",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "basilar paramedian + short circumferential branches",
+          "notes": "Crossing auditory fibers from cochlear nuclei to contralateral superior olive and lateral lemniscus. Located in the ventral tegmentum at this level."
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory ascending",
+          "zone": "lateral tegmentum, dorsal to spinothalamic tract",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "AICA (long circumferential branches)",
+          "notes": "Ascending auditory pathway from superior olivary complex and cochlear nuclei to inferior colliculus. Begins to form at this caudal pontine level."
+        },
+        {
+          "tract_name": "Middle cerebellar peduncle",
+          "system": "cerebellar",
+          "zone": "lateral pons, massive bilateral expansion",
+          "quadrant": "lateral",
+          "depth": "superficial to deep",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "AICA / long circumferential branches of basilar",
+          "notes": "Very prominent at this level. Carries pontocerebellar fibers."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum, within lateral reticular area",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "AICA",
+          "notes": "Continues in lateral tegmentum. AICA territory lesion can cause Horner syndrome."
+        },
+        {
+          "tract_name": "Reticular formation (pontine)",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "basilar paramedian and short circumferential",
+          "notes": "At this level includes the caudal and oral pontine reticular nuclei."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum, lateral to MLF",
+          "quadrant": "central-lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "basilar paramedian branches",
+          "notes": "Carries descending rubro-olivary fibers. Lesion can cause palatal myoclonus (via disruption of Guillain-Mollaret triangle)."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-03",
+      "figure": "6-17A",
+      "page": "p-15.jpg",
+      "level_name": "Mid Pons (CN5 entry zone, CN7 exiting)",
+      "description": "Cross-section at mid-pontine level showing the trigeminal nerve entry/exit zone. The principal (main) sensory nucleus of CN5 and motor nucleus of CN5 are visible. The facial nerve (CN7) exits ventrolaterally at this level.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract fibers (within basis pontis)",
+          "system": "motor-descending",
+          "zone": "basis pontis, scattered bundles",
+          "quadrant": "ventral",
+          "depth": "ventral",
+          "somatotopy": "dispersed among pontine nuclei and transverse pontocerebellar fibers",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches",
+          "notes": "The basis pontis is at its widest at mid-pontine levels. CST fibers are broken into many small bundles."
+        },
+        {
+          "tract_name": "Trigeminal motor nucleus (CN5)",
+          "system": "motor-cranial",
+          "zone": "lateral tegmentum, medial to principal sensory nucleus",
+          "quadrant": "lateral (tegmentum)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "red/orange",
+          "clinical_pathway": "motor-CN5",
+          "vascular_territory": "AICA / SCA (long circumferential branches)",
+          "notes": "Motor nucleus of CN5 innervates muscles of mastication (masseter, temporalis, pterygoids). Located medial to the principal sensory nucleus."
+        },
+        {
+          "tract_name": "Principal sensory nucleus of CN5",
+          "system": "sensory-cranial",
+          "zone": "lateral tegmentum, at the entry zone of trigeminal nerve",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "somatotopic representation of face: mandibular division ventral, ophthalmic division dorsal",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-CN5",
+          "vascular_territory": "AICA / SCA territory boundary (long circumferential branches)",
+          "notes": "The principal sensory nucleus mediates discriminative touch of the face. Located at the pontine entry of CN5 root. Large nucleus that serves as a landmark for mid-pontine level."
+        },
+        {
+          "tract_name": "Trigeminal nerve root (CN5)",
+          "system": "mixed-cranial",
+          "zone": "entering/exiting from lateral surface of mid pons",
+          "quadrant": "lateral (surface)",
+          "depth": "superficial",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "CN5-mixed",
+          "vascular_territory": "SCA/AICA boundary",
+          "notes": "The large trigeminal root is the major surface landmark of the mid pons. It enters/exits the lateral pons at the junction of the basis pontis and middle cerebellar peduncle."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "ventral tegmentum, horizontal orientation (mediolateral)",
+          "quadrant": "ventral (tegmentum), spanning medial to lateral",
+          "depth": "mid (at tegmentum-basis pontis boundary)",
+          "somatotopy": "now horizontal: leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "basilar paramedian (medial portion) + short circumferential (lateral portion)",
+          "notes": "At mid-pons, the medial lemniscus has fully rotated to horizontal orientation. Leg representation is lateral, arm medial. This orientation persists to the midbrain."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral fibers lateral, cervical fibers medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "SCA/AICA boundary (long circumferential)",
+          "notes": "At mid-pons, the STT is in the lateral tegmentum near the trigeminal structures. At this level, the vascular supply transitions between AICA and SCA territories."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "basilar paramedian branches",
+          "notes": "Continues in same position just beneath fourth ventricle floor."
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum, dorsal to spinothalamic tract",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "SCA/AICA (long circumferential)",
+          "notes": "The lateral lemniscus is well formed at mid-pons. Ascending to inferior colliculus."
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (SCP)",
+          "system": "cerebellar-efferent",
+          "zone": "dorsolateral tegmentum, forming the lateral wall of the fourth ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial (periventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "SCA",
+          "notes": "The SCP begins to be prominent at mid-pontine levels. It carries the major cerebellar efferent output (from dentate nucleus) destined for the red nucleus and thalamus."
+        },
+        {
+          "tract_name": "Middle cerebellar peduncle",
+          "system": "cerebellar",
+          "zone": "lateral pons",
+          "quadrant": "lateral",
+          "depth": "superficial to deep",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "AICA / long circumferential branches",
+          "notes": "Still very prominent at this level."
+        },
+        {
+          "tract_name": "Pontine nuclei",
+          "system": "relay",
+          "zone": "basis pontis, scattered throughout between CST bundles",
+          "quadrant": "ventral",
+          "depth": "ventral",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "corticopontocerebellar relay",
+          "vascular_territory": "basilar artery paramedian and short circumferential",
+          "notes": "Pontine nuclei receive corticopontine input and send fibers via MCP to contralateral cerebellum. Prominent at this level."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "SCA/AICA (long circumferential)",
+          "notes": "Continues in lateral tegmentum."
+        },
+        {
+          "tract_name": "Reticular formation (oral pontine reticular nucleus)",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "basilar paramedian + short circumferential",
+          "notes": "Oral pontine reticular nucleus. Part of ascending reticular activating system."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "basilar paramedian",
+          "notes": "Continues in central tegmentum."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-04",
+      "figure": "6-18A",
+      "page": "p-16.jpg",
+      "level_name": "Mid Pons (upper, CN5 motor/sensory nuclei prominent)",
+      "description": "Cross-section at upper mid-pontine level. CN5 motor and principal sensory nuclei clearly visible. The mesencephalic nucleus of CN5 begins to appear. Basis pontis remains wide with scattered CST bundles.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract fibers (within basis pontis)",
+          "system": "motor-descending",
+          "zone": "basis pontis, scattered bundles",
+          "quadrant": "ventral",
+          "depth": "ventral",
+          "somatotopy": "dispersed",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches",
+          "notes": "Basis pontis still prominent at this level."
+        },
+        {
+          "tract_name": "Corticopontine fibers (frontopontine and parietotemporooccipital)",
+          "system": "motor-descending/relay",
+          "zone": "basis pontis; frontopontine medial, parietotemporooccipital lateral",
+          "quadrant": "ventral",
+          "depth": "ventral",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "corticopontocerebellar",
+          "vascular_territory": "basilar artery paramedian (medial fibers) + short circumferential (lateral fibers)",
+          "notes": "Corticopontine fibers accompany the CST in the basis pontis. They synapse on pontine nuclei which project to contralateral cerebellum via MCP."
+        },
+        {
+          "tract_name": "Trigeminal motor nucleus (CN5)",
+          "system": "motor-cranial",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "red/orange",
+          "clinical_pathway": "motor-CN5",
+          "vascular_territory": "SCA (long circumferential branches)",
+          "notes": "Motor nucleus of CN5 at its most prominent level. Supplies muscles of mastication."
+        },
+        {
+          "tract_name": "Principal sensory nucleus of CN5",
+          "system": "sensory-cranial",
+          "zone": "lateral tegmentum, lateral to motor nucleus",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "face somatotopy preserved",
+          "color_in_atlas": "blue/outlined",
+          "clinical_pathway": "sensory-CN5",
+          "vascular_territory": "SCA (long circumferential branches)",
+          "notes": "Principal sensory nucleus. Discriminative touch of face."
+        },
+        {
+          "tract_name": "Mesencephalic nucleus of CN5",
+          "system": "sensory-cranial (proprioceptive)",
+          "zone": "lateral periaqueductal / periventricular, lateral to fourth ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial (periventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "red small cluster",
+          "clinical_pathway": "sensory-CN5-proprioception",
+          "vascular_territory": "SCA",
+          "notes": "Unique: contains primary sensory neuron cell bodies WITHIN the CNS (not in ganglion). Mediates proprioception from muscles of mastication and periodontal ligaments. Extends from mid-pons to midbrain."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "ventral tegmentum, horizontal",
+          "quadrant": "ventral (tegmentum), medial to lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "basilar paramedian (medial) + short circumferential (lateral)",
+          "notes": "Horizontal orientation maintained. At basis-tegmentum junction."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "SCA (long circumferential)",
+          "notes": "At upper mid-pons, the vascular territory shifts more toward SCA."
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum, superficial",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "SCA",
+          "notes": "Well-formed at this level, ascending toward inferior colliculus."
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle",
+          "system": "cerebellar-efferent",
+          "zone": "dorsolateral tegmentum, forming lateral wall of fourth ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial (periventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "SCA",
+          "notes": "SCP is prominent at this level, beginning to converge toward the midline as it ascends toward its decussation in the caudal midbrain."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "basilar paramedian",
+          "notes": "Same position beneath fourth ventricle floor."
+        },
+        {
+          "tract_name": "Locus coeruleus",
+          "system": "modulatory-noradrenergic",
+          "zone": "dorsolateral tegmentum, near SCP and fourth ventricle floor",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial (periventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "blue pigmented spot",
+          "clinical_pathway": "arousal/modulation",
+          "vascular_territory": "SCA",
+          "notes": "Major noradrenergic nucleus. Located in the dorsolateral tegmentum near the SCP. Visible as pigmented neurons in fresh specimens."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "SCA (long circumferential)",
+          "notes": "At upper mid-pons, now within SCA territory."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "basilar paramedian + short circumferential",
+          "notes": "Oral pontine reticular nucleus and other reticular nuclei."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "basilar paramedian",
+          "notes": "Continues in central tegmentum."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-05",
+      "figure": "6-19A",
+      "page": "p-17.jpg",
+      "level_name": "Rostral Pons (SCP prominent, trigeminal sensory nucleus upper)",
+      "description": "Cross-section at rostral pontine level. The superior cerebellar peduncles are converging toward their decussation. The basis pontis begins to narrow. The fourth ventricle is narrowing.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract fibers (within basis pontis)",
+          "system": "motor-descending",
+          "zone": "basis pontis, becoming more compact as basis narrows",
+          "quadrant": "ventral",
+          "depth": "ventral",
+          "somatotopy": "beginning to reconverge",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "basilar artery paramedian and short circumferential branches (SCA territory)",
+          "notes": "At rostral pons, the basis pontis narrows and CST fibers begin to reconverge before entering the cerebral peduncle."
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (SCP)",
+          "system": "cerebellar-efferent",
+          "zone": "dorsolateral tegmentum, converging toward midline",
+          "quadrant": "dorsal-lateral to dorsal-medial",
+          "depth": "mid (moving toward center)",
+          "somatotopy": null,
+          "color_in_atlas": "outlined / blue-green",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "SCA",
+          "notes": "The SCP is the dominant structure at rostral pons. It forms the lateral walls of the upper fourth ventricle and is converging before its decussation in the caudal midbrain. SCA occlusion affects this structure."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "ventral tegmentum, horizontal band",
+          "quadrant": "ventral (tegmentum), medial to lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "basilar paramedian (medial) + SCA (lateral)",
+          "notes": "Horizontal orientation. At rostral pons, the lateral portion enters SCA territory."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "SCA (long circumferential)",
+          "notes": "At rostral pons, clearly in SCA territory."
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum, superficial, ascending toward inferior colliculus",
+          "quadrant": "lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "SCA",
+          "notes": "Ascending to inferior colliculus. At this level it includes the nucleus of the lateral lemniscus."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "SCA paramedian branches / basilar tip",
+          "notes": "At rostral pons, the vascular supply transitions to SCA territory."
+        },
+        {
+          "tract_name": "PPRF (rostral extent)",
+          "system": "integrative-oculomotor",
+          "zone": "paramedian tegmentum",
+          "quadrant": "medial",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "oculomotor-horizontal gaze",
+          "vascular_territory": "basilar paramedian / SCA",
+          "notes": "The rostral extent of PPRF. Horizontal gaze center fibers project to ipsilateral CN6 nucleus (caudally)."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "SCA paramedian",
+          "notes": "Continues in central tegmentum."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "SCA paramedian + circumferential",
+          "notes": "Oral pontine reticular nucleus. Important for arousal - bilateral rostral pontine tegmental lesions can cause coma."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not specifically colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "SCA",
+          "notes": "In SCA territory at this level."
+        },
+        {
+          "tract_name": "Mesencephalic nucleus and tract of CN5",
+          "system": "sensory-cranial (proprioceptive)",
+          "zone": "lateral periventricular, along lateral edge of fourth ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial (periventricular)",
+          "somatotopy": null,
+          "color_in_atlas": "small red cluster",
+          "clinical_pathway": "sensory-CN5-proprioception",
+          "vascular_territory": "SCA",
+          "notes": "Extends rostrally along the lateral edge of the fourth ventricle / periaqueductal gray."
+        },
+        {
+          "tract_name": "Locus coeruleus",
+          "system": "modulatory-noradrenergic",
+          "zone": "dorsolateral tegmentum, periventricular",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "color_in_atlas": "pigmented spot",
+          "clinical_pathway": "arousal/modulation",
+          "vascular_territory": "SCA",
+          "notes": "Most prominent at rostral pons. Major noradrenergic center."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-06",
+      "figure": "6-20A",
+      "page": "p-18.jpg",
+      "level_name": "Rostral Pons (pontomesencephalic transition)",
+      "description": "Cross-section at the pontomesencephalic junction. The basis pontis is narrowing into the cerebral peduncle. The SCP fibers are converging and beginning to decussate. The fourth ventricle is transitioning to the cerebral aqueduct. The substantia nigra begins to appear.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract (transitioning to cerebral peduncle)",
+          "system": "motor-descending",
+          "zone": "ventral, compacting from scattered basis pontis into crus cerebri",
+          "quadrant": "ventral",
+          "depth": "ventral (surface)",
+          "somatotopy": "reconverging into somatotopic order: face lateral, arm middle, leg medial (in peduncle)",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "SCA / basilar tip paramedian branches",
+          "notes": "The CST fibers are compacting as the basis pontis gives way to the crus cerebri. The transition is gradual."
+        },
+        {
+          "tract_name": "Superior cerebellar peduncle (pre-decussation)",
+          "system": "cerebellar-efferent",
+          "zone": "central tegmentum, converging at midline",
+          "quadrant": "central (was dorsal-lateral, now moving medially)",
+          "depth": "mid to deep",
+          "somatotopy": null,
+          "color_in_atlas": "blue-green / outlined",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "SCA",
+          "notes": "SCP fibers converge and begin their decussation (decussation of SCP = Wernekinck's commissure). After crossing, they project to contralateral red nucleus and thalamus (VL)."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum (shifting laterally from ventral tegmentum position)",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "SCA",
+          "notes": "At the pontomesencephalic junction, the medial lemniscus shifts laterally and will be located in the lateral tegmentum in the midbrain."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum, near medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "SCA",
+          "notes": "At this level, STT and medial lemniscus are converging in the lateral tegmentum."
+        },
+        {
+          "tract_name": "Lateral lemniscus",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum, superficial, approaching inferior colliculus",
+          "quadrant": "lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "SCA",
+          "notes": "Approaching the inferior colliculus where most fibers will synapse."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (periventricular/periaqueductal)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "SCA (paramedian branches from basilar tip)",
+          "notes": "Transitioning from fourth ventricle floor to periaqueductal position."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum, between SCP and medial lemniscus",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "SCA",
+          "notes": "Sandwiched between converging SCP fibers."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "SCA",
+          "notes": "Pontine reticular formation. Crucial for consciousness at this level."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "SCA",
+          "notes": "SCA territory. Lesion causes ipsilateral Horner."
+        },
+        {
+          "tract_name": "Trochlear nucleus (CN4)",
+          "system": "motor-cranial",
+          "zone": "dorsal tegmentum, paramedian, ventral to aqueduct at pontomesencephalic junction",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (periaqueductal)",
+          "somatotopy": null,
+          "color_in_atlas": "red/orange small",
+          "clinical_pathway": "oculomotor-CN4",
+          "vascular_territory": "SCA (paramedian)",
+          "notes": "CN4 nucleus appears at the pontomesencephalic junction. Its fibers uniquely decussate dorsally and exit from the dorsal surface of the brainstem."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-VASC",
+      "figure": "6-21",
+      "page": "p-19.jpg",
+      "level_name": "Arterial Territories within the Pons with Vascular Syndromes",
+      "description": "Overview figure showing three pontine levels (caudal, mid, rostral) with color-coded arterial territories and associated clinical vascular syndromes. Pink/red shading indicates typical infarct territories.",
+      "vascular_territories": [
+        {
+          "territory": "Basilar artery - paramedian branches (medial inferior)",
+          "coverage": "Medial basis pontis + medial tegmentum",
+          "structures_supplied": [
+            "Corticospinal tract fibers (medial basis pontis)",
+            "Pontine nuclei (medial)",
+            "Medial lemniscus (medial portion)",
+            "MLF",
+            "PPRF (at caudal pons)",
+            "CN6 nucleus (at caudal pons)",
+            "CN7 internal genu (at caudal pons)",
+            "Reticular formation (medial)"
+          ],
+          "clinical_syndrome": "Medial pontine syndrome (Millard-Gubler / Foville)",
+          "clinical_features": [
+            "Contralateral hemiparesis (CST)",
+            "Contralateral loss of proprioception/vibration (medial lemniscus)",
+            "Ipsilateral CN6 palsy (at caudal pons)",
+            "Ipsilateral CN7 LMN palsy (at caudal pons, if genu/fascicle involved)",
+            "Ipsilateral horizontal gaze palsy (PPRF/CN6 nucleus)",
+            "INO (MLF)"
+          ]
+        },
+        {
+          "territory": "Basilar artery - short circumferential branches",
+          "coverage": "Lateral basis pontis + anterolateral tegmentum",
+          "structures_supplied": [
+            "Corticospinal tract fibers (lateral basis pontis)",
+            "Pontine nuclei (lateral)",
+            "Medial lemniscus (lateral portion)",
+            "Middle cerebellar peduncle (medial part)"
+          ],
+          "clinical_syndrome": "Anterolateral pontine syndrome (partial)",
+          "clinical_features": [
+            "Contralateral hemiparesis (partial, may be incomplete)",
+            "Contralateral proprioception/vibration loss",
+            "Ipsilateral cerebellar signs (MCP involvement)"
+          ]
+        },
+        {
+          "territory": "AICA (anterior inferior cerebellar artery)",
+          "coverage": "Lateral tegmentum + middle cerebellar peduncle at CAUDAL pons",
+          "structures_supplied": [
+            "Spinothalamic tract",
+            "CN7 motor nucleus",
+            "CN8 vestibular and cochlear nuclei",
+            "Spinal trigeminal tract/nucleus (caudal pons)",
+            "Lateral lemniscus",
+            "Superior olivary nucleus",
+            "Middle cerebellar peduncle",
+            "Inferior cerebellar peduncle (caudal pons)",
+            "Descending sympathetic pathway",
+            "Lateral reticular formation"
+          ],
+          "clinical_syndrome": "Lateral inferior pontine syndrome (AICA syndrome)",
+          "clinical_features": [
+            "Ipsilateral facial palsy (CN7 nucleus)",
+            "Ipsilateral hearing loss/tinnitus (CN8/cochlear nucleus)",
+            "Ipsilateral vertigo/nystagmus (vestibular nucleus)",
+            "Ipsilateral facial sensory loss (spinal CN5 tract/nucleus)",
+            "Contralateral pain/temperature loss body (spinothalamic tract)",
+            "Ipsilateral Horner syndrome (descending sympathetics)",
+            "Ipsilateral cerebellar ataxia (MCP/ICP)",
+            "Ipsilateral lateral gaze palsy (if extends medially)"
+          ]
+        },
+        {
+          "territory": "SCA (superior cerebellar artery)",
+          "coverage": "Lateral tegmentum + SCP at ROSTRAL pons",
+          "structures_supplied": [
+            "Superior cerebellar peduncle",
+            "Spinothalamic tract (rostral pons)",
+            "Lateral lemniscus (rostral pons)",
+            "Mesencephalic nucleus of CN5",
+            "Locus coeruleus",
+            "Descending sympathetic pathway (rostral pons)",
+            "Reticular formation (dorsolateral)",
+            "Medial lemniscus (lateral portion at rostral pons)"
+          ],
+          "clinical_syndrome": "Lateral superior pontine syndrome (SCA syndrome)",
+          "clinical_features": [
+            "Ipsilateral cerebellar ataxia (SCP - major finding)",
+            "Contralateral pain/temperature loss (spinothalamic tract)",
+            "Ipsilateral Horner syndrome (descending sympathetics)",
+            "Contralateral hearing loss (lateral lemniscus, bilateral pathway so rarely isolated)",
+            "Ipsilateral loss of facial proprioception (mesencephalic CN5)"
+          ]
+        }
+      ],
+      "syndrome_details": [
+        {
+          "syndrome_name": "Millard-Gubler syndrome",
+          "level": "Caudal pons",
+          "vascular_territory": "Basilar paramedian branches (medial inferior)",
+          "structures_involved": ["CN6 nucleus/fascicle", "CN7 fascicle (exiting fibers)", "Corticospinal tract (basis pontis)"],
+          "clinical_triad": [
+            "Ipsilateral CN6 palsy (lateral rectus weakness → medial gaze deviation)",
+            "Ipsilateral CN7 LMN palsy (entire face)",
+            "Contralateral hemiparesis (arm and leg)"
+          ],
+          "notes": "Classic medial caudal pontine syndrome. The lesion typically affects the ventral pons where CN6 and CN7 fascicles exit alongside the CST."
+        },
+        {
+          "syndrome_name": "Foville syndrome (inferior medial pontine syndrome)",
+          "level": "Caudal pons",
+          "vascular_territory": "Basilar paramedian branches",
+          "structures_involved": ["CN6 nucleus", "PPRF", "CN7 fascicle (internal genu)", "Corticospinal tract", "MLF"],
+          "clinical_features": [
+            "Ipsilateral horizontal gaze palsy (CN6 nucleus + PPRF — eyes deviate AWAY from lesion, toward hemiparesis)",
+            "Ipsilateral CN7 LMN palsy",
+            "Contralateral hemiparesis",
+            "Possible INO (MLF)"
+          ],
+          "notes": "Distinguished from Millard-Gubler by the gaze palsy (nucleus involvement, not just fascicle). In Foville, the eyes deviate away from the lesion side because CN6 nucleus = final common pathway for ipsilateral horizontal gaze."
+        },
+        {
+          "syndrome_name": "Locked-in syndrome",
+          "level": "Bilateral basis pontis (any pontine level)",
+          "vascular_territory": "Basilar artery occlusion (bilateral paramedian territory)",
+          "structures_involved": ["Bilateral corticospinal tracts", "Bilateral corticobulbar fibers", "Tegmentum typically spared"],
+          "clinical_features": [
+            "Quadriplegia",
+            "Anarthria",
+            "Preserved consciousness (tegmentum/reticular formation spared)",
+            "Vertical eye movements preserved (CN3 nucleus in midbrain, above lesion)",
+            "Blinking preserved"
+          ],
+          "notes": "Caused by bilateral ventral pontine lesion (basis pontis). The reticular formation in the tegmentum is spared, so consciousness is preserved. Communication possible via vertical eye movements and blinking."
+        }
+      ]
+    },
+
+    {
+      "level_id": "PONS-07",
+      "figure": "6-22A",
+      "page": "p-20.jpg",
+      "level_name": "Pontomesencephalic Junction (Isthmus)",
+      "description": "Cross-section at the isthmus (junction of pons and midbrain). The cerebral aqueduct replaces the fourth ventricle. The SCP is decussating. The substantia nigra is becoming visible. The basis pontis transitions into the crus cerebri.",
+      "tracts": [
+        {
+          "tract_name": "Corticospinal tract (crus cerebri forming)",
+          "system": "motor-descending",
+          "zone": "ventral, forming the crus cerebri (cerebral peduncle base)",
+          "quadrant": "ventral",
+          "depth": "ventral (surface)",
+          "somatotopy": "reconverging into somatotopic arrangement",
+          "color_in_atlas": "green",
+          "clinical_pathway": "motor-corticospinal tract",
+          "vascular_territory": "SCA / PCA (posterior cerebral artery) paramedian branches",
+          "notes": "The transition from basis pontis to crus cerebri is nearly complete. CST fibers are becoming compacted."
+        },
+        {
+          "tract_name": "Decussation of superior cerebellar peduncle",
+          "system": "cerebellar-efferent",
+          "zone": "central tegmentum, crossing at midline",
+          "quadrant": "central-medial",
+          "depth": "mid to deep",
+          "somatotopy": null,
+          "color_in_atlas": "blue/outlined crossing fibers",
+          "clinical_pathway": "cerebellar",
+          "vascular_territory": "SCA",
+          "notes": "The decussation of the SCP (Wernekinck's commissure). After crossing, fibers ascend to the contralateral red nucleus and VL thalamus. This is why cerebellar lesions cause IPSILATERAL ataxia (double-cross: SCP crosses here, then cortex to cord crosses at pyramids)."
+        },
+        {
+          "tract_name": "Medial lemniscus",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": "leg lateral, arm medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-Medial lemniscus",
+          "vascular_territory": "SCA",
+          "notes": "Now positioned laterally in the tegmentum, as it will be in the midbrain."
+        },
+        {
+          "tract_name": "Spinothalamic tract",
+          "system": "sensory-ascending",
+          "zone": "lateral tegmentum, near medial lemniscus",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "somatotopy": "sacral lateral, cervical medial",
+          "color_in_atlas": "blue",
+          "clinical_pathway": "sensory-ant spinothalamic tract",
+          "vascular_territory": "SCA",
+          "notes": "In the lateral tegmentum. Converging with medial lemniscus at this level."
+        },
+        {
+          "tract_name": "MLF",
+          "system": "integrative",
+          "zone": "dorsal tegmentum, paramedian, periaqueductal",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (periaqueductal)",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "oculomotor-MLF",
+          "vascular_territory": "SCA / PCA paramedian",
+          "notes": "Now adjacent to the cerebral aqueduct. CN4 nucleus is nearby."
+        },
+        {
+          "tract_name": "Trochlear nucleus (CN4)",
+          "system": "motor-cranial",
+          "zone": "periaqueductal, ventral to aqueduct",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (periaqueductal)",
+          "somatotopy": null,
+          "color_in_atlas": "red small",
+          "clinical_pathway": "oculomotor-CN4",
+          "vascular_territory": "SCA paramedian",
+          "notes": "CN4 nucleus at the isthmus. Its fibers decussate dorsally."
+        },
+        {
+          "tract_name": "Substantia nigra (pars compacta beginning)",
+          "system": "modulatory-dopaminergic",
+          "zone": "between tegmentum and crus cerebri",
+          "quadrant": "ventral-lateral (deep to crus cerebri)",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "pigmented zone",
+          "clinical_pathway": "dopaminergic",
+          "vascular_territory": "SCA / PCA",
+          "notes": "The rostral edge of substantia nigra appears at the pontomesencephalic junction."
+        },
+        {
+          "tract_name": "Lateral lemniscus (entering inferior colliculus)",
+          "system": "sensory-auditory",
+          "zone": "lateral tegmentum, dorsal, approaching tectum",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial",
+          "somatotopy": null,
+          "color_in_atlas": "blue",
+          "clinical_pathway": "auditory",
+          "vascular_territory": "SCA",
+          "notes": "Approaching the inferior colliculus at the pontomesencephalic junction."
+        },
+        {
+          "tract_name": "Central tegmental tract",
+          "system": "descending-brainstem",
+          "zone": "central tegmentum",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "green",
+          "clinical_pathway": "rubro-olivary",
+          "vascular_territory": "SCA",
+          "notes": "Continues in central tegmentum."
+        },
+        {
+          "tract_name": "Reticular formation",
+          "system": "integrative",
+          "zone": "central tegmentum, periaqueductal",
+          "quadrant": "central",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "arousal/autonomic",
+          "vascular_territory": "SCA",
+          "notes": "Pedunculopontine nucleus region. Critical for arousal."
+        },
+        {
+          "tract_name": "Descending sympathetic pathway",
+          "system": "autonomic-descending",
+          "zone": "lateral tegmentum",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "somatotopy": null,
+          "color_in_atlas": "not colored",
+          "clinical_pathway": "sympathetic-descending",
+          "vascular_territory": "SCA",
+          "notes": "SCA territory."
+        }
+      ]
+    }
+  ]
+}

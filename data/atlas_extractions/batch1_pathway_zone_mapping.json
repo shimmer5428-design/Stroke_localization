@@ -1,0 +1,314 @@
+{
+  "_metadata": {
+    "description": "Maps clinical pathway names (from existing HTML app) to precise cross-sectional zones at each spinal cord anatomical level. This is the key data structure that enhances localization resolution beyond the original 29-region binary system.",
+    "batch": 1,
+    "region": "Spinal Cord (C3 to T5, plus cervicomedullary junction)"
+  },
+
+  "pathway_zone_mappings": [
+    {
+      "clinical_pathway": "sensory-Medial lemniscus-Hand>leg",
+      "underlying_tract": "Fasciculus cuneatus / Medial lemniscus (upper limb component)",
+      "levels": {
+        "SC-cervical-upper (C3-C4)": {
+          "zone": "posterior funiculus, lateral portion",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "vascular_territory": "posterior spinal artery"
+        },
+        "SC-cervical-lower (C5-C8)": {
+          "zone": "posterior funiculus, lateral portion (fasciculus cuneatus)",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial to mid",
+          "vascular_territory": "posterior spinal artery"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "nucleus cuneatus (dorsal medulla, lateral)",
+          "quadrant": "dorsal-lateral",
+          "depth": "superficial",
+          "vascular_territory": "posterior spinal artery / PICA"
+        },
+        "caudal-medulla": {
+          "zone": "medial lemniscus (paramedian, dorsal to pyramid)",
+          "quadrant": "ventral-medial (deep)",
+          "depth": "deep",
+          "vascular_territory": "anterior spinal artery / vertebral artery branches"
+        }
+      },
+      "notes": "At spinal cord levels, this pathway is in the dorsal columns (posterior funiculus). After synapsing in nucleus cuneatus, it crosses as internal arcuate fibers and becomes the medial lemniscus in the medulla. The vascular territory shifts from posterior spinal artery (cord) to ASA territory (medulla)."
+    },
+    {
+      "clinical_pathway": "sensory-Medial lemniscus-Leg>hand",
+      "underlying_tract": "Fasciculus gracilis / Medial lemniscus (lower limb component)",
+      "levels": {
+        "SC-all-levels": {
+          "zone": "posterior funiculus, medial portion (fasciculus gracilis)",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial to mid",
+          "vascular_territory": "posterior spinal artery"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "nucleus gracilis (dorsal medulla, medial)",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial",
+          "vascular_territory": "posterior spinal artery / PICA"
+        },
+        "caudal-medulla": {
+          "zone": "medial lemniscus (paramedian, dorsal to pyramid)",
+          "quadrant": "ventral-medial (deep)",
+          "depth": "deep",
+          "vascular_territory": "anterior spinal artery / vertebral artery branches"
+        }
+      },
+      "notes": "Fasciculus gracilis is present at ALL spinal cord levels (unlike cuneatus which starts at T6). Always in medial position of posterior funiculus."
+    },
+    {
+      "clinical_pathway": "sensory-ant spinothalamic tract-Hand>leg",
+      "underlying_tract": "Lateral spinothalamic tract (upper limb somatotopy) + Anterior spinothalamic tract",
+      "levels": {
+        "SC-cervical": {
+          "zone": "anterolateral funiculus; upper limb fibers are MEDIAL (closer to gray matter)",
+          "quadrant": "lateral-ventral",
+          "depth": "mid to deep",
+          "vascular_territory": "anterior spinal artery (lateral branches)"
+        },
+        "SC-thoracic": {
+          "zone": "anterolateral funiculus",
+          "quadrant": "lateral-ventral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "anterolateral surface of medulla",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "vascular_territory": "vertebral artery / PICA territory (lateral medulla)"
+        }
+      },
+      "notes": "In the anterolateral system, there is a laminar somatotopy: sacral fibers most superficial/lateral, cervical fibers most deep/medial. So hand>leg pattern means the more medial fibers are affected (deeper lesion or central cord syndrome)."
+    },
+    {
+      "clinical_pathway": "sensory-ant spinothalamic tract-Leg>hand",
+      "underlying_tract": "Lateral spinothalamic tract (lower limb somatotopy) + Anterior spinothalamic tract",
+      "levels": {
+        "SC-cervical": {
+          "zone": "anterolateral funiculus; lower limb fibers are LATERAL (more superficial)",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "vascular_territory": "anterior spinal artery (lateral branches) / radicular"
+        },
+        "SC-thoracic": {
+          "zone": "anterolateral funiculus",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial to mid",
+          "vascular_territory": "anterior spinal artery"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "anterolateral surface of medulla",
+          "quadrant": "lateral-ventral",
+          "depth": "superficial",
+          "vascular_territory": "PICA territory (lateral medulla)"
+        }
+      },
+      "notes": "Leg fibers are most superficial/lateral in the anterolateral system at cervical levels. A superficial/lateral lesion preferentially affects leg pain/temperature."
+    },
+    {
+      "clinical_pathway": "motor-corticospinal tract-hand>leg",
+      "underlying_tract": "Lateral corticospinal tract (upper limb component)",
+      "levels": {
+        "SC-cervical": {
+          "zone": "lateral funiculus, posterior part; arm fibers are MEDIAL (closer to gray matter)",
+          "quadrant": "lateral",
+          "depth": "deep to mid",
+          "vascular_territory": "anterior spinal artery (lateral branches)"
+        },
+        "SC-cervicomedullary junction (pyramidal decussation)": {
+          "zone": "ventral-medial (pyramid), then crossing to contralateral lateral funiculus; arm fibers decussate MORE ROSTRALLY",
+          "quadrant": "ventral-medial to lateral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        },
+        "caudal-medulla": {
+          "zone": "pyramid (ventromedial medulla)",
+          "quadrant": "ventral-medial",
+          "depth": "superficial",
+          "vascular_territory": "anterior spinal artery / vertebral artery"
+        }
+      },
+      "notes": "In the lateral CST at cervical levels, arm fibers are medial and leg fibers are lateral. Central cord syndrome preferentially affects arm fibers. At the pyramidal decussation, arm fibers cross more rostrally than leg fibers."
+    },
+    {
+      "clinical_pathway": "motor-corticospinal tract-Leg>hand",
+      "underlying_tract": "Lateral corticospinal tract (lower limb component)",
+      "levels": {
+        "SC-cervical": {
+          "zone": "lateral funiculus, posterior part; leg fibers are LATERAL (more superficial)",
+          "quadrant": "lateral",
+          "depth": "superficial to mid",
+          "vascular_territory": "anterior spinal artery (lateral branches) / posterior spinal artery overlap"
+        },
+        "SC-thoracic": {
+          "zone": "lateral funiculus, posterior part",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        },
+        "SC-cervicomedullary junction (pyramidal decussation)": {
+          "zone": "ventral-medial (pyramid); leg fibers decussate MORE CAUDALLY",
+          "quadrant": "ventral-medial to lateral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        }
+      },
+      "notes": "Leg fibers are lateral/superficial in the lateral CST at cervical levels. A lesion at the decussation that affects the caudal part preferentially impairs leg function."
+    },
+    {
+      "clinical_pathway": "ataxia-cerebellospinal pathway",
+      "underlying_tract": "Posterior spinocerebellar tract + Anterior spinocerebellar tract",
+      "levels": {
+        "SC-all-levels": {
+          "zone": "lateral funiculus, SURFACE; PSCT dorsal, ASCT ventral",
+          "quadrant": "lateral-dorsal (PSCT) and lateral-ventral (ASCT), both on surface",
+          "depth": "surface/superficial",
+          "vascular_territory": "radicular arteries / border zone"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "lateral surface, forming inferior cerebellar peduncle (PSCT) or continuing to pons (ASCT)",
+          "quadrant": "lateral-dorsal",
+          "depth": "surface",
+          "vascular_territory": "PICA territory"
+        }
+      },
+      "notes": "Both spinocerebellar tracts travel on the surface of the lateral funiculus. PSCT enters cerebellum via inferior cerebellar peduncle (at medulla level). ASCT continues up to enter via superior cerebellar peduncle (at pons level). Clarke's nucleus (origin of PSCT) is at T1-L2."
+    },
+    {
+      "clinical_pathway": "motor-Rubrospinal",
+      "underlying_tract": "Rubrospinal tract",
+      "levels": {
+        "SC-cervical": {
+          "zone": "lateral funiculus, immediately ANTERIOR to lateral CST",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery (lateral branches)"
+        },
+        "SC-thoracic": {
+          "zone": "lateral funiculus (very small at this level)",
+          "quadrant": "lateral",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        }
+      },
+      "notes": "In humans, the rubrospinal tract is small and primarily present at cervical levels. It facilitates fine distal movements and serves as a partial backup for the corticospinal tract."
+    },
+    {
+      "clinical_pathway": "sympathetic pathway",
+      "underlying_tract": "Descending hypothalamospinal (sympathetic) pathway + Intermediolateral cell column",
+      "levels": {
+        "SC-cervical (descending fibers)": {
+          "zone": "lateral funiculus / lateral reticular formation (descending sympathetic fibers from hypothalamus)",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "vascular_territory": "anterior spinal artery (lateral branches)"
+        },
+        "SC-thoracic T1-T2 (ciliospinal center)": {
+          "zone": "intermediolateral cell column (lateral horn) at T1-T2",
+          "quadrant": "lateral (gray matter)",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery",
+          "special": "Ciliospinal center of Budge (C8-T2). Preganglionic sympathetic neurons for eye (pupil dilation, lid elevation, facial sweating)."
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "lateral reticular formation / lateral tegmentum",
+          "quadrant": "lateral (deep)",
+          "depth": "deep",
+          "vascular_territory": "PICA territory"
+        }
+      },
+      "notes": "Damage to the descending sympathetic pathway at any level from hypothalamus to T1-T2 causes ipsilateral Horner syndrome (miosis, ptosis, anhidrosis). At spinal cord levels, the fibers are in the lateral funiculus. At medullary levels, they are in the lateral tegmentum (Wallenberg syndrome)."
+    },
+    {
+      "clinical_pathway": "Reticular formation",
+      "underlying_tract": "Reticulospinal tracts (pontine and medullary)",
+      "levels": {
+        "SC-all-levels": {
+          "zone": "anterior funiculus (pontine/medial reticulospinal) + anterolateral funiculus (medullary/lateral reticulospinal)",
+          "quadrant": "ventral-medial (pontine) + lateral (medullary)",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        }
+      },
+      "notes": "Reticulospinal tracts are scattered in the anterior and anterolateral funiculi. The pontine reticulospinal is more medial; medullary reticulospinal is more lateral. They influence posture, locomotion, and autonomic function."
+    },
+    {
+      "clinical_pathway": "sensory-TL-intercaudalis-polaris",
+      "underlying_tract": "Spinal trigeminal tract and nucleus (pars interpolaris and pars caudalis)",
+      "levels": {
+        "SC-upper-cervical (C1-C3)": {
+          "zone": "lateral surface, replacing dorsolateral tract position",
+          "quadrant": "lateral-dorsal (surface)",
+          "depth": "surface/superficial",
+          "vascular_territory": "PICA territory / posterior spinal artery"
+        },
+        "SC-cervicomedullary junction": {
+          "zone": "lateral surface of lower medulla",
+          "quadrant": "lateral-dorsal",
+          "depth": "surface",
+          "vascular_territory": "PICA territory"
+        }
+      },
+      "notes": "The spinal trigeminal tract extends from pons down to C2-C3 level. At spinal cord levels, it occupies the position of Lissauer's tract on the lateral surface. Pars caudalis handles pain/temperature of face. Important in lateral medullary (Wallenberg) syndrome."
+    },
+    {
+      "clinical_pathway": "motor-Corticobulbar tract-11",
+      "underlying_tract": "Corticobulbar fibers to spinal accessory nucleus",
+      "levels": {
+        "SC-upper-cervical (C1-C5)": {
+          "zone": "the target nucleus (spinal accessory nucleus) is in the lateral ventral horn at C1-C5/C6",
+          "quadrant": "ventral-lateral (gray matter)",
+          "depth": "mid",
+          "vascular_territory": "anterior spinal artery"
+        }
+      },
+      "notes": "The spinal accessory nucleus extends from C1 to C5-C6. It receives bilateral corticobulbar input (for SCM) and contralateral input (for trapezius). The corticobulbar fibers reach this nucleus by traveling through the medullary pyramid and lateral funiculus."
+    },
+    {
+      "clinical_pathway": "sensory-Taste, solitary tract",
+      "underlying_tract": "Solitary tract and nucleus tractus solitarius",
+      "levels": {
+        "caudal-medulla": {
+          "zone": "dorsolateral tegmentum, near floor of 4th ventricle",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid to deep",
+          "vascular_territory": "PICA territory"
+        }
+      },
+      "notes": "The solitary tract is present at the caudal medulla level (p-05). Rostral part handles taste (CN VII, IX). Caudal part handles visceral sensation (CN IX, X). Located in dorsolateral medulla, PICA territory."
+    },
+    {
+      "clinical_pathway": "motor-Corticobulbar tract-12",
+      "underlying_tract": "Corticobulbar fibers to hypoglossal nucleus",
+      "levels": {
+        "caudal-medulla": {
+          "zone": "hypoglossal nucleus is in the dorsal medulla, paramedian, floor of 4th ventricle",
+          "quadrant": "dorsal-medial",
+          "depth": "superficial (subependymal)",
+          "vascular_territory": "anterior spinal artery / vertebral (medial medulla)"
+        }
+      },
+      "notes": "CN XII nucleus is a medial medulla structure. Medial medullary syndrome affects the pyramid + medial lemniscus + CN XII root. Corticobulbar input is primarily contralateral."
+    },
+    {
+      "clinical_pathway": "ataxia-vertigo-nystagmus-vomit",
+      "underlying_tract": "Vestibular nuclei / vestibular connections",
+      "levels": {
+        "caudal-medulla": {
+          "zone": "dorsolateral medulla, lateral to 4th ventricle floor",
+          "quadrant": "dorsal-lateral",
+          "depth": "mid",
+          "vascular_territory": "PICA territory"
+        }
+      },
+      "notes": "Vestibular nuclei begin at the cervicomedullary junction and extend through medulla and pons. Located in lateral medulla (PICA territory). Damage causes vertigo, nystagmus, and vomiting."
+    }
+  ]
+}
